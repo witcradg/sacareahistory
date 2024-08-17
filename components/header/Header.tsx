@@ -36,9 +36,9 @@ export const Header = () => {
             <Navbar />
           </nav> */}
 
-          <div className="flex flex-col justify-center items-center">
-            <h1 className="text-4xl">Sacrametno History Consortium&apos;s</h1>
-            <h2 className="text-2xl">Research Reference Info</h2>
+          <div className="flex flex-col items-start md:justify-center md:items-center">
+            <h1 className="text-xl md:text-4xl">Sacrametno History Consortium&apos;s</h1>
+            <h2 className="text-base md:text-2xl">Research Reference Info</h2>
           </div>
           <div className="hidden md:flex gap-4">
             <CallButton />
@@ -46,6 +46,10 @@ export const Header = () => {
           </div>
         </NavigationMenuList>
       </NavigationMenu>
+      <div className="flex justify-around my-4 md:my-0 md:hidden">
+        <CallButton />
+        <ModeToggle />
+      </div>
     </header >
   );
 };
