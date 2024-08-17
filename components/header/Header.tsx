@@ -29,13 +29,17 @@ export const Header = () => {
             </Link>
           </NavigationMenuItem>
 
-          <MobileMenu />
+          {/* <MobileMenu /> */}
 
           {/* desktop */}
-          <nav className="hidden md:flex gap-2">
+          {/* <nav className="hidden md:flex gap-2">
             <Navbar />
-          </nav>
+          </nav> */}
 
+          <div className="flex flex-col justify-center items-center">
+            <h1 className="text-4xl">Sacrametno History Consortium&apos;s</h1>
+            <h2 className="text-2xl">Research Reference Info</h2>
+          </div>
           <div className="hidden md:flex gap-4">
             <CallButton />
             <ModeToggle />

@@ -1,7 +1,3 @@
-import React from 'react';
-import { Team } from "@/components/Team";
-import { Newsletter } from "@/components/Newsletter";
-import { FAQ } from "@/components/FAQ";
 import { Partners } from "@/components/Partners";
 
 const colors = [
@@ -26,15 +22,9 @@ const colors = [
   { name: '--card-foreground', value: 'hsl(var(--card-foreground))' },
 ];
 
-
-
-
-
-
 export default function Home() {
   return (
     <>
-      {/* Other components */}
       <section style={{ backgroundColor: '#FFFFF0', padding: '20px' }}>
         <h2>Color Palette</h2>
         <div style={{ display: 'flex', flexWrap: 'wrap' }}>
