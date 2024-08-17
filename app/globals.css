@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *=========== Sepia Theme =========== */
+
+@layer base {
+  :root {
+    --background: 30 30% 90%;
+    --foreground: 30 50% 20%;
+    --card: 30 25% 85%;
+    --card-foreground: 30 50% 20%;
+    --popover: 30 20% 95%;
+    --popover-foreground: 30 50% 20%;
+    --primary: 30 80% 50%;
+    --primary-foreground: 30 10% 98%;
+    --secondary: 45 80% 50%;
+    --secondary-foreground: 30 10% 98%;
+    --muted: 30 15% 70%;
+    --muted-foreground: 30 30% 40%;
+    --accent: 15 70% 50%;
+    --accent-foreground: 30 10% 98%;
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 30 10% 98%;
+    --border: 30 30% 60%;
+    --input: 30 20% 80%;
+    --ring: 30 80% 60%;
+  }
+
+  .dark {
+    --background: 30 30% 10%; /* Dark sepia background */
+    --foreground: 30 50% 90%; /* Light text for readability */
+    --card: 30 25% 15%; /* Slightly lighter than background for cards */
+    --card-foreground: 30 50% 90%; /* Light text on cards */
+    --popover: 30 20% 20%; /* Darker popover background */
+    --popover-foreground: 30 50% 90%; /* Light text on popovers */
+    --primary: 30 80% 60%; /* Burnt sienna for primary elements */
+    --primary-foreground: 0 0% 100%; /* White text on primary elements */
+    --secondary: 45 80% 60%; /* Ochre for secondary elements */
+    --secondary-foreground: 0 0% 100%; /* White text on secondary elements */
+    --muted: 30 15% 40%; /* Muted sepia tones */
+    --muted-foreground: 30 50% 80%; /* Light muted text */
+    --accent: 15 70% 50%; /* Terracotta for accents */
+    --accent-foreground: 0 0% 100%; /* White text on accents */
+    --destructive: 0 85% 50%; /* Warm red for destructive actions */
+    --destructive-foreground: 0 0% 100%; /* White text on destructive elements */
+    --border: 30 30% 30%; /* Dark border for elements */
+    --input: 30 20% 25%; /* Dark input background */
+    --ring: 30 80% 40%; /* Slightly lighter ring color */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
