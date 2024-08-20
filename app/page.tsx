@@ -37,7 +37,7 @@ export default function Home() {
                 borderRadius: '8px',
                 border: '1px solid #000'
               }}></div>
-              <p>{color.name}</p>
+              <p className="black">{color.name}</p>
             </div>
           ))}
         </div>
