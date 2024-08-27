@@ -10,12 +10,10 @@ import {
 
 import { ModeToggle } from "../mode-toggle";
 import CallButton from "../CallButton";
-import { Navbar } from "./Navbar";
-import { MobileMenu } from "./MobileMenu";
 
 export const Header = () => {
   return (
-    <header className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
+    <header className="sticky border-b-[1px] top-0 z-40 w-full bg-card dark:border-b-slate-700 dark:bg-background">
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="container h-15 px-4 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
@@ -24,7 +22,7 @@ export const Header = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              <Image
+              <Image className='border-2 my-2'
                 src="/us-cascr64.gif" width={300} height={69} alt="Logo" />
             </Link>
           </NavigationMenuItem>

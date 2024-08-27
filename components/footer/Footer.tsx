@@ -3,22 +3,23 @@ import Link from "next/link";
 import Image from "next/image";
 import { FooterSocial } from "./footer-social";
 import footerContent from "./footer-content.js"
-import submenus from "../header/submenus";
+// import submenus from "../header/submenus";
+import { Card } from "../ui/card";
 
 export const Footer = () => {
 
   return (
-    <footer id="footer">
+    <footer id="footer" className="w-full bg-card dark:border-b-slate-700 dark:bg-background">
       {/* <hr className="w-11/12 mx-auto" /> */}
 
-      <section className="bg-gray-200 container py-20 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-4 gap-x-12 gap-y-8">
+      <Card className="container border-0 pt-10 grid grid-cols-3 md:grid-cols-3 xl:grid-cols-3 gap-x-12 gap-y-8">
         <div id="column-1-logo" className="col-span-full xl:col-span-1">
           <Link
             rel="noreferrer noopener"
             href="/"
             className="font-bold text-xl flex"
           >
-            <Image
+            <Image className='border-2'
               src="/us-cascr64.gif" width={300} height={69} alt="Logo" />
           </Link>
           <div className="pt-6">
@@ -26,9 +27,9 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div id="service-links-column-2" className="flex flex-col gap-2">
+        {/* <div id="service-links-column-2" className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">{footerContent.column2header}</h3>
-          {submenus.servicesList.map(({ href, label }) => (
+          {footerContent.column2.elements.map(({ href, label }) => (
             <div key={label}>
               <a
                 rel="noreferrer noopener"
@@ -38,7 +39,7 @@ export const Footer = () => {
                 {label}
               </a>
             </div>))}
-        </div>
+        </div> */}
 
         <div id="column3" className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">{footerContent.column3header}</h3>
@@ -68,7 +69,7 @@ export const Footer = () => {
             </div>
           ))}
         </div>
-      </section>
+      </Card>
 
       <section className="container pb-14 text-center">
         <h3>

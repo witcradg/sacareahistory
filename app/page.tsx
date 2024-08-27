@@ -1,4 +1,5 @@
 import { Partners } from "@/components/Partners";
+import { Card } from "@/components/ui/card";
 
 const colors = [
   { name: '--border', value: 'hsl(var(--border))' },
@@ -25,7 +26,7 @@ const colors = [
 export default function Home() {
   return (
     <>
-      <section style={{ backgroundColor: '#FFFFF0', padding: '20px' }}>
+      <Card className='p-5'>
         <h2>Color Palette</h2>
         <div style={{ display: 'flex', flexWrap: 'wrap' }}>
           {colors.map(color => (
@@ -41,9 +42,8 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </section>
+      </Card>
       <Partners />
-      <a className='flex justify-center text-xl' href='https://sacramentohistory.info/'>Sacramento History Info</a>
     </>
   );
 }

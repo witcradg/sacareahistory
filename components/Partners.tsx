@@ -35,9 +35,9 @@ export const Partners = () => {
       className="container py-24 sm:py-32 space-y-8"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
+        {/* Many{" "} */}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Partners
+          Home Page Content
         </span>
       </h2>
 
@@ -57,9 +57,9 @@ export const Partners = () => {
           </Card>
         ))}
       </div> */}
-      <div className="flex justify-center">
+      {/* <div className="flex justify-center">
         <CallButton />
-      </div>
+      </div> */}
     </section>
   );
 };

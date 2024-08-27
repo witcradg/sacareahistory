@@ -18,16 +18,12 @@ const footerContent = {
 			{ label: "linkedin", link: "https://www.linkedin.com/company/web-ecommerce-developer/", enable: true },
 		],
 	},
-	column2header: "OUR SERVICES",
-	column3header: "SERVICE AREAS",
+	column2header: "COLUMN TITLE PENDING",
+	column3header: "RELATED LINKS",
 	column3: {
 		elements: [
-			{ label: "Sacramento", link: "/california/sacramento" },
-			{ label: "Folsom", link: "/california/folsom" },
-			{ label: "Roseville", link: "/california/roseville" },
-			{ label: "El Dorado Hills", link: "/california/el-dorado-hills/" },
-			{ label: "Davis", link: "/california/davis" },
-			{ label: "Orangevale", link: "/california/orangevale" },
+			{ label: "SacramentoHistory.org", link: "https://www.sacramentohistory.org/index.php" },
+			{ label: "Sacramento History Info", link: "https://sacramentohistory.info/" }
 		],
 	},
 	column4header: "CONTACT",
