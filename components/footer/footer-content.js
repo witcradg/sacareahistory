@@ -29,10 +29,10 @@ const footerContent = {
 	column4header: "CONTACT",
 	column4: {
 		elements: [
-			{ label: "Web eCommerce Developer" },
-			{ label: "75 Natoma St. C1" },
-			{ label: "Folsom, CA 95630" },
-			{ label: "info@webecommercedeveloper.com" },
+			{ label: "SacArea History Consortium" },
+			{ label: "POB 255345" },
+			{ label: "Sacramenot, CA 95865-5345" },
+			{ label: "sacarea@winfirst.com" },
 		],
 	},
 };
