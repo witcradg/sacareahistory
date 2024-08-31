@@ -23,7 +23,8 @@ export const Header = () => {
               className="ml-2 font-bold text-xl flex"
             >
               <Image className='border-2 my-2'
-                src="/us-cascr64.gif" width={300} height={69} alt="Logo" />
+                // src="/us-cascr64.gif" width={300} height={69} alt="Logo" />
+                src='/layout/logo.jpg' width={160} height={160} alt='logo' />
             </Link>
           </NavigationMenuItem>
 
