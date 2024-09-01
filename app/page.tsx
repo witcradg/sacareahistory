@@ -204,7 +204,7 @@ function SZ() {
 export default function Home() {
   return (
     <>
-      <Card className='p-5'>
+      {/* <Card className='p-5'>
         <h2>Color Palette</h2>
         <div style={{ display: 'flex', flexWrap: 'wrap' }}>
           {colors.map(color => (
@@ -221,9 +221,9 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </Card>
+      </Card> */}
       <Hero />
-      <section className="w-[80vw] m-auto py-4 mt-4 bg-card">
+      <section className="w-[80vw] m-auto py-4 my-4 bg-card">
         <div>
           <h2 className="w-full block text-2xl font-bold text-center">Resources &ndash; Alphabetical</h2>
         </div>
