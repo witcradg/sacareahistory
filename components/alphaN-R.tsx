@@ -1,180 +1,178 @@
+import { CardContent, CardHeader } from "./ui/card"
+import { Card, CardTitle, CardDescription } from "./ui/card"
 
 export const AlphaNR = () => {
 
 	return (
-		<article id="post-18" className="post-18 post type-post status-publish format-standard hentry category-uncategorized">
+		<article id="post-21" className="post-21 post type-post status-publish format-standard hentry category-uncategorized">
+			<div className="flex flex-col justify-center items-center">
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>NATIONAL</CardTitle>
+					</CardHeader>
+					<CardContent>
+					</CardContent>
+				</Card>
 
-			<div className="entry-content">
-				<h1 className="text-center">
-					<strong>
-						<u>NATIONAL</u>
-					</strong>
-				</h1>
-				<h1 className="text-center">
-					<strong>
-						<u>NATURAL HISTORY</u>
-					</strong>
-				</h1>
-				<p>Effie Yeaw Nature Center, Carmichael CA &ndash; <a href="http://www.sacnaturecenter.net" rel="nofollow">http://www.sacnaturecenter.net</a>
-				</p>
-				<p className="text-center">********************************</p>
-				<h1 className="text-center">
-					<strong>
-						<u>NEWSPAPERS (Historic)</u>
-					</strong>
-				</h1>
-				<p className="text-center">********************************</p>
-				<h3>
-					<strong>
-						<u>California Digital Newspaper Collection</u>
-					</strong>
-				</h3>
-				<p>
-					<a href="http://cdnc.ucr.edu/cgi-bin/cdnc">http://cdnc.ucr.edu/cgi-bin/cdnc</a>
-				</p>
-				<h3>Veridan</h3>
-				<p>
-					<a href="http://www.veridiansoftware.com/">http://www.veridiansoftware.com/</a>
-				</p>
-				<h3>Sacramento Union 1980&apos;s <a href="http://www.stevemartarano.com/Martaranos_archives/Welcome.html">http://www.stevemartarano.com/Martaranos_archives/Welcome.html</a>
-				</h3>
-				<p>&nbsp;</p>
-				<p className="text-center">********************************</p>
-				<h1 className="text-center">
-					<strong>
-						<u>OLD SACRAMENTO</u>
-					</strong>
-				</h1>
-				<p className="text-center">********************************</p>
-				<h1 className="text-center">
-					<strong>
-						<u>ORAL HISTORIES</u>
-					</strong>
-				</h1>
-				<p>
-					<a href="https://networks.h-net.org/h-oralhist">https://networks.h-net.org/h-oralhist</a>
-				</p>
-				<p className="text-center">********************************</p>
-				<h1 className="text-center">
-					<strong>
-						<u>ORGANIZATIONS (HISTORICAL)</u>
-					</strong>
-				</h1>
-				<p className="text-center">********************************</p>
-				<p>&nbsp;</p>
-				<h1 className="text-center">
-					<strong>
-						<u>PEOPLE OF HISTORICAL INTEREST</u>
-					</strong>
-				</h1>
-				<p className="text-center">********************************</p>
-				<h1 className="text-center">PHOTOGRAPHS</h1>
-				<p>Features amateur photos showing our city in an earlier time.</p>
-				<p>
-					<a href="http://vintagesacramento.com">http://vintagesacramento.com</a>
-				</p>
-				<p className="text-center">********************************</p>
-				<h1 className="text-center">
-					<strong>
-						<u>PODCASTS</u>
-					</strong>
-				</h1>
-				<p>Link Elaine Corn’s (and others?) Capital Radio podcasts</p>
-				<p>********************************</p>
-				<h1 className="text-center">
-					<strong>
-						<u>PUBLICATIONS</u>
-					</strong>
-				</h1>
-				<p>Pioneers</p>
-				<p>SCHS</p>
-				<p className="text-center">
-					<strong>&nbsp;********************************</strong>
-				</p>
-				<p>
-					<strong>
-						<u>&nbsp;</u>
-					</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>PRESERVATION</u>
-					</strong>
-				</h1>
-				<h3>Sacramento Heritage</h3>
-				<p>
-					<a href="http://www.sacramentoheritage.org">http://www.sacramentoheritage.org</a>
-				</p>
-				<p className="text-center">********************************</p>
-				<h2 className="text-center">
-					<strong>
-						<u>REGIONAL HISTORY &ndash; SACRAMENTO COUNTY</u>
-					</strong>
-				</h2>
-				<p>
-					<strong>ELK GROVE</strong> &ndash; <a href="http://www.echoesofyesterday.net/">http://www.echoesofyesterday.net/</a>
-				</p>
-				<p className="text-center">********************************</p>
-				<h1 className="text-center">
-					<strong>
-						<u>RELIGION</u>
-					</strong>
-				</h1>
-				<p className="text-center">********************************</p>
-				<p>&nbsp;</p>
-				<h1 className="text-center">
-					<strong>
-						<u>RESEARCH FACILITIES/ARCHIVES</u>
-					</strong>
-				</h1>
-				<p>
-					<strong>
-						<em>Website </em>
-					</strong>
-					<strong>
-						<em>for City County Archive (Center for Sacramento History)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </em>
-					</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.cityofsacramento.org/ccl/history/default.asp">http://www.cityofsacramento.org/ccl/history/default.asp</a>
-				</p>
-				<p>
-					<strong>
-						<em>California Statewide Resource Center</em>
-					</strong>
-				</p>
-				<p>
-					<strong>
-						<em>California State Library</em>
-					</strong>
-				</p>
-				<p>
-					<strong>
-						<em>California State Archives</em>
-					</strong>
-				</p>
-				<p>
-					<strong>
-						<em>Sacramento Room &ndash; Sacramento Public Library</em>
-					</strong>
-				</p>
-				<p className="text-center">
-					<strong>
-						<em>&nbsp;********************************</em>
-					</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>RESOURCES</u>
-					</strong>
-				</h1>
-				<h3>Multiple links on Sacramento County Historical Society Website</h3>
-				<h4>
-					<a href="http://www.sachistoricalsociety.org/links.cfm">http://www.sachistoricalsociety.org/links.cfm</a>
-				</h4>
-				<p>&nbsp;</p>
-				<h3>Sacramento Heritage</h3>
-				<p>
-					<a href="http://www.sacramentoheritage.org">http://www.sacramentoheritage.org</a>
-				</p>
-				<p>&nbsp;</p>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>NATURAL HISTORY</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<p className="pl-4">Effie Yeaw Nature Center, Carmichael CA</p>
+						<a className="pl-8 bg-red-400" href="https://www.effieyeawnature.org/" rel="nofollow">https://www.effieyeawnature.org/</a>
+
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>NEWSPAPERS (Historic)</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h4 className="pl-4">California Digital Newspaper Collection</h4>
+						<a className="pl-8" href="http://cdnc.ucr.edu/cgi-bin/cdnc">http://cdnc.ucr.edu/cgi-bin/cdnc</a>
+						<h4 className="pl-4">Veridan</h4>
+						<a className="pl-8" href="http://www.veridiansoftware.com/">http://www.veridiansoftware.com/</a>
+						<h4 className="pl-4">Sacramento Union 1980&apos;s</h4>
+						<a className="pl-8" href="http://www.stevemartarano.com/Martaranos_archives/Welcome.html">http://www.stevemartarano.com/Martaranos_archives/Welcome.html</a>
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>OLD SACRAMENTO</CardTitle>
+					</CardHeader>
+					<CardContent>
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>ORAL HISTORIES</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<p><a className="pl-8" href="https://networks.h-net.org/h-oralhist">https://networks.h-net.org/h-oralhist</a></p>
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>ORGANIZATIONS (HISTORICAL)</CardTitle>
+					</CardHeader>
+					<CardContent>
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>PEOPLE OF HISTORICAL INTEREST</CardTitle>
+					</CardHeader>
+					<CardContent>
+					</CardContent>
+				</Card>
+
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>PHOTOGRAPHS</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<p>Features amateur photos showing our city in an earlier time.</p>
+						<p>
+							<a className="pl-8" href="http://vintagesacramento.com">http://vintagesacramento.com</a>
+						</p>
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>PODCASTS</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<p>Link Elaine Corn’s (and others?) Capital Radio podcasts</p>
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>PUBLICATIONS</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<p>Pioneers</p>
+						<p>SCHS</p>
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>PRESERVATION</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h3>Sacramento Heritage</h3>
+						<p>
+							<a className="pl-8" href="http://www.sacramentoheritage.org">http://www.sacramentoheritage.org</a>
+						</p>
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>REGIONAL HISTORY &ndash; SACRAMENTO COUNTY</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h4 className="pl-4" >Elk Grove</h4>
+						<a className="pl-8" href="http://www.echoesofyesterday.net/">http://www.echoesofyesterday.net/</a>
+
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>RELIGION</CardTitle>
+					</CardHeader>
+					<CardContent>
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>RESEARCH FACILITIES/ARCHIVES</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<p>
+
+							Website
+
+
+							for City County Archive (Center for Sacramento History)
+
+						</p>
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>RESEARCH FACILITIES/ARCHIVES</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h4 className="pl-4">Website for City County Archive (Center for Sacramento History)</h4>
+						<h4 className="pl-4">California Statewide Resource Center</h4>
+						<h4 className="pl-4">California State Library</h4>
+						<h4 className="pl-4">California State Archives</h4>
+						<h4 className="pl-4">Sacramento Room &ndash; Sacramento Public Library</h4>
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>RESOURCES</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h4 className="pl-4">Multiple links on Sacramento County Historical Society Website</h4>
+						<p className="bg-red-400">[The original link is broken, but the website is still up - ed.]</p>
+						<a className="pl-8" href="http://www.sachistoricalsociety.org/">http://www.sachistoricalsociety.org</a>
+						<h4 className="pl-4">Sacramento Heritage</h4>
+						<a className="pl-8" href="http://www.sacramentoheritage.org">http://www.sacramentoheritage.org</a>
+
+					</CardContent>
+				</Card>
 				{/* <div id="jp-post-flair" className="sharedaddy sd-like-enabled sd-sharing-enabled">
 					<div className="sharedaddy sd-sharing-enabled">
 						<div className="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing">
@@ -210,7 +208,7 @@ export const AlphaNR = () => {
 					</div>
 					<div id="jp-relatedposts" className="jp-relatedposts block">
 						<h3 className="jp-relatedposts-headline">
-							<em>Related</em>
+							Related
 						</h3>
 						<div className="jp-relatedposts-items jp-relatedposts-items-minimal jp-relatedposts-grid ">
 							<p className="jp-relatedposts-post jp-relatedposts-post0" data-post-id="12" data-post-format="false">
@@ -239,10 +237,10 @@ export const AlphaNR = () => {
 							</p>
 						</div>
 					</div>
-				</div> */}
-			</div>
+				</div> 
+					</div>
 
-			{/* <footer className="entry-footer">
+					{/* <footer className="entry-footer">
 				<span className="byline">
 					<span className="author vcard">
 						<img alt="" src="https://0.gravatar.com/avatar/3b401640df54f5af3e38cfdad6a44930b5bcb2e28f7dc2684cb616d02c4a0535?s=49&amp;d=identicon&amp;r=G" srcset="https://0.gravatar.com/avatar/3b401640df54f5af3e38cfdad6a44930b5bcb2e28f7dc2684cb616d02c4a0535?s=49&amp;d=identicon&amp;r=G 1x, https://0.gravatar.com/avatar/3b401640df54f5af3e38cfdad6a44930b5bcb2e28f7dc2684cb616d02c4a0535?s=74&amp;d=identicon&amp;r=G 1.5x, https://0.gravatar.com/avatar/3b401640df54f5af3e38cfdad6a44930b5bcb2e28f7dc2684cb616d02c4a0535?s=98&amp;d=identicon&amp;r=G 2x, https://0.gravatar.com/avatar/3b401640df54f5af3e38cfdad6a44930b5bcb2e28f7dc2684cb616d02c4a0535?s=147&amp;d=identicon&amp;r=G 3x, https://0.gravatar.com/avatar/3b401640df54f5af3e38cfdad6a44930b5bcb2e28f7dc2684cb616d02c4a0535?s=196&amp;d=identicon&amp;r=G 4x" className="avatar avatar-49 wp-hovercard-attachment grav-hashed grav-hijack" height="49" width="49" loading="lazy" decoding="async">
@@ -251,11 +249,12 @@ export const AlphaNR = () => {
 				</span>
 				<span className="posted-on">
 					<span className="screen-reader-text">Posted on </span>
-					<a href="https://sacramentohistory.info/2016/03/04/n-r/" rel="bookmark">
+					<a className="pl-8" href="https://sacramentohistory.info/2016/03/04/n-r/" rel="bookmark">
 						<time className="entry-date published" dateTime="2016-03-04T07:13:16+00:00">March 4, 2016</time>
 						<time className="updated" dateTime="2016-10-20T02:12:12+00:00">October 20, 2016</time>
 					</a>
 				</span>
 			</footer> */}
+			</div>
 		</article>)
 }

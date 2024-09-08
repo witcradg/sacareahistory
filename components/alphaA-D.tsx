@@ -1,6 +1,7 @@
+import { CardContent, CardHeader } from "./ui/card"
+import { Card, CardTitle, CardDescription } from "./ui/card"
 
 export const AlphaAD = () => {
-
 	return (
 		<article id="post-10" className="post-10 post type-post status-publish format-standard hentry category-uncategorized">
 			<div className="entry-content">

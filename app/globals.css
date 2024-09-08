@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+h1 {
+  @apply text-3xl font-bold text-center text-red-500 underline;
+}
+
+a {
+  @apply text-blue-500 underline;
+}
+
 /* *=========== Sepia Theme ===========
 --card: 30 25% 85%; */
 

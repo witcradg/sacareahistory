@@ -1,110 +1,135 @@
+import { CardContent, CardHeader } from "./ui/card"
+import { Card, CardTitle, CardDescription } from "./ui/card"
+
 
 export const AlphaSZ = () => {
-
 	return (
 		<article id="post-21" className="post-21 post type-post status-publish format-standard hentry category-uncategorized">
-			<div className="entry-content">
-				<h1 className="text-center">
-					<strong>
-						<u>SCHOOLS – EDUCATION</u>
-					</strong>
-				</h1>
-				<p>Sacramento County History Day&nbsp; –&nbsp; <a href="http://www.cityofsacramento.org/ccl/history/exhibits/HistoryDay/">http://www.cityofsacramento.org/ccl/history/exhibits/HistoryDay/</a>
-				</p>
-				<p className="text-center">******************************</p>
-				<h1 className="text-center">
-					<strong>
-						<u>SCIENCE</u>
-					</strong>
-				</h1>
-				<p className="text-center">******************************</p>
-				<h1 className="text-center">
-					<strong>
-						<u>SPEAKERS</u>
-					</strong>
-				</h1>
-				<p className="text-center">******************************</p>
-				<h1 className="text-center">
-					<strong>
-						<u>SPORTS</u>
-					</strong>
-				</h1>
-				<p className="text-center">******************************</p>
-				<h1 className="text-center">
-					<strong>
-						<u>STATEWIDE</u>
-					</strong>
-				</h1>
-				<p className="text-center">******************************</p>
-				<h1 className="text-center">
-					<strong>
-						<u>TOURS</u>
-					</strong>
-				</h1>
-				<h3 className="text-center">ARCHITECTURAL</h3>
-				<p>&nbsp;</p>
-				<h3 className="text-center">WALKING</h3>
-				<h3>Sacramento Heritage</h3>
-				<h3>&nbsp;<a href="http://www.sacramentoheritage.org/walking.html">http://www.sacramentoheritage.org/walking.html</a>
-				</h3>
-				<h3 className="text-center">DRIVING</h3>
-				<p>&nbsp;</p>
-				<h3 className="text-center">“COMMERCIAL”</h3>
-				<p>&nbsp;</p>
-				<h3 className="text-center">UNUSUAL</h3>
-				<p>Sacramento Underground Tour –<a href="http://sachistorymuseum.org/tours/underground-tours/">http://sachistorymuseum.org/tours/underground-tours/</a>
-				</p>
-				<p>Sacramento Historic City Cemetery – <a href="http://www.oldcitycemetery.com/">www.oldcitycemetery.com</a>
-				</p>
-				<p className="text-center">******************************</p>
-				<h1 className="text-center">
-					<strong>
-						<u>TRANSPORTATION</u>
-					</strong>
-				</h1>
-				<p>&nbsp;</p>
-				<h3 className="text-center">HORSE</h3>
-				<h3 className="text-center">
-				</h3>
-				<h3 className="text-center">TRAIN</h3>
-				<h3 className="text-center">
-				</h3>
-				<h3 className="text-center">AUTOMOBILE</h3>
-				<h3 className="text-center">
-				</h3>
-				<h3 className="text-center">SHIPS/BOATS</h3>
-				<p>Shipwrecks</p>
+			<div className="flex flex-col justify-center items-center">
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>SCHOOLS &ndash; EDUCATION</CardTitle>
+					</CardHeader>
+					<CardDescription>
+					</CardDescription>
+					<CardContent>
+						<p>Sacramento County History Day&nbsp; &ndash;&nbsp;
+							<a href="http://www.cityofsacramento.org/ccl/history/exhibits/HistoryDay/">http://www.cityofsacramento.org/ccl/history/exhibits/HistoryDay/</a>
+						</p>
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>SCIENCE</CardTitle>
+					</CardHeader>
+					<CardContent>
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>
+							SPEAKERS
+						</CardTitle>
+					</CardHeader>
+					<CardContent>
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>
+							SPORTS
+						</CardTitle>
+					</CardHeader>
+					<CardContent>
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>
+							STATEWIDE
+						</CardTitle>
+					</CardHeader>
+					<CardContent>
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>
+							TOURS
+						</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h3>ARCHITECTURAL</h3>
+						<h3>WALKING</h3>
+						<h4 className="pl-4">Sacramento Heritage</h4>
+						<a className="pl-8" href="http://www.sacramentoheritage.org/walking.html">
+							http://www.sacramentoheritage.org/walking.html
+						</a>
+						<h3>DRIVING</h3>
+						<h3>“COMMERCIAL”</h3>
+						<h3>UNUSUAL</h3>
+						<h4 className="pl-4">Sacramento Underground Tour</h4>
+						<a className="pl-8" href="http://sachistorymuseum.org/tours/underground-tours/">http://sachistorymuseum.org/tours/underground-tours/</a>
+						<h4 className="pl-4">Sacramento Historic City Cemetery</h4>
+						<a className="pl-8" href="http://www.oldcitycemetery.com/">www.oldcitycemetery.com</a>
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>
+							TRANSPORTATION
+						</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h3>HORSE</h3>
+						<h3>TRAIN</h3>
+						<h3>AUTOMOBILE</h3>
+						<h3>SHIPS/BOATS</h3>
+						<h4 className="pl-4">Shipwrecks</h4>
+						<a className="pl-8" href="http://www.snugharbor.net/steamboat_slough_shipwrecks.htm">http://www.snugharbor.net/steamboat_slough_shipwrecks.htm</a>
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>VIDEOS</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<p>
+							<a href="http://www.youtube.com/user/SacramentoHistory">Sacramento History on YouTube</a>
+						</p>
+						<p>
+							<a href="http://www.youtube.com/user/SacramentoHistory#p/u">Jim Henley&apos;s :YouTube&nbsp;bits of Sacramento History</a>
+						</p>
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>WATER</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h3>RIVERS</h3>
+						<h3>WATER USE</h3>
+						<h3>RECLAMATION</h3>
+						<h3>RESERVOIRS</h3>
+					</CardContent>
+				</Card>
+
 				<p>
-					<a href="http://www.snugharbor.net/steamboat_slough_shipwrecks.htm">http://www.snugharbor.net/steamboat_slough_shipwrecks.htm</a>
+					&nbsp;
 				</p>
-				<p className="text-center">******************************</p>
-				<h1 className="text-center">VIDEOS</h1>
-				<p>
-					<a href="http://www.youtube.com/user/SacramentoHistory">Sacramento History on YouTube</a>
-				</p>
-				<p>
-					<a href="http://www.youtube.com/user/SacramentoHistory#p/u">Jim Henley&apos;s :YouTube&nbsp;bits of Sacramento History</a>
-				</p>
-				<p className="text-center">******************************</p>
-				<h1 className="text-center">
-					<strong>WATER</strong>
-				</h1>
-				<p className="text-center">RIVERS</p>
-				<p className="text-center">WATER USE</p>
-				<p className="text-center">RECLAMATION</p>
-				<p className="text-center">RESERVOIRS</p>
-				<p>
-					<strong>&nbsp;</strong>
-				</p>
-				<p className="text-center">
-					<strong>******************************&nbsp;</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>WEATHER (HISTORY)</strong>
-				</h1>
-				<p>
-					<strong>&nbsp;</strong>
-				</p>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>
+							WEATHER (HISTORY)
+						</CardTitle>
+					</CardHeader>
+					<CardContent>
+					</CardContent>
+				</Card>
 				{/* <div id="jp-post-flair" className="sharedaddy sd-like-enabled sd-sharing-enabled">
 					<div className="sharedaddy sd-sharing-enabled">
 						<div className="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing">
@@ -171,7 +196,6 @@ export const AlphaSZ = () => {
 					</div>
 				</div> */}
 			</div>
-
 			{/* <footer className="entry-footer">
 				<span className="byline">
 <span className="author vcard">
@@ -187,7 +211,6 @@ export const AlphaSZ = () => {
 </a>
 </span>
 			</footer> */}
-		</article>
+		</article >
 	)
-
 }
