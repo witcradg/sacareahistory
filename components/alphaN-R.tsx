@@ -21,7 +21,6 @@ export const AlphaNR = () => {
 					<CardContent>
 						<p className="pl-4">Effie Yeaw Nature Center, Carmichael CA</p>
 						<a className="pl-8 bg-red-400" href="https://www.effieyeawnature.org/" rel="nofollow">https://www.effieyeawnature.org/</a>
-
 					</CardContent>
 				</Card>
 
@@ -30,12 +29,12 @@ export const AlphaNR = () => {
 						<CardTitle>NEWSPAPERS (Historic)</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h4 className="pl-4">California Digital Newspaper Collection</h4>
-						<a className="pl-8" href="http://cdnc.ucr.edu/cgi-bin/cdnc">http://cdnc.ucr.edu/cgi-bin/cdnc</a>
-						<h4 className="pl-4">Veridan</h4>
-						<a className="pl-8" href="http://www.veridiansoftware.com/">http://www.veridiansoftware.com/</a>
-						<h4 className="pl-4">Sacramento Union 1980&apos;s</h4>
-						<a className="pl-8" href="http://www.stevemartarano.com/Martaranos_archives/Welcome.html">http://www.stevemartarano.com/Martaranos_archives/Welcome.html</a>
+						<h4>California Digital Newspaper Collection</h4>
+						<a href="http://cdnc.ucr.edu/cgi-bin/cdnc">http://cdnc.ucr.edu/cgi-bin/cdnc</a>
+						<h4>Veridan</h4>
+						<a href="http://www.veridiansoftware.com/">http://www.veridiansoftware.com/</a>
+						<h4>Sacramento Union 1980&apos;s</h4>
+						<a href="http://www.stevemartarano.com/Martaranos_archives/Welcome.html">http://www.stevemartarano.com/Martaranos_archives/Welcome.html</a>
 					</CardContent>
 				</Card>
 
@@ -51,7 +50,7 @@ export const AlphaNR = () => {
 						<CardTitle>ORAL HISTORIES</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<p><a className="pl-8" href="https://networks.h-net.org/h-oralhist">https://networks.h-net.org/h-oralhist</a></p>
+						<p><a href="https://networks.h-net.org/h-oralhist">https://networks.h-net.org/h-oralhist</a></p>
 					</CardContent>
 				</Card>
 				<Card className="w-1/2 m-2">
@@ -78,7 +77,7 @@ export const AlphaNR = () => {
 					<CardContent>
 						<p>Features amateur photos showing our city in an earlier time.</p>
 						<p>
-							<a className="pl-8" href="http://vintagesacramento.com">http://vintagesacramento.com</a>
+							<a href="http://vintagesacramento.com">http://vintagesacramento.com</a>
 						</p>
 					</CardContent>
 				</Card>
@@ -107,9 +106,7 @@ export const AlphaNR = () => {
 					</CardHeader>
 					<CardContent>
 						<h3>Sacramento Heritage</h3>
-						<p>
-							<a className="pl-8" href="http://www.sacramentoheritage.org">http://www.sacramentoheritage.org</a>
-						</p>
+						<a href="http://www.sacramentoheritage.org">http://www.sacramentoheritage.org</a>
 					</CardContent>
 				</Card>
 				<Card className="w-1/2 m-2">
@@ -117,8 +114,8 @@ export const AlphaNR = () => {
 						<CardTitle>REGIONAL HISTORY &ndash; SACRAMENTO COUNTY</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h4 className="pl-4" >Elk Grove</h4>
-						<a className="pl-8" href="http://www.echoesofyesterday.net/">http://www.echoesofyesterday.net/</a>
+						<h4>Elk Grove</h4>
+						<a href="http://www.echoesofyesterday.net/">http://www.echoesofyesterday.net/</a>
 
 					</CardContent>
 				</Card>
@@ -136,27 +133,11 @@ export const AlphaNR = () => {
 						<CardTitle>RESEARCH FACILITIES/ARCHIVES</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<p>
-
-							Website
-
-
-							for City County Archive (Center for Sacramento History)
-
-						</p>
-					</CardContent>
-				</Card>
-
-				<Card className="w-1/2 m-2">
-					<CardHeader>
-						<CardTitle>RESEARCH FACILITIES/ARCHIVES</CardTitle>
-					</CardHeader>
-					<CardContent>
-						<h4 className="pl-4">Website for City County Archive (Center for Sacramento History)</h4>
-						<h4 className="pl-4">California Statewide Resource Center</h4>
-						<h4 className="pl-4">California State Library</h4>
-						<h4 className="pl-4">California State Archives</h4>
-						<h4 className="pl-4">Sacramento Room &ndash; Sacramento Public Library</h4>
+						<h4>Website for City County Archive (Center for Sacramento History)</h4>
+						<h4>California Statewide Resource Center</h4>
+						<h4>California State Library</h4>
+						<h4>California State Archives</h4>
+						<h4>Sacramento Room &ndash; Sacramento Public Library</h4>
 					</CardContent>
 				</Card>
 
@@ -165,11 +146,11 @@ export const AlphaNR = () => {
 						<CardTitle>RESOURCES</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h4 className="pl-4">Multiple links on Sacramento County Historical Society Website</h4>
+						<h4>Multiple links on Sacramento County Historical Society Website</h4>
 						<p className="bg-red-400">[The original link is broken, but the website is still up - ed.]</p>
-						<a className="pl-8" href="http://www.sachistoricalsociety.org/">http://www.sachistoricalsociety.org</a>
-						<h4 className="pl-4">Sacramento Heritage</h4>
-						<a className="pl-8" href="http://www.sacramentoheritage.org">http://www.sacramentoheritage.org</a>
+						<a href="http://www.sachistoricalsociety.org/">http://www.sachistoricalsociety.org</a>
+						<h4>Sacramento Heritage</h4>
+						<a href="http://www.sacramentoheritage.org">http://www.sacramentoheritage.org</a>
 
 					</CardContent>
 				</Card>
@@ -249,7 +230,7 @@ export const AlphaNR = () => {
 				</span>
 				<span className="posted-on">
 					<span className="screen-reader-text">Posted on </span>
-					<a className="pl-8" href="https://sacramentohistory.info/2016/03/04/n-r/" rel="bookmark">
+					<a href="https://sacramentohistory.info/2016/03/04/n-r/" rel="bookmark">
 						<time className="entry-date published" dateTime="2016-03-04T07:13:16+00:00">March 4, 2016</time>
 						<time className="updated" dateTime="2016-10-20T02:12:12+00:00">October 20, 2016</time>
 					</a>

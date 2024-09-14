@@ -4,200 +4,151 @@ import { Card, CardTitle, CardDescription } from "./ui/card"
 export const AlphaIM = () => {
 
 	return (
-		<article id="post-15" className="post-15 post type-post status-publish format-standard hentry category-uncategorized">
-			<header className="entry-header">
-				<h1 className="entry-title">I-M</h1>	</header>
+		<article id="post-21" className="post-21 post type-post status-publish format-standard hentry category-uncategorized">
+			<div className="flex flex-col justify-center items-center">
 
-			<div className="entry-content">
-				<h1 className="text-center">
-					<strong>
-						<u>LANDMARKS &amp; HISTORICAL MARKERS</u>
-					</strong>
-				</h1>
-				<p className="text-center">
-					<strong>********************************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>&nbsp;</u>
-					</strong>
-					<strong>
-						<u>LAW ENFORCEMENT</u>
-					</strong>
-				</h1>
-				<p className="text-center">
-					<strong>********************************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>LIBRARIES</u>
-					</strong>
-				</h1>
-				<h4>
-					<strong>UCSF Library &amp; Archives</strong>
-				</h4>
-				<p>
-					<a href="https://www.library.ucsf.edu/collections/archives">
-						<strong>https://www.library.ucsf.edu/collections/archives</strong>
-					</a>
-				</p>
-				<p>
-					<a href="http://www.library.ca.gov/">California State Library</a>
-				</p>
-				<p>
-					<a href="http://www.library.ca.gov/calhist/">California State Library &ndash; California Section</a>
-				</p>
-				<p>
-					<a href="http://catalog.loc.gov/">Library of Congress online archives</a>
-				</p>
-				<p>
-					<a href="http://www.rootcellar.org/">Root Cellar</a>
-				</p>
-				<p>
-					<a href="http://www.saclibrary.org/sac_room/index.htm">Sacramento Public Library—Sacramento Room</a>
-				</p>
-				<p>
-					<a href="http://library.csus.edu/content2.asp?pageID=137">Sacramento State University Library—Special Collections &amp; University Archives</a>
-				</p>
-				<p>
-					<a href="http://www.lib.ucdavis.edu/dept/specol/about/aboutus.php">University of California, Davis—Shields Library, Department of Special Collections</a>
-				</p>
-				<p>
-					<strong>********************************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>&nbsp;</strong>
-					<strong>
-						<u>LITERARY</u>
-					</strong>
-				</h1>
-				<p>Sacramento Book Collectors Club &ndash;&nbsp;<a href="http://www.sacramentobookcollectors.org/">http://www.sacramentobookcollectors.org/</a>
-				</p>
-				<p className="text-center">
-					<strong>********************************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>MAPS</u>
-					</strong>
-				</h1>
-				<p>Sacamento County Online Map</p>
-				<p>
-					<a href="http://generalmap.gis.saccounty.net/JSViewer/county_portal.html">http://generalmap.gis.saccounty.net/JSViewer/county_portal.html</a>
-				</p>
-				<p>&nbsp;</p>
-				<p>&nbsp;</p>
-				<p className="text-center">
-					<strong>********************************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>MEDICAL</u>
-					</strong>
-				</h1>
-				<p>California Medical History Blogspot &ndash; <a href="http://californiasmedicalhistory.blogspot.com/">http://californiasmedicalhistory.blogspot.com/</a>
-				</p>
-				<p>SSVMS Museum of Medical History &ndash;&nbsp;<a href="http://www.ssvms.org/museum.aspx">http://www.ssvms.org/museum.aspx</a>
-				</p>
-				<p>&nbsp;</p>
-				<p className="text-center">
-					<strong>********************************************</strong>
-				</p>
-				<h1 className="text-center">MEMORIALS</h1>
-				<p>&nbsp;</p>
-				<p className="text-center">
-					<strong>********************************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>MEXICAN-AMERICAN HISTORY</u>
-					</strong>
-				</h1>
-				<p>
-					<u>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>LANDMARKS &amp; HISTORICAL MARKERS</CardTitle>
+
+					</CardHeader>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>LAW ENFORCEMENT</CardTitle>
+					</CardHeader>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>LIBRARIES</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h4>UCSF Library &amp; Archives</h4>
+						<a href="https://www.library.ucsf.edu/collections/archives">
+							https://www.library.ucsf.edu/collections/archives
+						</a>
+						<h4>California State Library</h4>
+						<a href="http://www.library.ca.gov/">http://www.library.ca.gov/</a>
+						<h4>California State Library &ndash; California Section</h4>
+						<a href="http://www.library.ca.gov/calhist/">http://www.library.ca.gov/calhist/</a>
+						<h4>Library of Congress online archives</h4>
+						<a href="http://catalog.loc.gov/">http://catalog.loc.gov/</a>
+						<h4>Root Cellar</h4>
+						<a href="http://www.rootcellar.org/">http://www.rootcellar.org/</a>
+						<h4>Sacramento Public Library—Sacramento Room</h4>
+						<a href="http://www.saclibrary.org/sac_room/index.htm">http://www.saclibrary.org/sac_room/index.htm</a>
+						<h4>Sacramento State University Library—Special Collections &amp; University Archives</h4>
+						<a href="http://library.csus.edu/content2.asp?pageID=137">http://library.csus.edu/content2.asp?pageID=137</a>
+						<h4>University of California, Davis—Shields Library, Department of Special Collections</h4>
+						<a href="http://www.lib.ucdavis.edu/dept/specol/about/aboutus.php">http://www.lib.ucdavis.edu/dept/specol/about/aboutus.php</a>
+
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>LITERARY</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h4>Sacramento Book Collectors Club</h4>
+						<a href="http://www.sacramentobookcollectors.org/">http://www.sacramentobookcollectors.org/</a>
+					</CardContent></Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>MAPS</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h4 className="">Sacamento County Online Map</h4>
+						<a className="" href="http://generalmap.gis.saccounty.net/JSViewer/county_portal.html">http://generalmap.gis.saccounty.net/JSViewer/county_portal.html</a>
+
+					</CardContent></Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>MEDICAL</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h4>California Medical History Blogspot</h4>
+						<a href="http://californiasmedicalhistory.blogspot.com/">http://californiasmedicalhistory.blogspot.com/</a>
+						<h4>SSVMS Museum of Medical History</h4>
+						<a href="http://www.ssvms.org/museum.aspx">http://www.ssvms.org/museum.aspx</a>
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>MEMORIALS</CardTitle>
+					</CardHeader>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>MEXICAN-AMERICAN HISTORY</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h4 className="bg-red-500">This seems to be broken</h4>
+						<h4>Mexican American Digital History</h4>
 						<a href="http://MexicanAmericanDigitalHistory.org">http://MexicanAmericanDigitalHistory.org</a>
-					</u>
-				</p>
-				<p className="text-center">
-					<strong>********************************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>MILITARY</u>
-					</strong>
-				</h1>
-				<p>
-					<a href="http://www.militarymuseum.org">http://www.militarymuseum.org</a>
-				</p>
-				<p className="text-center">
-					<strong>********************************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<span>
-							<sub className="underline">MUSEUMS</sub>
-						</span>
-					</strong>
-				</h1>
-				<h3 className="text-center">
-					<strong>MUSEUMS &ndash; GOLD COUNTRY AND SURROUNDING AREAS</strong>
-				</h3>
-				<p>
-					<strong>
-						<u>Museums, Wider Sacramento Region &ndash; Historical Museums Alliance</u>
-					</strong>
-				</p>
-				<p>
-					<strong>Amador County Museum</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://amadorcountyhistoricalsociety.org">http://amadorcountyhistoricalsociety.org</a>
-				</p>
-				<p>
-					<strong>El Dorado County Historical Museum</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://museum.edcgov.us">http://museum.edcgov.us</a>
-				</p>
-				<p>
-					<strong>Fountain &amp; Tallman Museum</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://eldoradocountyhistoricalsociety.org">http://eldoradocountyhistoricalsociety.org</a>
-				</p>
-				<p>
-					<strong>Groveland Yosemite Gateway Museum</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://grovelandmuseum.org">http://grovelandmuseum.org</a>
-				</p>
-				<p>
-					<strong>La Grange Museum</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://facebook.com/lagrangemuseum">http://facebook.com/lagrangemuseum</a>
-				</p>
-				<p>
-					<strong>Mariposa Museum</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://mariposamuseum.com">http://mariposamuseum.com</a>
-				</p>
-				<p>
-					<strong>Northern Mariposa County Museum</strong> <a href="http://coultervillehistorycenter.org">http://coultervillehistorycenter.org</a>
-				</p>
-				<p>
-					<strong>Oakdale Museum</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://oakdalemuseum.org">http://oakdalemuseum.org</a>
-				</p>
-				<p>
-					<strong>Oakdale Cowboy Museum</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://oakdalecowboymuseum.org">http://oakdalecowboymuseum.org</a>
-				</p>
-				<p>
-					<strong>Sierra Nevada Logging Museum</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://sierraloggingmuseum.org">http://sierraloggingmuseum.org</a>
-				</p>
-				<p>
-					<strong>Tuolumne City Memorial Museum</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://tuolumnemuseum.wordpress.com">http://tuolumnemuseum.wordpress.com</a>
-				</p>
-				<p>
-					<strong>Tuolumne County Museum</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://tchistory.org">http://tchistory.org</a>
-				</p>
-				<p className="text-center">
-					<strong>********************************************</strong>
-				</p>
-				<h3 className="text-center">SAM (Sacramento Associaton of Museums)</h3>
-				<p>
-					<a href="http://www.sacmuseums.org">www.sacmuseums.org</a>
-				</p>
-				<p className="text-center">
-					<strong>********************************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>MUSIC</u>
-					</strong>
-				</h1>
+					</CardContent></Card>
+				<Card className="w-1/2 m-2">
+
+					<CardHeader>
+						<CardTitle>MILITARY</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h4>California State Military History and Museums Program</h4>
+						<a href="http://www.militarymuseum.org">http://www.militarymuseum.org</a>
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>MUSEUMS</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<div className="mb-8">
+							<h3>SAM (Sacramento Associaton of Museums)</h3>
+							<a href="http://www.sacmuseums.org">www.sacmuseums.org</a>
+						</div>
+						<h3>Gold Country and Surrounding Areas</h3>
+						<h4>Amador County Museum</h4>
+						<a href="http://amadorcountyhistoricalsociety.org">http://amadorcountyhistoricalsociety.org</a>
+
+						<h4>El Dorado County Historical Museum</h4>
+						<a href="http://museum.edcgov.us">http://museum.edcgov.us</a>
+
+						<h4>Fountain &amp; Tallman Museum</h4>
+						<a href="http://eldoradocountyhistoricalsociety.org">http://eldoradocountyhistoricalsociety.org</a>
+
+						<h4>Groveland Yosemite Gateway Museum</h4>
+						<a href="http://grovelandmuseum.org">http://grovelandmuseum.org</a>
+
+						<h4>La Grange Museum</h4>
+						<a href="http://facebook.com/lagrangemuseum">http://facebook.com/lagrangemuseum</a>
+
+						<h4>Mariposa Museum</h4>
+						<a href="http://mariposamuseum.com">http://mariposamuseum.com</a>
+
+						<h4>Northern Mariposa County Museum</h4>
+						<a href="http://coultervillehistorycenter.org">http://coultervillehistorycenter.org</a>
+
+						<h4>Oakdale Museum</h4>
+						<a href="http://oakdalemuseum.org">http://oakdalemuseum.org</a>
+
+						<h4>Oakdale Cowboy Museum</h4>
+						<a href="http://oakdalecowboymuseum.org">http://oakdalecowboymuseum.org</a>
+
+						<h4>Sierra Nevada Logging Museum</h4>
+						<a href="http://sierraloggingmuseum.org">http://sierraloggingmuseum.org</a>
+
+						<h4>Tuolumne City Memorial Museum</h4>
+						<a href="http://tuolumnemuseum.wordpress.com">http://tuolumnemuseum.wordpress.com</a>
+
+						<h4>Tuolumne County Museum</h4>
+						<a href="http://tchistory.org">http://tchistory.org</a>
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>MUSIC</CardTitle>
+					</CardHeader>
+				</Card>
 				{/* <div id="jp-post-flair" className="sharedaddy sd-like-enabled sd-sharing-enabled">
 					<div className="sharedaddy sd-sharing-enabled">
 						<div className="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing">
@@ -224,7 +175,7 @@ export const AlphaIM = () => {
 						<div className="likes-widget-placeholder post-likes-widget-placeholder h-14">
 							<span className="button">
 								<span>Like</span>
-							</span> <span className="loading">Loading...</span>
+							</span><span className="loading">Loading...</span>
 						</div>
 						<span className="sd-text-color">
 						</span>
@@ -262,7 +213,7 @@ export const AlphaIM = () => {
 							</p>
 						</div>
 					</div>
-				</div> */}
+				</div>*/}
 			</div>
 
 
@@ -270,7 +221,7 @@ export const AlphaIM = () => {
 				<span className="byline">
 					<span className="author vcard">
 						<img alt="" src="https://0.gravatar.com/avatar/3b401640df54f5af3e38cfdad6a44930b5bcb2e28f7dc2684cb616d02c4a0535?s=49&amp;d=identicon&amp;r=G" srcset="https://0.gravatar.com/avatar/3b401640df54f5af3e38cfdad6a44930b5bcb2e28f7dc2684cb616d02c4a0535?s=49&amp;d=identicon&amp;r=G 1x, https://0.gravatar.com/avatar/3b401640df54f5af3e38cfdad6a44930b5bcb2e28f7dc2684cb616d02c4a0535?s=74&amp;d=identicon&amp;r=G 1.5x, https://0.gravatar.com/avatar/3b401640df54f5af3e38cfdad6a44930b5bcb2e28f7dc2684cb616d02c4a0535?s=98&amp;d=identicon&amp;r=G 2x, https://0.gravatar.com/avatar/3b401640df54f5af3e38cfdad6a44930b5bcb2e28f7dc2684cb616d02c4a0535?s=147&amp;d=identicon&amp;r=G 3x, https://0.gravatar.com/avatar/3b401640df54f5af3e38cfdad6a44930b5bcb2e28f7dc2684cb616d02c4a0535?s=196&amp;d=identicon&amp;r=G 4x" className="avatar avatar-49 wp-hovercard-attachment grav-hashed grav-hijack" height="49" width="49" loading="lazy" decoding="async">
-							<span className="screen-reader-text">Author </span> <a className="url fn n" href="https://sacramentohistory.info/author/sacarea/">sacarea</a>
+							<span className="screen-reader-text">Author </span><a className="url fn n" href="https://sacramentohistory.info/author/sacarea/">sacarea</a>
 					</span>
 				</span>
 				<span className="posted-on">
@@ -280,6 +231,6 @@ export const AlphaIM = () => {
 						<time className="updated" dateTime="2016-10-20T04:17:14+00:00">October 20, 2016</time>
 					</a>
 				</span>
-			</footer> */}
+			</footer>*/}
 		</article>)
 }

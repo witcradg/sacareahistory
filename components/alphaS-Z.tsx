@@ -60,19 +60,19 @@ export const AlphaSZ = () => {
 						</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h3>ARCHITECTURAL</h3>
-						<h3>WALKING</h3>
-						<h4 className="pl-4">Sacramento Heritage</h4>
-						<a className="pl-8" href="http://www.sacramentoheritage.org/walking.html">
+						<h3>Architectural</h3>
+						<h3>Walking</h3>
+						<h4>Sacramento Heritage</h4>
+						<a href="http://www.sacramentoheritage.org/walking.html">
 							http://www.sacramentoheritage.org/walking.html
 						</a>
-						<h3>DRIVING</h3>
-						<h3>“COMMERCIAL”</h3>
-						<h3>UNUSUAL</h3>
-						<h4 className="pl-4">Sacramento Underground Tour</h4>
-						<a className="pl-8" href="http://sachistorymuseum.org/tours/underground-tours/">http://sachistorymuseum.org/tours/underground-tours/</a>
-						<h4 className="pl-4">Sacramento Historic City Cemetery</h4>
-						<a className="pl-8" href="http://www.oldcitycemetery.com/">www.oldcitycemetery.com</a>
+						<h3>Driving</h3>
+						<h3>Commercial</h3>
+						<h3>Unusual</h3>
+						<h4>Sacramento Underground Tour</h4>
+						<a href="http://sachistorymuseum.org/tours/underground-tours/">http://sachistorymuseum.org/tours/underground-tours/</a>
+						<h4>Sacramento Historic City Cemetery</h4>
+						<a href="http://www.oldcitycemetery.com/">www.oldcitycemetery.com</a>
 					</CardContent>
 				</Card>
 
@@ -83,12 +83,12 @@ export const AlphaSZ = () => {
 						</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h3>HORSE</h3>
-						<h3>TRAIN</h3>
-						<h3>AUTOMOBILE</h3>
-						<h3>SHIPS/BOATS</h3>
-						<h4 className="pl-4">Shipwrecks</h4>
-						<a className="pl-8" href="http://www.snugharbor.net/steamboat_slough_shipwrecks.htm">http://www.snugharbor.net/steamboat_slough_shipwrecks.htm</a>
+						<h3>Horse</h3>
+						<h3>Train</h3>
+						<h3>Automobile</h3>
+						<h3>Ships/Boats</h3>
+						<h4>Shipwrecks</h4>
+						<a href="http://www.snugharbor.net/steamboat_slough_shipwrecks.htm">http://www.snugharbor.net/steamboat_slough_shipwrecks.htm</a>
 					</CardContent>
 				</Card>
 
@@ -111,10 +111,10 @@ export const AlphaSZ = () => {
 						<CardTitle>WATER</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h3>RIVERS</h3>
-						<h3>WATER USE</h3>
-						<h3>RECLAMATION</h3>
-						<h3>RESERVOIRS</h3>
+						<h3>Rivers</h3>
+						<h3>Water Use</h3>
+						<h3>Reclamation</h3>
+						<h3>Reservoirs</h3>
 					</CardContent>
 				</Card>
 

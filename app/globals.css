@@ -5,9 +5,14 @@
 h1 {
   @apply text-3xl font-bold text-center text-red-500 underline;
 }
-
+h3 {
+  @apply text-xl font-bold;
+}
+h4 {
+  @apply pl-4;
+}
 a {
-  @apply text-blue-500 underline;
+  @apply text-blue-500 underline pl-8;
 }
 
 /* *=========== Sepia Theme ===========
