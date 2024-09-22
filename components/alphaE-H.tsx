@@ -4,218 +4,180 @@ import { Card, CardTitle, CardDescription } from "./ui/card"
 export const AlphaEH = () => {
 
 	return (
-		<article>
-			<div className="entry-content">
-				<h1 className="text-center">
-					<strong>
-						<u>ENTERTAINMENT</u>
-					</strong>
-				</h1>
-				<p className="text-center">
-					<strong>&nbsp;**************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>ETHNIC/CULTURAL HISTORY</u>
-					</strong>
-				</h1>
-				<p>FIRST/SECOND MOST ETHNICALLY DIVERSE CITY</p>
-				<p>AFRICAN AMERICAN</p>
-				<p>BASQUE</p>
-				<p>BRITISH/ENGLISH,IRISH,SCOTTISH,WELSCH</p>
-				<p>CHINESE</p>
-				<p>CROATIAN</p>
-				<p>FILIPINO</p>
-				<p>FRENCH</p>
-				<p>GERMAN</p>
-				<p>HMONG</p>
-				<p>INDIA/PAKISTAN</p>
-				<p>ITALIAN</p>
-				<p>JAPANESE</p>
-				<p>MEXICAN</p>
-				<p>NATIVE AMERICAN</p>
-				<p>PORTUGUESE</p>
-				<p>SPANISH</p>
-				<p>THAI</p>
-				<p>OTHER</p>
-				<p className="text-center">
-					<strong>&nbsp;&nbsp;**************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>CALENDAR EVENTS (Historical)</u>
-					</strong>
-				</h1>
-				<p>Sacramento 365 &ndash;&nbsp;<a href="http://www.sacramento365.com/">http://www.sacramento365.com/</a>
-				</p>
-				<p className="text-center">
-					<strong>&nbsp;**************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>COMMERCE &ndash; BUSINESS &ndash; TRADE</u>
-					</strong>
-				</h1>
-				<p>&nbsp;</p>
-				<p className="text-center">
-					<strong>&nbsp;**************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>COMPILATION (HISTORY)</u>
-					</strong>
-				</h1>
-				<p>36 pages of Sacramento History by Lance Armstrong as published in Valley Community Newspapers</p>
-				<p>
-					<a href="http://www.valcomnews.com/?cat=6">http://www.valcomnews.com/?cat=6</a>
-				</p>
-				<p className="text-center">
-					<strong>&nbsp;**************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>BENEVOLMENT SOCIETIES</u>
-					</strong>
-				</h1>
-				<p>&nbsp;</p>
-				<p className="text-center">
-					<strong>&nbsp;**************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>COMMUNICATION</u>
-					</strong>
-				</h1>
+		<article id="post-21" className="post-21 post type-post status-publish format-standard hentry category-uncategorized">
+			<div className="flex flex-col justify-center items-center">
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>ENTERTAINMENT</CardTitle>
+					</CardHeader>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>ETHNIC/CULTURAL HISTORY</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h3>First/Second Most Ethnically Diverse City</h3>
+						<h3>African American</h3>
+						<h3>Basque</h3>
+						<h3>British/English, Irish, Scottish, Welsch</h3>
+						<h3>Chinese</h3>
+						<h3>Croatian</h3>
+						<h3>Filipino</h3>
+						<h3>French</h3>
+						<h3>German</h3>
+						<h3>Hmong</h3>
+						<h3>India/Pakistan</h3>
+						<h3>Italian</h3>
+						<h3>Japanese</h3>
+						<h3>Mexican</h3>
+						<h3>Native American</h3>
+						<h3>Portuguese</h3>
+						<h3>Spanish</h3>
+						<h3>Thai</h3>
+						<h3>Other</h3>
+
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>CALENDAR EVENTS (Historical)</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h4>Sacramento 365</h4>
+						<a href="http://www.sacramento365.com/">www.sacramento365.com/</a>
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>COMMERCE &ndash; BUSINESS &ndash; TRADE</CardTitle>
+					</CardHeader>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>COMPILATION (HISTORY)</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h4>36 pages of Sacramento History by Lance Armstrong as published in Valley Community Newspapers</h4>
+						<a href="http://www.valcomnews.com/?cat=6">www.valcomnews.com/?cat=6</a>
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>BENEVOLMENT SOCIETIES</CardTitle>
+					</CardHeader>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>COMMUNICATION</CardTitle>
+					</CardHeader>
+					<CardContent>
+
+					</CardContent>
+
+				</Card>
 				<p>Radio, TV, Newspapers</p>
-				<p className="text-center">
-					<strong>&nbsp;**************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>CONFERENCES, SYMPOSIA</u>
-					</strong>
-				</h1>
-				<p>WINE</p>
-				<p>BREWERY</p>
-				<p>
-					<strong>
-						<u>&nbsp;</u>
-					</strong>
-				</p>
-				<p className="text-center">
-					<strong>&nbsp;**************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>ENVIRONMENTAL/LAND USE</u>
-					</strong>
-				</h1>
-				<p className="text-center">
-					<strong>&nbsp;**************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>FAIRS &amp; FESTIVALS</u>
-					</strong>
-				</h1>
-				<p>
-					<strong>
-						<u>&nbsp;</u>
-					</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>FAMOUS PEOPLE</u>
-					</strong>
-				</h1>
-				<p className="text-center">
-					<strong>
-						<u>&nbsp;</u>**************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>FAMILY HISTORY (GENEALOGY)</u>
-					</strong>
-				</h1>
-				<p>
-					<a href="http://www.cagenweb.com/cpl/index.htm">California Pioneer Project</a>
-				</p>
-				<p>
-					<a href="http://www.sacvalleygenes.net/">Genealogical &amp; Historical Council of the Sac Valley</a>
-				</p>
-				<p>
-					<a href="http://www.jewishgen.org/jgssacramento">Jewish Genealogical Society of Sacramento</a>
-				</p>
-				<p>
-					<a href="http://www.rootcellar.org/">Root Cellar Sacramento Genealogical Society</a>
-				</p>
-				<p>
-					<a href="http://www.rootsweb.ancestry.com/~cemetery/california/californ.html">Tombstone Transcription Project (California)</a>
-				</p>
-				<p>
-					<a href="http://www.yubaroots.com/">Yuba County</a>
-				</p>
-				<p className="text-center">
-					<strong>&nbsp;**************************&nbsp;</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>FINANCE/BANKING</u>
-					</strong>
-				</h1>
-				<p className="text-center">
-					<strong>&nbsp;**************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>FIREHOUSE HISTORY</u>
-					</strong>
-				</h1>
-				<p>**************************</p>
-				<h1 className="text-center">
-					<strong>
-						<u>FOOD</u>
-					</strong>
-					<strong>
-						<u>/RESTAURANTS</u>
-					</strong>
-				</h1>
-				<p>Food Tours &ndash; <a href="http://local-food-tours.com/culinary-cultural-experience/">http://local-food-tours.com/culinary-cultural-experience/</a>
-				</p>
-				<p>**************************</p>
-				<h1 className="text-center">
-					<strong>
-						<u>GENEALOGY&nbsp;</u>
-					</strong>
-				</h1>
-				<p>Rootsweb &ndash; <a href="http://freepages.genealogy.rootsweb.ancestry.com/~npmelton/sacindex.html">http://freepages.genealogy.rootsweb.ancestry.com/~npmelton/sacindex.html</a>
-				</p>
-				<p className="text-center">
-					<strong>&nbsp;**************************</strong>
-				</p>
-				<h1 className="text-center">GLBT</h1>
-				<p>The archives of the GLBT Historical Society contain approximately 800 collections of personal papers, photographs, audiovisual recordings, and organizational records.</p>
-				<p>
-					<a href="http://www.glbthistory.org/archives/">http://www.glbthistory.org/archives/</a>
-				</p>
-				<p className="text-center">
-					<strong>&nbsp;**************************</strong>
-				</p>
-				<p>&nbsp;</p>
-				<p>&nbsp;</p>
-				<h1 className="text-center">
-					<strong>
-						<u>GOLD RUSH</u>
-					</strong>
-				</h1>
-				<p className="text-center">
-					<strong>&nbsp;**************************</strong>
-				</p>
-				<h1 className="text-center">
-					<strong>
-						<u>HISTORICAL SOCIETIES</u>
-					</strong>
-				</h1>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>CONFERENCES, SYMPOSIA</CardTitle>
+					</CardHeader>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>ENVIRONMENTAL/LAND USE</CardTitle>
+					</CardHeader>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>FAIRS &amp; FESTIVALS</CardTitle>
+					</CardHeader>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>FAMOUS PEOPLE</CardTitle>
+					</CardHeader>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>FAMILY HISTORY (GENEALOGY)</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h4>California Pioneer Project</h4>
+						<a href="http://www.cagenweb.com/cpl/index.htm">www.cagenweb.com/cpl/index.htm</a>
+
+						<h4>Genealogical &amp; Historical Council of the Sac Valley</h4>
+						<a href="http://www.sacvalleygenes.net/">www.sacvalleygenes.net</a>
+
+						<h4>Jewish Genealogical Society of Sacramento</h4>
+						<a href="http://www.jewishgen.org/jgssacramento">www.jewishgen.org/jgssacramento</a>
+
+						<h4>Root Cellar Sacramento Genealogical Society</h4>
+						<a href="http://www.rootcellar.org/">www.rootcellar.org</a>
+
+						<h4>Tombstone Transcription Project (California)</h4>
+						<a href="http://www.rootsweb.ancestry.com/~cemetery/california/californ.html">www.rootsweb.ancestry.com/~cemetery/california/californ.html</a>
+
+						<h4>Yuba County</h4>
+						<a href="http://www.yubaroots.com/">www.yubaroots.com</a>
+					</CardContent>
+
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>FINANCE/BANKING</CardTitle>
+					</CardHeader>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>FIREHOUSE HISTORY</CardTitle>
+					</CardHeader>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>FOOD</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h3>
+							Restaurants
+						</h3>
+						<h3>Food Tours</h3>
+						<h4>culinary-cultural-experience</h4>
+						<a className="ml-12" href="http://local-food-tours.com/culinary-cultural-experience/">http://local-food-tours.com/culinary-cultural-experience/</a>
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>GENEALOGY&nbsp;</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h4>Rootsweb</h4>
+						<a href="http://freepages.genealogy.rootsweb.ancestry.com/~npmelton/sacindex.html">http://freepages.genealogy.rootsweb.ancestry.com/~npmelton/sacindex.html</a>
+					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>GLBT</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h3>GLBT Historical Society</h3>
+						<h4>The archives of the GLBT Historical Society contain approximately 800 collections of personal papers, photographs, audiovisual recordings, and organizational records.</h4>
+						<a href="http://www.glbthistory.org/archives/">www.glbthistory.org/archives/</a>
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>GOLD RUSH</CardTitle>
+					</CardHeader>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>HISTORICAL SOCIETIES</CardTitle>
+					</CardHeader>
+				</Card>
 				{/* <div id="jp-post-flair" className="sharedaddy sd-like-enabled sd-sharing-enabled">
 					<div className="sharedaddy sd-sharing-enabled">
 						<div className="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing">
@@ -282,5 +244,6 @@ export const AlphaEH = () => {
 					</div>
 				</div> */}
 			</div>
-		</article>)
+		</article >
+	)
 }

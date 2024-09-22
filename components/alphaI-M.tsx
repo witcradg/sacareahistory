@@ -28,19 +28,19 @@ export const AlphaIM = () => {
 							https://www.library.ucsf.edu/collections/archives
 						</a>
 						<h4>California State Library</h4>
-						<a href="http://www.library.ca.gov/">http://www.library.ca.gov/</a>
+						<a href="http://www.library.ca.gov/">www.library.ca.gov/</a>
 						<h4>California State Library &ndash; California Section</h4>
-						<a href="http://www.library.ca.gov/calhist/">http://www.library.ca.gov/calhist/</a>
+						<a href="http://www.library.ca.gov/calhist/">www.library.ca.gov/calhist/</a>
 						<h4>Library of Congress online archives</h4>
 						<a href="http://catalog.loc.gov/">http://catalog.loc.gov/</a>
 						<h4>Root Cellar</h4>
-						<a href="http://www.rootcellar.org/">http://www.rootcellar.org/</a>
+						<a href="http://www.rootcellar.org/">www.rootcellar.org/</a>
 						<h4>Sacramento Public Library—Sacramento Room</h4>
-						<a href="http://www.saclibrary.org/sac_room/index.htm">http://www.saclibrary.org/sac_room/index.htm</a>
+						<a href="http://www.saclibrary.org/sac_room/index.htm">www.saclibrary.org/sac_room/index.htm</a>
 						<h4>Sacramento State University Library—Special Collections &amp; University Archives</h4>
 						<a href="http://library.csus.edu/content2.asp?pageID=137">http://library.csus.edu/content2.asp?pageID=137</a>
 						<h4>University of California, Davis—Shields Library, Department of Special Collections</h4>
-						<a href="http://www.lib.ucdavis.edu/dept/specol/about/aboutus.php">http://www.lib.ucdavis.edu/dept/specol/about/aboutus.php</a>
+						<a href="http://www.lib.ucdavis.edu/dept/specol/about/aboutus.php">www.lib.ucdavis.edu/dept/specol/about/aboutus.php</a>
 
 					</CardContent>
 				</Card>
@@ -50,7 +50,7 @@ export const AlphaIM = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>Sacramento Book Collectors Club</h4>
-						<a href="http://www.sacramentobookcollectors.org/">http://www.sacramentobookcollectors.org/</a>
+						<a href="http://www.sacramentobookcollectors.org/">www.sacramentobookcollectors.org/</a>
 					</CardContent></Card>
 				<Card className="w-1/2 m-2">
 					<CardHeader>
@@ -69,7 +69,7 @@ export const AlphaIM = () => {
 						<h4>California Medical History Blogspot</h4>
 						<a href="http://californiasmedicalhistory.blogspot.com/">http://californiasmedicalhistory.blogspot.com/</a>
 						<h4>SSVMS Museum of Medical History</h4>
-						<a href="http://www.ssvms.org/museum.aspx">http://www.ssvms.org/museum.aspx</a>
+						<a href="http://www.ssvms.org/museum.aspx">www.ssvms.org/museum.aspx</a>
 					</CardContent>
 				</Card>
 				<Card className="w-1/2 m-2">
@@ -82,7 +82,6 @@ export const AlphaIM = () => {
 						<CardTitle>MEXICAN-AMERICAN HISTORY</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h4 className="bg-red-500">This seems to be broken</h4>
 						<h4>Mexican American Digital History</h4>
 						<a href="http://MexicanAmericanDigitalHistory.org">http://MexicanAmericanDigitalHistory.org</a>
 					</CardContent></Card>
@@ -93,7 +92,7 @@ export const AlphaIM = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>California State Military History and Museums Program</h4>
-						<a href="http://www.militarymuseum.org">http://www.militarymuseum.org</a>
+						<a href="http://www.militarymuseum.org">www.militarymuseum.org</a>
 					</CardContent>
 				</Card>
 				<Card className="w-1/2 m-2">

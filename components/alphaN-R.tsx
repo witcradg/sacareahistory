@@ -32,9 +32,9 @@ export const AlphaNR = () => {
 						<h4>California Digital Newspaper Collection</h4>
 						<a href="http://cdnc.ucr.edu/cgi-bin/cdnc">http://cdnc.ucr.edu/cgi-bin/cdnc</a>
 						<h4>Veridan</h4>
-						<a href="http://www.veridiansoftware.com/">http://www.veridiansoftware.com/</a>
+						<a href="http://www.veridiansoftware.com/">www.veridiansoftware.com/</a>
 						<h4>Sacramento Union 1980&apos;s</h4>
-						<a href="http://www.stevemartarano.com/Martaranos_archives/Welcome.html">http://www.stevemartarano.com/Martaranos_archives/Welcome.html</a>
+						<a href="http://www.stevemartarano.com/Martaranos_archives/Welcome.html">www.stevemartarano.com/Martaranos_archives/Welcome.html</a>
 					</CardContent>
 				</Card>
 
@@ -106,7 +106,7 @@ export const AlphaNR = () => {
 					</CardHeader>
 					<CardContent>
 						<h3>Sacramento Heritage</h3>
-						<a href="http://www.sacramentoheritage.org">http://www.sacramentoheritage.org</a>
+						<a href="http://www.sacramentoheritage.org">www.sacramentoheritage.org</a>
 					</CardContent>
 				</Card>
 				<Card className="w-1/2 m-2">
@@ -115,7 +115,7 @@ export const AlphaNR = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>Elk Grove</h4>
-						<a href="http://www.echoesofyesterday.net/">http://www.echoesofyesterday.net/</a>
+						<a href="http://www.echoesofyesterday.net/">www.echoesofyesterday.net/</a>
 
 					</CardContent>
 				</Card>
@@ -148,9 +148,9 @@ export const AlphaNR = () => {
 					<CardContent>
 						<h4>Multiple links on Sacramento County Historical Society Website</h4>
 						<p className="bg-red-400">[The original link is broken, but the website is still up - ed.]</p>
-						<a href="http://www.sachistoricalsociety.org/">http://www.sachistoricalsociety.org</a>
+						<a href="http://www.sachistoricalsociety.org/">www.sachistoricalsociety.org</a>
 						<h4>Sacramento Heritage</h4>
-						<a href="http://www.sacramentoheritage.org">http://www.sacramentoheritage.org</a>
+						<a href="http://www.sacramentoheritage.org">www.sacramentoheritage.org</a>
 
 					</CardContent>
 				</Card>

@@ -14,7 +14,7 @@ export const AlphaSZ = () => {
 					</CardDescription>
 					<CardContent>
 						<p>Sacramento County History Day&nbsp; &ndash;&nbsp;
-							<a href="http://www.cityofsacramento.org/ccl/history/exhibits/HistoryDay/">http://www.cityofsacramento.org/ccl/history/exhibits/HistoryDay/</a>
+							<a href="http://www.cityofsacramento.org/ccl/history/exhibits/HistoryDay/">www.cityofsacramento.org/ccl/history/exhibits/HistoryDay/</a>
 						</p>
 					</CardContent>
 				</Card>
@@ -88,7 +88,7 @@ export const AlphaSZ = () => {
 						<h3>Automobile</h3>
 						<h3>Ships/Boats</h3>
 						<h4>Shipwrecks</h4>
-						<a href="http://www.snugharbor.net/steamboat_slough_shipwrecks.htm">http://www.snugharbor.net/steamboat_slough_shipwrecks.htm</a>
+						<a href="http://www.snugharbor.net/steamboat_slough_shipwrecks.htm">www.snugharbor.net/steamboat_slough_shipwrecks.htm</a>
 					</CardContent>
 				</Card>
 
@@ -97,12 +97,11 @@ export const AlphaSZ = () => {
 						<CardTitle>VIDEOS</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<p>
-							<a href="http://www.youtube.com/user/SacramentoHistory">Sacramento History on YouTube</a>
-						</p>
-						<p>
-							<a href="http://www.youtube.com/user/SacramentoHistory#p/u">Jim Henley&apos;s :YouTube&nbsp;bits of Sacramento History</a>
-						</p>
+						<h4>Sacramento History on YouTube</h4>
+						<a href="http://www.youtube.com/user/SacramentoHistory">www.youtube.com/user/SacramentoHistory</a>
+
+						<h4>Jim Henley&apos;s :YouTube&nbsp;bits of Sacramento History</h4>
+						<a href="http://www.youtube.com/user/SacramentoHistory">www.youtube.com/user/SacramentoHistory</a>
 					</CardContent>
 				</Card>
 
