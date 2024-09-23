@@ -19,8 +19,8 @@ export const AlphaNR = () => {
 						<CardTitle>NATURAL HISTORY</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<p className="pl-4">Effie Yeaw Nature Center, Carmichael CA</p>
-						<a className="pl-8 bg-red-400" href="https://www.effieyeawnature.org/" rel="nofollow">https://www.effieyeawnature.org/</a>
+						<h4>Effie Yeaw Nature Center, Carmichael CA</h4>
+						<a href="https://www.effieyeawnature.org/" rel="nofollow">www.effieyeawnature.org/</a>
 					</CardContent>
 				</Card>
 
@@ -30,9 +30,9 @@ export const AlphaNR = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>California Digital Newspaper Collection</h4>
-						<a href="http://cdnc.ucr.edu/cgi-bin/cdnc">http://cdnc.ucr.edu/cgi-bin/cdnc</a>
+						<a href="http://cdnc.ucr.edu/cgi-bin/cdnc">cdnc.ucr.edu/cgi-bin/cdnc</a>
 						<h4>Veridan</h4>
-						<a href="http://www.veridiansoftware.com/">www.veridiansoftware.com/</a>
+						<a href="http://www.veridiansoftware.com/">www.veridiansoftware.com</a>
 						<h4>Sacramento Union 1980&apos;s</h4>
 						<a href="http://www.stevemartarano.com/Martaranos_archives/Welcome.html">www.stevemartarano.com/Martaranos_archives/Welcome.html</a>
 					</CardContent>
@@ -45,14 +45,17 @@ export const AlphaNR = () => {
 					<CardContent>
 					</CardContent>
 				</Card>
+
 				<Card className="w-1/2 m-2">
 					<CardHeader>
 						<CardTitle>ORAL HISTORIES</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<p><a href="https://networks.h-net.org/h-oralhist">https://networks.h-net.org/h-oralhist</a></p>
+						<h4>H&ndash;Net&apos;s network for oral history studies</h4>
+						<a href="https://networks.h-net.org/h-oralhist">networks.h-net.org/h-oralhist</a>
 					</CardContent>
 				</Card>
+
 				<Card className="w-1/2 m-2">
 					<CardHeader>
 						<CardTitle>ORGANIZATIONS (HISTORICAL)</CardTitle>
@@ -69,16 +72,13 @@ export const AlphaNR = () => {
 					</CardContent>
 				</Card>
 
-
 				<Card className="w-1/2 m-2">
 					<CardHeader>
 						<CardTitle>PHOTOGRAPHS</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<p>Features amateur photos showing our city in an earlier time.</p>
-						<p>
-							<a href="http://vintagesacramento.com">http://vintagesacramento.com</a>
-						</p>
+						<h4>Features amateur photos showing our city in an earlier time.</h4>
+						<a href="http://vintagesacramento.com">vintagesacramento.com</a>
 					</CardContent>
 				</Card>
 
@@ -87,7 +87,7 @@ export const AlphaNR = () => {
 						<CardTitle>PODCASTS</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<p>Link Elaine Corn’s (and others?) Capital Radio podcasts</p>
+						<h4>Link Elaine Corn’s (and others?) Capital Radio podcasts</h4>
 					</CardContent>
 				</Card>
 
@@ -96,19 +96,21 @@ export const AlphaNR = () => {
 						<CardTitle>PUBLICATIONS</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<p>Pioneers</p>
-						<p>SCHS</p>
+						<h3>Pioneers</h3>
+						<h3>SCHS</h3>
 					</CardContent>
 				</Card>
+
 				<Card className="w-1/2 m-2">
 					<CardHeader>
 						<CardTitle>PRESERVATION</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h3>Sacramento Heritage</h3>
+						<h4>Sacramento Heritage</h4>
 						<a href="http://www.sacramentoheritage.org">www.sacramentoheritage.org</a>
 					</CardContent>
 				</Card>
+
 				<Card className="w-1/2 m-2">
 					<CardHeader>
 						<CardTitle>REGIONAL HISTORY &ndash; SACRAMENTO COUNTY</CardTitle>
@@ -147,11 +149,10 @@ export const AlphaNR = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>Multiple links on Sacramento County Historical Society Website</h4>
-						<p className="bg-red-400">[The original link is broken, but the website is still up - ed.]</p>
+						<p className="bg-red-400">&nbsp;[The original link is broken, but the website is still up - ed.]</p>
 						<a href="http://www.sachistoricalsociety.org/">www.sachistoricalsociety.org</a>
 						<h4>Sacramento Heritage</h4>
 						<a href="http://www.sacramentoheritage.org">www.sacramentoheritage.org</a>
-
 					</CardContent>
 				</Card>
 				{/* <div id="jp-post-flair" className="sharedaddy sd-like-enabled sd-sharing-enabled">

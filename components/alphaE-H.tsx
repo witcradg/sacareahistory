@@ -44,7 +44,7 @@ export const AlphaEH = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>Sacramento 365</h4>
-						<a href="http://www.sacramento365.com/">www.sacramento365.com/</a>
+						<a href="http://www.sacramento365.com/">www.sacramento365.com</a>
 					</CardContent>
 				</Card>
 
@@ -72,11 +72,10 @@ export const AlphaEH = () => {
 						<CardTitle>COMMUNICATION</CardTitle>
 					</CardHeader>
 					<CardContent>
-
+						<h3>Radio, TV, Newspapers</h3>
 					</CardContent>
 
 				</Card>
-				<p>Radio, TV, Newspapers</p>
 				<Card className="w-1/2 m-2">
 					<CardHeader>
 						<CardTitle>CONFERENCES, SYMPOSIA</CardTitle>
@@ -144,7 +143,7 @@ export const AlphaEH = () => {
 						</h3>
 						<h3>Food Tours</h3>
 						<h4>culinary-cultural-experience</h4>
-						<a className="ml-12" href="http://local-food-tours.com/culinary-cultural-experience/">http://local-food-tours.com/culinary-cultural-experience/</a>
+						<a href="http://local-food-tours.com/culinary-cultural-experience/">http://local-food-tours.com/culinary-cultural-experience/</a>
 					</CardContent>
 				</Card>
 
@@ -155,17 +154,6 @@ export const AlphaEH = () => {
 					<CardContent>
 						<h4>Rootsweb</h4>
 						<a href="http://freepages.genealogy.rootsweb.ancestry.com/~npmelton/sacindex.html">http://freepages.genealogy.rootsweb.ancestry.com/~npmelton/sacindex.html</a>
-					</CardContent>
-				</Card>
-
-				<Card className="w-1/2 m-2">
-					<CardHeader>
-						<CardTitle>GLBT</CardTitle>
-					</CardHeader>
-					<CardContent>
-						<h3>GLBT Historical Society</h3>
-						<h4>The archives of the GLBT Historical Society contain approximately 800 collections of personal papers, photographs, audiovisual recordings, and organizational records.</h4>
-						<a href="http://www.glbthistory.org/archives/">www.glbthistory.org/archives/</a>
 					</CardContent>
 				</Card>
 				<Card className="w-1/2 m-2">

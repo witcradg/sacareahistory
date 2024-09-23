@@ -34,34 +34,42 @@ export const AlphaAD = () => {
 						<CardTitle>ARCHIVES</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h2 className="text-center"><span className="underline">Online</span></h2>
-
 						<h4>Sacramento History Timeline</h4>
 						<a href="http://www.sacramentohistory.org/resources_timeline.html">Sacramento History Timeline</a>
 
-						<h4>Internet Archive &ndash;&nbsp;a non-profit library of millions of free books, movies, software, music, and more.</h4>
+						<h4>Internet Archive</h4>
+						<p className="ml-8">a non-profit library of millions of free books, movies, software, music, and more.</p>
 						<a href="https://archive.org">https://archive.org</a>
+
+						<h4>GLBT Historical Society</h4>
+						<p className="ml-8">The archives of the GLBT Historical Society contain approximately 800 collections of personal papers, photographs, audiovisual recordings, and organizational records.</p>
+						<a href="http://www.glbthistory.org/archives/">www.glbthistory.org/archives/</a>
 
 						<h4>California State Archives</h4>
 						<a href="http://www.sos.ca.gov/archives/archives_about.htm">www.sos.ca.gov/archives/archives_about.htm</a>
 						<h4>Library of Congress online archives</h4>
-						<a href="http://catalog.loc.gov/">http://catalog.loc.gov/</a>
+						<a href="http://catalog.loc.gov/">http://catalog.loc.gov</a>
 						<h4>Center for Sacramento History</h4>
-						<a href="http://www.cityofsacramento.org/ccl/history/default.asp"></a>
+						<a href="http://www.cityofsacramento.org/ccl/history/default.asp">www.cityofsacramento.org/ccl/history</a>
 
 						<h3>County</h3>
+
 						<h4>Yolo County Archives</h4>
 						<a href="http://www.yolocounty.org/org/library/archives.htm">www.yolocounty.org/org/library/archives.htm</a>
 						<h4>Sacramento City &amp; County Archives, extensive collections,</h4>
 						<a href="http://www.centerforsacramentohistory.org">Center for Sacramento History </a>
 
 						<h3>State</h3>
-						<h4>The <b>California State Archives</b> is a public research facility and they&nbsp;encourage you to come in person to do your research.</h4>
-						<a href="http://www.sos.ca.gov/archives/">California State Archives </a>
-						<h4>Details services to local <b>libraries</b>, <b>state</b> and local government and the public. Links to <b>California</b> Research Bureau papers online, LDS publications, the <b>state</b> <b>library</b></h4>
-						<a href="http://www.library.ca.gov/">California State Library</a>
 
-						<h4>Private/Educational</h4>
+						<h4>California State Archives</h4>
+						<p className="ml-8">a public research facility and they&nbsp;encourage you to come in person to do your research.</p>
+						<a href="http://www.sos.ca.gov/archives/">www.sos.ca.gov/archives/</a>
+
+						<h4>California State Library</h4>
+						<p className="ml-8">Details services to local libraries, state and local government and the public. Links to California Research Bureau papers online, LDS publications, the state library</p>
+						<a href="http://www.library.ca.gov/">www.library.ca.gov</a>
+
+						<h3>Private/Educational</h3>
 					</CardContent>
 				</Card>
 
@@ -110,26 +118,28 @@ export const AlphaAD = () => {
 					<CardHeader>
 						<CardTitle>CEMETERIES</CardTitle>
 					</CardHeader>
-					<h4>Website for PDF of New Helvetia Brochure</h4>
-					<a href="http://coroner.saccounty.net/documents/NewHelvetiaBrochure.pdf">http://coroner.saccounty.net/documents/NewHelvetiaBrochure.pdf</a>
+					<CardContent>
+						<h4>Website for PDF of New Helvetia Brochure</h4>
+						<a href="http://coroner.saccounty.net/documents/NewHelvetiaBrochure.pdf">http://coroner.saccounty.net/documents/NewHelvetiaBrochure.pdf</a>
 
-					<h4>List of Sacramento County Cemeteries</h4>
-					<a href="http://coroner.saccounty.net/cemeteries.asp">http://coroner.saccounty.net/cemeteries.asp</a>
+						<h4>List of Sacramento County Cemeteries</h4>
+						<a href="http://coroner.saccounty.net/cemeteries.asp">http://coroner.saccounty.net/cemeteries.asp</a>
 
-					<h4>Sacramento County Cemetery Advisory Commission</h4>
-					<a href="http://coroner.saccounty.net/sccac.htm">http://coroner.saccounty.net/sccac.htm</a>
+						<h4>Sacramento County Cemetery Advisory Commission</h4>
+						<a href="http://coroner.saccounty.net/sccac.htm">http://coroner.saccounty.net/sccac.htm</a>
 
-					<h4>Website for PDF of District Cemetery Brochure</h4>
-					<a href="http://coroner.saccounty.net/documents/DistCemBro.pdf">http://coroner.saccounty.net/documents/DistCemBro.pdf</a>
+						<h4>Website for PDF of District Cemetery Brochure</h4>
+						<a href="http://coroner.saccounty.net/documents/DistCemBro.pdf">http://coroner.saccounty.net/documents/DistCemBro.pdf</a>
 
-					<h4>Sacramento Historic City Cemetery</h4>
-					<a href="http://www.oldcitycemetery.com">www.oldcitycemetery.com</a>
+						<h4>Sacramento Historic City Cemetery</h4>
+						<a href="http://www.oldcitycemetery.com">www.oldcitycemetery.com</a>
 
-					<h3>Cemeteries (General Information)</h3>
-					<h4>Association for Gravestone Studies</h4>
-					<a href="http://www.gravestonestudies.org">www.gravestonestudies.org</a>
+						<h3>Cemeteries (General Information)</h3>
+						<h4>Association for Gravestone Studies</h4>
+						<a href="http://www.gravestonestudies.org">www.gravestonestudies.org</a>
+					</CardContent>
 				</Card>
-				<Card>
+				<Card className="w-1/2 m-2">
 					<CardHeader>
 						<CardTitle>CHINESE HISTORY</CardTitle>
 					</CardHeader>
@@ -146,9 +156,8 @@ export const AlphaAD = () => {
 						<CardTitle>COMMUNICATION-CONNECTIONS</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h3 className="text-center">Pony Express</h3>
-						<h3 className="text-center"></h3>
-						<h3 className="text-center">Wells Fargo</h3>
+						<h3>Pony Express</h3>
+						<h3>Wells Fargo</h3>
 					</CardContent>
 				</Card>
 
@@ -156,7 +165,9 @@ export const AlphaAD = () => {
 					<CardHeader>
 						<CardTitle>CITIES/LOCALITIES</CardTitle>
 					</CardHeader>
-					<h3>Locke</h3>
+					<CardContent>
+						<h3>Locke</h3>
+					</CardContent>
 				</Card>
 
 				<Card className="w-1/2 m-2">

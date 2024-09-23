@@ -25,7 +25,7 @@ export const AlphaIM = () => {
 					<CardContent>
 						<h4>UCSF Library &amp; Archives</h4>
 						<a href="https://www.library.ucsf.edu/collections/archives">
-							https://www.library.ucsf.edu/collections/archives
+							www.library.ucsf.edu/collections/archives
 						</a>
 						<h4>California State Library</h4>
 						<a href="http://www.library.ca.gov/">www.library.ca.gov/</a>
@@ -67,7 +67,7 @@ export const AlphaIM = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>California Medical History Blogspot</h4>
-						<a href="http://californiasmedicalhistory.blogspot.com/">http://californiasmedicalhistory.blogspot.com/</a>
+						<a href="http://californiasmedicalhistory.blogspot.com/">http://californiasmedicalhistory.blogspot.com</a>
 						<h4>SSVMS Museum of Medical History</h4>
 						<a href="http://www.ssvms.org/museum.aspx">www.ssvms.org/museum.aspx</a>
 					</CardContent>
