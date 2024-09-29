@@ -51,8 +51,6 @@ export const AlphaAD = () => {
 						<a href="http://catalog.loc.gov/">http://catalog.loc.gov</a>
 						<h4>Center for Sacramento History</h4>
 						<a href="http://www.cityofsacramento.org/ccl/history/default.asp">www.cityofsacramento.org/ccl/history</a>
-						<h4>Sacramento Archives Crawl</h4>
-						<a href="https://www.sos.ca.gov/archives/public-events/archives-month/archives-crawl">www.sos.ca.gov/archives/public-events/archives-month/archives-crawl</a>
 
 						<h3>County</h3>
 
@@ -66,6 +64,9 @@ export const AlphaAD = () => {
 						<h4>California State Archives</h4>
 						<p className="ml-8">a public research facility and they&nbsp;encourage you to come in person to do your research.</p>
 						<a href="http://www.sos.ca.gov/archives/">www.sos.ca.gov/archives/</a>
+
+						<h4>Sacramento Archives Crawl (one day every October)</h4>
+						<a href="https://www.sos.ca.gov/archives/public-events/archives-month/archives-crawl">www.sos.ca.gov/archives/public-events/archives-month/archives-crawl</a>
 
 						<h4>California State Library</h4>
 						<p className="ml-8">Details services to local libraries, state and local government and the public. Links to California Research Bureau papers online, LDS publications, the state library</p>
