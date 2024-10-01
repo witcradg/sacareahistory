@@ -101,20 +101,58 @@ export const AlphaAD = () => {
 
 				<Card className="w-1/2 m-2">
 					<CardHeader>
+						<CardTitle>BENEVOLENT SOCIETIES</CardTitle>
+					</CardHeader>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
 						<CardTitle>BLOGS</CardTitle>
 					</CardHeader>
 				</Card>
 
-
 				<Card className="w-1/2 m-2">
 					<CardHeader>
 						<CardTitle>CALENDAR EVENTS (Historical)</CardTitle>
+						<CardDescription>Sources for future calendar events</CardDescription>
 					</CardHeader>
 					<CardContent>
 						<h4>Sacramento 365</h4>
 						<p className="ml-8">Find art and culture events in the Sacramento area. Get times and locations for performing arts, theatre. music. dance. visual arts &amp; museums. film &amp; videos.</p>
 						<a href="http://www.sacramento365.com/">www.sacramento365.com</a>
+
+						<h4>Sacramento Archives Crawl (one day every October)</h4>
+						<a href="https://www.sos.ca.gov/archives/public-events/archives-month/archives-crawl">www.sos.ca.gov/archives/public-events/archives-month/archives-crawl</a>
 					</CardContent>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>COMMERCE &ndash; BUSINESS &ndash; TRADE</CardTitle>
+					</CardHeader>
+				</Card>
+
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>COMMUNICATION</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h3>Radio, TV, Newspapers</h3>
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>COMPILATION (HISTORY)</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<h4>36 pages of Sacramento History by Lance Armstrong as published in Valley Community Newspapers</h4>
+						<a href="http://www.valcomnews.com/?cat=6">www.valcomnews.com/?cat=6</a>
+					</CardContent>
+				</Card>
+				<Card className="w-1/2 m-2">
+					<CardHeader>
+						<CardTitle>CONFERENCES, SYMPOSIA</CardTitle>
+					</CardHeader>
 				</Card>
 
 				<Card className="w-1/2 m-2">
