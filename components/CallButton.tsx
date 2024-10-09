@@ -9,7 +9,7 @@ const CallButton = () => {
 	// }, []);
 
 	return (
-		<Button> CONTACT US
+		<Button className='text-white'> CONTACT US
 			{/* <span className="whitespace-nowrap">
 				<svg
 					stroke="currentColor"

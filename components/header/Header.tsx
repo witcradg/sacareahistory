@@ -36,7 +36,7 @@ export const Header = () => {
           </nav> */}
 
           <div className="flex flex-col items-start md:justify-center md:items-center">
-            <h1 className="text-xl md:text-4xl">SacArea History Consortium&apos;s</h1>
+            <h1 className="text-xl md:text-4xl text-foreground">SacArea History Consortium&apos;s</h1>
             <h2 className="text-base md:text-2xl">Research Reference Info</h2>
           </div>
           <div className="hidden md:flex gap-4">

@@ -6,6 +6,8 @@ import { AlphaIM } from "@/components/alphaI-M";
 import { AlphaNR } from "@/components/alphaN-R";
 import { AlphaSZ } from "@/components/alphaS-Z";
 
+
+import { Card } from "@/components/ui/card";
 const colors = [
   { name: '--border', value: 'hsl(var(--border))' },
   { name: '--input', value: 'hsl(var(--input))' },
@@ -31,7 +33,7 @@ const colors = [
 export default function Home() {
   return (
     <>
-      {/* <Card className='p-5'>
+      <Card className='p-5'>
         <h2>Color Palette</h2>
         <div style={{ display: 'flex', flexWrap: 'wrap' }}>
           {colors.map(color => (
@@ -48,14 +50,14 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </Card> */}
+      </Card>
       <Hero />
       <section className="w-[80vw] m-auto py-4 mt-4 mb-16 bg-card">
         <div>
           <h2 className="w-full block text-2xl font-bold text-center">Resources &ndash; Alphabetical</h2>
         </div>
         <Tabs defaultValue="alphalisting" className="p-4">
-          <TabsList className="flex justify-around items-center w-full m-auto text-lg text-primary-foreground bg-blue-900">
+          <TabsList className="flex justify-around items-center w-full m-auto text-lg text-primary-foreground dark:text-foreground bg-skyblue" >
             <TabsTrigger className="text-xl m-10 px-10 data-[state=active]:bg-card"
               value="sectionAD">A-D
             </TabsTrigger>
@@ -92,6 +94,7 @@ export default function Home() {
 
       <div className="w-1/2 my-12 mx-auto">
         <h2 className="text-2xl font-bold text-center">Timeline</h2>
+        {/* https://flowbite.com/docs/components/timeline/ */}
         <ol className="relative border-s border-black dark:border-white">
           <li className="mb-10 ms-4">
             <div className="absolute w-3 h-3 bg-gray-900 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>

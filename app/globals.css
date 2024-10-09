@@ -15,10 +15,8 @@ a {
   @apply text-blue-500 underline pl-8;
 }
 
-/* *=========== Sepia Theme ===========
---card: 30 25% 85%; */
-
-@layer base {
+/* original WIP for this project */
+/* @layer base {
   :root {
     --background: 30 30% 90%;
     --foreground: 30 50% 20%;
@@ -39,28 +37,57 @@ a {
     --border: 30 30% 60%;
     --input: 30 20% 80%;
     --ring: 30 80% 60%;
+  } */
+
+/* *=========== Sepia Theme ===========
+--card: 30 25% 85%; */
+
+/* swap 39 73% 59% with 39 73% 59%  */
+@layer base {
+  :root {
+    --background: 35 25% 95%;
+    --foreground: 35 80% 10%;
+    --card: 35 25% 98%;
+    --card-foreground: 35 80% 10%;
+    --popover: 35 25% 98%;
+    --popover-foreground: 35 80% 10%;
+    --primary: 48 97% 48%; /* #EFBF04 */
+    --primary-foreground: 35 25% 98%;
+    --secondary: 35 40% 90%;
+    --secondary-foreground: 35 80% 20%;
+    --muted: 35 30% 85%;
+    --muted-foreground: 35 60% 40%;
+    --accent: 35 50% 80%;
+    --accent-foreground: 35 80% 20%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 35 25% 98%;
+    --border: 35 40% 75%;
+    --input: 35 40% 75%;
+    --ring: 48 97% 48%; /* #EFBF04 */
+    --radius: 0.5rem;
   }
 
   .dark {
-    --background: 30 30% 10%; /* Dark sepia background */
-    --foreground: 30 50% 90%; /* Light text for readability */
-    --card: 30 25% 15%; /* Slightly lighter than background for cards */
-    --card-foreground: 30 50% 90%; /* Light text on cards */
-    --popover: 30 20% 20%; /* Darker popover background */
-    --popover-foreground: 30 50% 90%; /* Light text on popovers */
-    --primary: 30 80% 60%; /* Burnt sienna for primary elements */
-    --primary-foreground: 0 0% 100%; /* White text on primary elements */
-    --secondary: 45 80% 60%; /* Ochre for secondary elements */
-    --secondary-foreground: 0 0% 100%; /* White text on secondary elements */
-    --muted: 30 15% 40%; /* Muted sepia tones */
-    --muted-foreground: 30 50% 80%; /* Light muted text */
-    --accent: 15 70% 50%; /* Terracotta for accents */
-    --accent-foreground: 0 0% 100%; /* White text on accents */
-    --destructive: 0 85% 50%; /* Warm red for destructive actions */
-    --destructive-foreground: 0 0% 100%; /* White text on destructive elements */
-    --border: 30 30% 30%; /* Dark border for elements */
-    --input: 30 20% 25%; /* Dark input background */
-    --ring: 30 80% 40%; /* Slightly lighter ring color */
+    --background: 35 25% 10%; /* Darker background */
+    --foreground: 35 80% 90%; /* Lighter foreground */
+    --card: 35 25% 15%; /* Darker card */
+    --card-foreground: 35 80% 90%; /* Lighter card foreground */
+    --popover: 35 25% 15%; /* Darker popover */
+    --popover-foreground: 35 80% 90%; /* Lighter popover foreground */
+    --primary: 48 97% 48%; /* #EFBF04 */
+    --primary-foreground: 35 25% 15%; /* Darker primary foreground */
+    --secondary: 35 40% 20%; /* Darker secondary */
+    --secondary-foreground: 35 80% 90%; /* Lighter secondary foreground */
+    --muted: 35 30% 25%; /* Darker muted */
+    --muted-foreground: 35 60% 80%; /* Lighter muted foreground */
+    --accent: 35 50% 30%; /* Darker accent */
+    --accent-foreground: 35 80% 90%; /* Lighter accent foreground */
+    --destructive: 0 84.2% 40.2%; /* Darker destructive */
+    --destructive-foreground: 35 25% 15%; /* Darker destructive foreground */
+    --border: 35 40% 25%; /* Darker border */
+    --input: 35 40% 25%; /* Darker input */
+    --ring: 48 97% 48%; /* #EFBF04 */
+    --radius: 0.5rem;
   }
 }
 
