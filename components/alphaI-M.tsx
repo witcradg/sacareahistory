@@ -129,6 +129,9 @@ export const AlphaIM = () => {
 						<h4>Oakdale Museum</h4>
 						<a href="http://oakdalemuseum.org">http://oakdalemuseum.org</a>
 
+						<h4>Orangevale History Museum</h4>
+						<a href="http://orangevalehistorymuseum.org">orangevalehistorymuseum.org</a>
+
 						<h4>Oakdale Cowboy Museum</h4>
 						<a href="http://oakdalecowboymuseum.org">http://oakdalecowboymuseum.org</a>
 
