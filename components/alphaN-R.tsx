@@ -20,7 +20,7 @@ export const AlphaNR = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>Effie Yeaw Nature Center, Carmichael CA</h4>
-						<a target="_blank" rel="noopener noreferrer" href=" https://www.effieyeawnature.org/" rel="nofollow">www.effieyeawnature.org/</a>
+						<a target="_blank" rel="noopener noreferrer" href=" https://www.effieyeawnature.org/">www.effieyeawnature.org/</a>
 					</CardContent>
 				</Card>
 
