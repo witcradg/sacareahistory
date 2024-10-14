@@ -14,7 +14,8 @@ export const AlphaSZ = () => {
 					</CardDescription>
 					<CardContent>
 						<h4>Sacramento County History Day</h4>
-						<a target="_blank" rel="noopener noreferrer" href=" http://www.cityofsacramento.org/ccl/history/exhibits/HistoryDay/">www.cityofsacramento.org/ccl/history/exhibits/HistoryDay</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href=" http://www.cityofsacramento.org/ccl/history/exhibits/HistoryDay/">www.cityofsacramento.org/ccl/history/exhibits/HistoryDay</a>
 					</CardContent>
 				</Card>
 
@@ -62,16 +63,19 @@ export const AlphaSZ = () => {
 						<h3>Architectural</h3>
 						<h3>Walking</h3>
 						<h4>Sacramento Heritage</h4>
-						<a target="_blank" rel="noopener noreferrer" href=" http://www.sacramentoheritage.org/walking.html">
+						<a target="_blank" rel="noopener noreferrer"
+							href=" http://www.sacramentoheritage.org/walking.html">
 							www.sacramentoheritage.org/walking.html
 						</a>
 						<h3>Driving</h3>
 						<h3>Commercial</h3>
 						<h3>Unusual</h3>
 						<h4>Sacramento Underground Tour</h4>
-						<a target="_blank" rel="noopener noreferrer" href=" http://sachistorymuseum.org/tours/underground-tours/">http://sachistorymuseum.org/tours/underground-tours/</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href=" http://sachistorymuseum.org/tours/underground-tours/">http://sachistorymuseum.org/tours/underground-tours/</a>
 						<h4>Sacramento Historic City Cemetery</h4>
-						<a target="_blank" rel="noopener noreferrer" href=" http://www.oldcitycemetery.com/">www.oldcitycemetery.com</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href=" http://www.oldcitycemetery.com/">www.oldcitycemetery.com</a>
 					</CardContent >
 				</Card >
 
@@ -87,7 +91,8 @@ export const AlphaSZ = () => {
 						<h3>Automobile</h3>
 						<h3>Ships/Boats</h3>
 						<h4>Snugharbor.net&apos;s Steamboat Slough Shipwrecks</h4>
-						<a target="_blank" rel="noopener noreferrer" href=" http://www.snugharbor.net/steamboat_slough_shipwrecks.htm">www.snugharbor.net/steamboat_slough_shipwrecks.htm</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href=" http://www.snugharbor.net/steamboat_slough_shipwrecks.htm">www.snugharbor.net/steamboat_slough_shipwrecks.htm</a>
 					</CardContent>
 				</Card >
 
@@ -97,10 +102,12 @@ export const AlphaSZ = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>Sacramento History on YouTube</h4>
-						<a target="_blank" rel="noopener noreferrer" href=" http://www.youtube.com/user/SacramentoHistory">www.youtube.com/user/SacramentoHistory</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href=" http://www.youtube.com/user/SacramentoHistory">www.youtube.com/user/SacramentoHistory</a>
 
 						<h4>Jim Henley&apos;s : YouTube&nbsp;bits of Sacramento History</h4>
-						<a target="_blank" rel="noopener noreferrer" href=" http://www.youtube.com/user/SacramentoHistory">www.youtube.com/user/SacramentoHistory</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href=" http://www.youtube.com/user/SacramentoHistory">www.youtube.com/user/SacramentoHistory</a>
 					</CardContent >
 				</Card >
 
@@ -203,7 +210,8 @@ export const AlphaSZ = () => {
 </span>
 <span className="posted-on">
 <span className="screen-reader-text">Posted on </span>
-<a target="_blank" rel="noopener noreferrer" href="https://sacramentohistory.info/2016/03/04/s-z/" rel="bookmark">
+<a target="_blank" rel="noopener noreferrer" 
+href="https://sacramentohistory.info/2016/03/04/s-z/" rel="bookmark">
 <time className="entry-date published" dateTime="2016-03-04T07:14:14+00:00">March 4, 2016</time>
 <time className="updated" dateTime="2016-10-20T04:19:32+00:00">October 20, 2016</time>
 </a>

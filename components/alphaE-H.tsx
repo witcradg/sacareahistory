@@ -46,10 +46,12 @@ export const AlphaEH = () => {
 					<CardContent>
 						<h4>Sacramento 365</h4>
 						<p className="ml-8">Find art and culture events in the Sacramento area. Get times and locations for performing arts, theatre. music. dance. visual arts &amp; museums. film &amp; videos.</p>
-						<a target="_blank" rel="noopener noreferrer" href="http://www.sacramento365.com/">www.sacramento365.com</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://www.sacramento365.com/">www.sacramento365.com</a>
 
 						<h4>Sacramento Archives Crawl (one day every October)</h4>
-						<a target="_blank" rel="noopener noreferrer" href="https://www.sos.ca.gov/archives/public-events/archives-month/archives-crawl">www.sos.ca.gov/archives/public-events/archives-month/archives-crawl</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="https://www.sos.ca.gov/archives/public-events/archives-month/archives-crawl">www.sos.ca.gov/archives/public-events/archives-month/archives-crawl</a>
 					</CardContent>
 				</Card>
 
@@ -74,25 +76,32 @@ export const AlphaEH = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>Jewish Genealogical Society of Sacramento</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://www.jewishgen.org/jgs-sacramento ">www.jewishgen.org/jgs-sacramento </a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://www.jewishgen.org/jgs-sacramento ">www.jewishgen.org/jgs-sacramento </a>
 
 						<h4>Root Cellar Sacramento Genealogical Society</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://www.rootcellar.org/">www.rootcellar.org</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://www.rootcellar.org/">www.rootcellar.org</a>
 
 						<h4>SACRAMENTO REGIONAL GENEALOGICAL COUNCIL</h4>
-						<a target="_blank" rel="noopener noreferrer" href="https://srgcouncil.org/cpage.php?pt=56">srgcouncil.org/cpage.php?pt=56</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="https://srgcouncil.org/cpage.php?pt=56">srgcouncil.org/cpage.php?pt=56</a>
 
 						<h4>Genealogical Association of SACRAMENTO</h4>
-						<a target="_blank" rel="noopener noreferrer" href="https://gensac.org">gensac.org</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="https://gensac.org">gensac.org</a>
 
 						<h4>California Pioneer Project</h4>
-						<a target="_blank" rel="noopener noreferrer" href="https://www.cagenweb.org/capioneer/">www.cagenweb.org/capioneer</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="https://www.cagenweb.org/capioneer/">www.cagenweb.org/capioneer</a>
 
 						<h4>ROOTSWEB – Hosted Sites and Links</h4>
-						<a target="_blank" rel="noopener noreferrer" href="https://home.rootsweb.com">home.rootsweb.com</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="https://home.rootsweb.com">home.rootsweb.com</a>
 
 						<h4>RootsWeb Sacramento</h4>
-						<a target="_blank" rel="noopener noreferrer" href="https://sites.rootsweb.com/~cabf1905/Sacramento/SactoCoIndx.htm">sites.rootsweb.com/~cabf1905/Sacramento/SactoCoIndx.htm</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="https://sites.rootsweb.com/~cabf1905/Sacramento/SactoCoIndx.htm">sites.rootsweb.com/~cabf1905/Sacramento/SactoCoIndx.htm</a>
 					</CardContent>
 
 				</Card>
@@ -117,7 +126,8 @@ export const AlphaEH = () => {
 						</h3>
 						<h3>Food Tours</h3>
 						<h4>culinary-cultural-experience</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://local-food-tours.com/culinary-cultural-experience/">http://local-food-tours.com/culinary-cultural-experience/</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://local-food-tours.com/culinary-cultural-experience/">http://local-food-tours.com/culinary-cultural-experience/</a>
 					</CardContent>
 				</Card>
 				<Card className="w-1/2 m-2">
@@ -131,7 +141,8 @@ export const AlphaEH = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>Orangevale History Project</h4>
-						<a target="_blank" rel="noopener noreferrer" href="https://www.orangevalehistory.org/">www.orangevalehistory.org</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="https://www.orangevalehistory.org/">www.orangevalehistory.org</a>
 					</CardContent>
 				</Card>
 				{/* <div id="jp-post-flair" className="sharedaddy sd-like-enabled sd-sharing-enabled">

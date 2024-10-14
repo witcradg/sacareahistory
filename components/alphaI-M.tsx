@@ -24,23 +24,31 @@ export const AlphaIM = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>UCSF Library &amp; Archives</h4>
-						<a target="_blank" rel="noopener noreferrer" href="https://www.library.ucsf.edu/collections/archives">
+						<a target="_blank" rel="noopener noreferrer"
+							href="https://www.library.ucsf.edu/collections/archives">
 							www.library.ucsf.edu/collections/archives
 						</a>
 						<h4>California State Library</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://www.library.ca.gov/">www.library.ca.gov/</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://www.library.ca.gov/">www.library.ca.gov/</a>
 						<h4>California State Library &ndash; California Section</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://www.library.ca.gov/calhist/">www.library.ca.gov/calhist/</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://www.library.ca.gov/calhist/">www.library.ca.gov/calhist/</a>
 						<h4>Library of Congress online archives</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://catalog.loc.gov/">http://catalog.loc.gov/</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://catalog.loc.gov/">http://catalog.loc.gov/</a>
 						<h4>Root Cellar</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://www.rootcellar.org/">www.rootcellar.org/</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://www.rootcellar.org/">www.rootcellar.org/</a>
 						<h4>Sacramento Public Library—Sacramento Room</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://www.saclibrary.org/sac_room/index.htm">www.saclibrary.org/sac_room/index.htm</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://www.saclibrary.org/sac_room/index.htm">www.saclibrary.org/sac_room/index.htm</a>
 						<h4>Sacramento State University Library—Special Collections &amp; University Archives</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://library.csus.edu/content2.asp?pageID=137">http://library.csus.edu/content2.asp?pageID=137</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://library.csus.edu/content2.asp?pageID=137">http://library.csus.edu/content2.asp?pageID=137</a>
 						<h4>University of California, Davis—Shields Library, Department of Special Collections</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://www.lib.ucdavis.edu/dept/specol/about/aboutus.php">www.lib.ucdavis.edu/dept/specol/about/aboutus.php</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://www.lib.ucdavis.edu/dept/specol/about/aboutus.php">www.lib.ucdavis.edu/dept/specol/about/aboutus.php</a>
 					</CardContent>
 				</Card>
 				<Card className="w-1/2 m-2">
@@ -49,7 +57,8 @@ export const AlphaIM = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>Sacramento Book Collectors Club</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://www.sacramentobookcollectors.org/">www.sacramentobookcollectors.org/</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://www.sacramentobookcollectors.org/">www.sacramentobookcollectors.org/</a>
 					</CardContent></Card>
 				<Card className="w-1/2 m-2">
 					<CardHeader>
@@ -66,9 +75,11 @@ export const AlphaIM = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>California Medical History Blogspot</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://californiasmedicalhistory.blogspot.com/">http://californiasmedicalhistory.blogspot.com</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://californiasmedicalhistory.blogspot.com/">http://californiasmedicalhistory.blogspot.com</a>
 						<h4>SSVMS Museum of Medical History</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://www.ssvms.org/museum.aspx">www.ssvms.org/museum.aspx</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://www.ssvms.org/museum.aspx">www.ssvms.org/museum.aspx</a>
 					</CardContent>
 				</Card>
 				<Card className="w-1/2 m-2">
@@ -82,7 +93,8 @@ export const AlphaIM = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>Mexican American Digital History</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://MexicanAmericanDigitalHistory.org">http://MexicanAmericanDigitalHistory.org</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://MexicanAmericanDigitalHistory.org">http://MexicanAmericanDigitalHistory.org</a>
 					</CardContent></Card>
 				<Card className="w-1/2 m-2">
 
@@ -91,7 +103,8 @@ export const AlphaIM = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>California State Military History and Museums Program</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://www.militarymuseum.org">www.militarymuseum.org</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://www.militarymuseum.org">www.militarymuseum.org</a>
 					</CardContent>
 				</Card>
 				<Card className="w-1/2 m-2">
@@ -101,47 +114,61 @@ export const AlphaIM = () => {
 					<CardContent>
 						<div className="mb-8">
 							<h3>SAM (Sacramento Associaton of Museums)</h3>
-							<a target="_blank" rel="noopener noreferrer" href="http://www.sacmuseums.org">www.sacmuseums.org</a>
+							<a target="_blank" rel="noopener noreferrer"
+								href="http://www.sacmuseums.org">www.sacmuseums.org</a>
 						</div>
 						<h3>Gold Country and Surrounding Areas</h3>
 						<h4>Amador County Museum</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://amadorcountyhistoricalsociety.org">http://amadorcountyhistoricalsociety.org</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://amadorcountyhistoricalsociety.org">http://amadorcountyhistoricalsociety.org</a>
 
 						<h4>El Dorado County Historical Museum</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://museum.edcgov.us">http://museum.edcgov.us</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://museum.edcgov.us">http://museum.edcgov.us</a>
 
 						<h4>Fountain &amp; Tallman Museum</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://eldoradocountyhistoricalsociety.org">http://eldoradocountyhistoricalsociety.org</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://eldoradocountyhistoricalsociety.org">http://eldoradocountyhistoricalsociety.org</a>
 
 						<h4>Groveland Yosemite Gateway Museum</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://grovelandmuseum.org">http://grovelandmuseum.org</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://grovelandmuseum.org">http://grovelandmuseum.org</a>
 
 						<h4>La Grange Museum</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://facebook.com/lagrangemuseum">http://facebook.com/lagrangemuseum</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://facebook.com/lagrangemuseum">http://facebook.com/lagrangemuseum</a>
 
 						<h4>Mariposa Museum</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://mariposamuseum.com">http://mariposamuseum.com</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://mariposamuseum.com">http://mariposamuseum.com</a>
 
 						<h4>Northern Mariposa County Museum</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://coultervillehistorycenter.org">http://coultervillehistorycenter.org</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://coultervillehistorycenter.org">http://coultervillehistorycenter.org</a>
 
 						<h4>Oakdale Museum</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://oakdalemuseum.org">http://oakdalemuseum.org</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://oakdalemuseum.org">http://oakdalemuseum.org</a>
 
 						<h4>Orangevale History Museum</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://orangevalehistorymuseum.org">orangevalehistorymuseum.org</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://orangevalehistorymuseum.org">orangevalehistorymuseum.org</a>
 
 						<h4>Oakdale Cowboy Museum</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://oakdalecowboymuseum.org">http://oakdalecowboymuseum.org</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://oakdalecowboymuseum.org">http://oakdalecowboymuseum.org</a>
 
 						<h4>Sierra Nevada Logging Museum</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://sierraloggingmuseum.org">http://sierraloggingmuseum.org</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://sierraloggingmuseum.org">http://sierraloggingmuseum.org</a>
 
 						<h4>Tuolumne City Memorial Museum</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://tuolumnemuseum.wordpress.com">http://tuolumnemuseum.wordpress.com</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://tuolumnemuseum.wordpress.com">http://tuolumnemuseum.wordpress.com</a>
 
 						<h4>Tuolumne County Museum</h4>
-						<a target="_blank" rel="noopener noreferrer" href="http://tchistory.org">http://tchistory.org</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="http://tchistory.org">http://tchistory.org</a>
 					</CardContent>
 				</Card>
 
@@ -227,7 +254,8 @@ export const AlphaIM = () => {
 				</span>
 				<span className="posted-on">
 					<span className="screen-reader-text">Posted on </span>
-					<a target="_blank" rel="noopener noreferrer" href="https://sacramentohistory.info/2016/03/04/i-m/" rel="bookmark">
+					<a target="_blank" rel="noopener noreferrer" 
+href="https://sacramentohistory.info/2016/03/04/i-m/" rel="bookmark">
 						<time className="entry-date published" dateTime="2016-03-04T07:09:29+00:00">March 4, 2016</time>
 						<time className="updated" dateTime="2016-10-20T04:17:14+00:00">October 20, 2016</time>
 					</a>
