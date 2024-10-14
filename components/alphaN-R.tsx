@@ -20,7 +20,7 @@ export const AlphaNR = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>Effie Yeaw Nature Center, Carmichael CA</h4>
-						<a href="https://www.effieyeawnature.org/" rel="nofollow">www.effieyeawnature.org/</a>
+						<a target="_blank" rel="noopener noreferrer" href=" https://www.effieyeawnature.org/" rel="nofollow">www.effieyeawnature.org/</a>
 					</CardContent>
 				</Card>
 
@@ -30,13 +30,13 @@ export const AlphaNR = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>California Digital Newspaper Collection</h4>
-						<a href="http://cdnc.ucr.edu/cgi-bin/cdnc">cdnc.ucr.edu/cgi-bin/cdnc</a>
+						<a target="_blank" rel="noopener noreferrer" href=" http://cdnc.ucr.edu/cgi-bin/cdnc">cdnc.ucr.edu/cgi-bin/cdnc</a>
 						<h4>Veridan</h4>
-						<a href="http://www.veridiansoftware.com/">www.veridiansoftware.com</a>
+						<a target="_blank" rel="noopener noreferrer" href=" http://www.veridiansoftware.com/">www.veridiansoftware.com</a>
 						<h4>Sacramento Union 1980&apos;s</h4>
-						<a href="http://www.stevemartarano.com/Martaranos_archives/Welcome.html">www.stevemartarano.com/Martaranos_archives/Welcome.html</a>
-					</CardContent>
-				</Card>
+						<a target="_blank" rel="noopener noreferrer" href=" http://www.stevemartarano.com/Martaranos_archives/Welcome.html">www.stevemartarano.com/Martaranos_archives/Welcome.html</a>
+					</CardContent >
+				</Card >
 
 				<Card className="w-1/2 m-2">
 					<CardHeader>
@@ -52,9 +52,9 @@ export const AlphaNR = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>H&ndash;Net&apos;s network for oral history studies</h4>
-						<a href="https://networks.h-net.org/h-oralhist">networks.h-net.org/h-oralhist</a>
+						<a target="_blank" rel="noopener noreferrer" href="https://networks.h-net.org/h-oralhist">networks.h-net.org/h-oralhist</a>
 					</CardContent>
-				</Card>
+				</Card >
 
 				<Card className="w-1/2 m-2">
 					<CardHeader>
@@ -78,9 +78,9 @@ export const AlphaNR = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>Features amateur photos showing our city in an earlier time.</h4>
-						<a href="http://vintagesacramento.com">vintagesacramento.com</a>
+						<a target="_blank" rel="noopener noreferrer" href="http://vintagesacramento.com">vintagesacramento.com</a>
 					</CardContent>
-				</Card>
+				</Card >
 
 				<Card className="w-1/2 m-2">
 					<CardHeader>
@@ -107,9 +107,9 @@ export const AlphaNR = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>Sacramento Heritage</h4>
-						<a href="http://www.sacramentoheritage.org">www.sacramentoheritage.org</a>
+						<a target="_blank" rel="noopener noreferrer" href="http://www.sacramentoheritage.org">www.sacramentoheritage.org</a>
 					</CardContent>
-				</Card>
+				</Card >
 
 				<Card className="w-1/2 m-2">
 					<CardHeader>
@@ -117,10 +117,10 @@ export const AlphaNR = () => {
 					</CardHeader>
 					<CardContent>
 						<h4>Elk Grove</h4>
-						<a href="http://www.echoesofyesterday.net/">www.echoesofyesterday.net/</a>
+						<a target="_blank" rel="noopener noreferrer" href=" http://www.echoesofyesterday.net/">www.echoesofyesterday.net/</a>
 
 					</CardContent>
-				</Card>
+				</Card >
 
 				<Card className="w-1/2 m-2">
 					<CardHeader>
@@ -150,11 +150,11 @@ export const AlphaNR = () => {
 					<CardContent>
 						<h4>Multiple links on Sacramento County Historical Society Website</h4>
 						<p className="bg-red-400">&nbsp;[The original link is broken, but the website is still up - ed.]</p>
-						<a href="http://www.sachistoricalsociety.org/">www.sachistoricalsociety.org</a>
+						<a target="_blank" rel="noopener noreferrer" href="http://www.sachistoricalsociety.org/">www.sachistoricalsociety.org</a>
 						<h4>Sacramento Heritage</h4>
-						<a href="http://www.sacramentoheritage.org">www.sacramentoheritage.org</a>
-					</CardContent>
-				</Card>
+						<a target="_blank" rel="noopener noreferrer" href="http://www.sacramentoheritage.org">www.sacramentoheritage.org</a>
+					</CardContent >
+				</Card >
 				{/* <div id="jp-post-flair" className="sharedaddy sd-like-enabled sd-sharing-enabled">
 					<div className="sharedaddy sd-sharing-enabled">
 						<div className="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing">
@@ -231,12 +231,12 @@ export const AlphaNR = () => {
 				</span>
 				<span className="posted-on">
 					<span className="screen-reader-text">Posted on </span>
-					<a href="https://sacramentohistory.info/2016/03/04/n-r/" rel="bookmark">
+					<a target="_blank" rel="noopener noreferrer" href="https://sacramentohistory.info/2016/03/04/n-r/" rel="bookmark">
 						<time className="entry-date published" dateTime="2016-03-04T07:13:16+00:00">March 4, 2016</time>
 						<time className="updated" dateTime="2016-10-20T02:12:12+00:00">October 20, 2016</time>
 					</a>
 				</span>
 			</footer> */}
-			</div>
-		</article>)
+			</div >
+		</article >)
 }
