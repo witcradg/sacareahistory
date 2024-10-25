@@ -1,4 +1,5 @@
-import { Car } from "lucide-react"
+"use client"
+
 import { CardContent, CardHeader } from "./ui/card"
 import { Card, CardTitle, CardDescription } from "./ui/card"
 

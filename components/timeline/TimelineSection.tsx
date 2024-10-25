@@ -1,3 +1,5 @@
+"use client"
+
 import data from './timeline.json'
 
 export const TimelineSection = () => {

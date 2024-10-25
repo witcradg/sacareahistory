@@ -1,3 +1,5 @@
+"use client"
+
 import { ResourcesSection } from "@/components/ResourcesSection";
 
 export default function ResourcesPage() {
