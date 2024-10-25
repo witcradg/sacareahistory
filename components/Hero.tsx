@@ -10,7 +10,7 @@ export const Hero = () => {
   return (
     // <section className="w-[80vw] mx-auto my-4 aspect-square relative">
 
-    <div className="relative w-[80vh] h-auto m-auto mt-4">
+    <div className="relative w-[80vh] h-auto m-auto">
       <Image
         className="object-cover w-full h-full"
         src='/hero.jpg'
