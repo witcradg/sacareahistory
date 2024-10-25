@@ -31,7 +31,7 @@ const footerContent = {
 		elements: [
 			{ label: "SacArea History Consortium" },
 			{ label: "POB 255345" },
-			{ label: "Sacramenot, CA 95865-5345" },
+			{ label: "Sacramento, CA 95865-5345" },
 			{ label: "sacarea@winfirst.com" },
 		],
 	},
