@@ -1,3 +1,5 @@
+"use client"
+
 import { Hero } from "@/components/Hero"
 import { ResourcesSection } from "@/components/ResourcesSection"
 import { TimelineSection } from "@/components/timeline/TimelineSection";
@@ -10,7 +12,7 @@ export default function Home() {
       {/* <ColorPalette /> */}
       <Hero />
       <ResourcesSection />
-      <TimelineSection />
+      {/* <TimelineSection /> */}
     </>
   );
 }
