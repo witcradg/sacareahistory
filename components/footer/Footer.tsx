@@ -44,7 +44,7 @@ export const Footer = () => {
         <div id="column3" className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">{footerContent.column3header}</h3>
           {footerContent.column3.elements.map(({ label, link }) => (
-            <div key="label">
+            <div key={label}>
               <a
                 rel="noreferrer noopener"
                 href={link}
