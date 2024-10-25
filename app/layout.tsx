@@ -6,14 +6,15 @@ import "./globals.css";
 import { cn } from "@/lib/utils"
 import { Header } from "@/components/header/Header";
 import { Footer } from "@/components/footer/Footer";
+import { use } from "react";
 
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 })
 export const metadata: Metadata = {
-  title: "SacArea Hisotry Consortium's Research Reference",
-  description: "A collection of useful resources for researching the history of the Greater Sacramento area.",
+  title: "SacArea History Consortium's Research Reference",
+  description: "A collection of useful resources for researching the history of the Greater Sacramento area."
 };
 
 export default function RootLayout({
