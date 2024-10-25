@@ -15,6 +15,10 @@ a {
   @apply text-blue-500 underline pl-8;
 }
 
+.menubutton {
+  @apply text-base font-semibold text-foreground py-0 my-0;
+}
+
 /* original WIP for this project */
 /* @layer base {
   :root {
