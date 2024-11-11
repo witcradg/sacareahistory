@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import { useState } from "react";
 import * as VisuallyHidden from '@radix-ui/react-visually-hidden';
 
@@ -56,14 +57,14 @@ export function MobileMenu() {
             </SheetTitle>
           </SheetHeader>
           <nav className="flex flex-col justify-center items-start gap-4 mt-8 text-xl">
-            <a
+            <Link
               rel="noreferrer noopener"
               href="/"
               onClick={() => setIsOpen(false)}
               className={btnVariantLeftGhost}
             >
               HOME
-            </a>
+            </Link>
             <a
               rel="noreferrer noopener"
               href="/resources"
