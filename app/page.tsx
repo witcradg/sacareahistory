@@ -8,12 +8,12 @@ import { TimelineSection } from "@/components/timeline/TimelineSection";
 
 export default function Home() {
   return (
-    <>
+    <div role="main">
       {/* <ColorPalette /> */}
       <Hero />
       <ResourcesSection />
       {/* <TimelineSection /> */}
-    </>
+    </div>
   );
 }
 
