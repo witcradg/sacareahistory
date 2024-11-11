@@ -9,18 +9,18 @@ export const AlphaIM = () => {
 		<article id="post-21" className="post-21 post type-post status-publish format-standard hentry category-uncategorized">
 			<div className="flex flex-col justify-center items-center">
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>LANDMARKS &amp; HISTORICAL MARKERS</CardTitle>
 
 					</CardHeader>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>LAW ENFORCEMENT</CardTitle>
 					</CardHeader>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>LIBRARIES</CardTitle>
 					</CardHeader>
@@ -53,7 +53,7 @@ export const AlphaIM = () => {
 							href="http://www.lib.ucdavis.edu/dept/specol/about/aboutus.php">www.lib.ucdavis.edu/dept/specol/about/aboutus.php</a>
 					</CardContent>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>LITERARY</CardTitle>
 					</CardHeader>
@@ -62,7 +62,7 @@ export const AlphaIM = () => {
 						<a target="_blank" rel="noopener noreferrer"
 							href="http://www.sacramentobookcollectors.org/">www.sacramentobookcollectors.org/</a>
 					</CardContent></Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>MAPS</CardTitle>
 					</CardHeader>
@@ -71,7 +71,7 @@ export const AlphaIM = () => {
 						<a className="" href="http://generalmap.gis.saccounty.net/JSViewer/county_portal.html">http://generalmap.gis.saccounty.net/JSViewer/county_portal.html</a>
 
 					</CardContent></Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>MEDICAL</CardTitle>
 					</CardHeader>
@@ -84,12 +84,12 @@ export const AlphaIM = () => {
 							href="http://www.ssvms.org/museum.aspx">www.ssvms.org/museum.aspx</a>
 					</CardContent>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>MEMORIALS</CardTitle>
 					</CardHeader>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>MEXICAN-AMERICAN HISTORY</CardTitle>
 					</CardHeader>
@@ -98,7 +98,7 @@ export const AlphaIM = () => {
 						<a target="_blank" rel="noopener noreferrer"
 							href="http://MexicanAmericanDigitalHistory.org">http://MexicanAmericanDigitalHistory.org</a>
 					</CardContent></Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 
 					<CardHeader>
 						<CardTitle>MILITARY</CardTitle>
@@ -109,7 +109,7 @@ export const AlphaIM = () => {
 							href="http://www.militarymuseum.org">www.militarymuseum.org</a>
 					</CardContent>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>MUSEUMS</CardTitle>
 					</CardHeader>
@@ -174,7 +174,7 @@ export const AlphaIM = () => {
 					</CardContent>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>MUSIC</CardTitle>
 					</CardHeader>

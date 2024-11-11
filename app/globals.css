@@ -11,8 +11,18 @@ h3 {
 h4 {
   @apply pl-4;
 }
-a {
+/* a {
   @apply text-blue-500 underline pl-8;
+} */
+
+a {
+  color: rgb(59 130 246 / 1) /* #3b82f6 */;
+  text-decoration: underline;
+  overflow-wrap: anywhere;
+}
+
+.card {
+  @apply w-full md:w-2/3 md:m-2 rounded-none md:rounded-lg;
 }
 
 .menubutton {

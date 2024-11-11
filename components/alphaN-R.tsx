@@ -8,7 +8,7 @@ export const AlphaNR = () => {
 	return (
 		<article id="post-21" className="post-21 post type-post status-publish format-standard hentry category-uncategorized">
 			<div className="flex flex-col justify-center items-center">
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>NATIONAL</CardTitle>
 					</CardHeader>
@@ -16,7 +16,7 @@ export const AlphaNR = () => {
 					</CardContent>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>NATURAL HISTORY</CardTitle>
 					</CardHeader>
@@ -27,7 +27,7 @@ export const AlphaNR = () => {
 					</CardContent>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>NEWSPAPERS (Historic)</CardTitle>
 					</CardHeader>
@@ -44,7 +44,7 @@ export const AlphaNR = () => {
 					</CardContent >
 				</Card >
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>OLD SACRAMENTO</CardTitle>
 					</CardHeader>
@@ -52,7 +52,7 @@ export const AlphaNR = () => {
 					</CardContent>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>ORAL HISTORIES</CardTitle>
 					</CardHeader>
@@ -63,7 +63,7 @@ export const AlphaNR = () => {
 					</CardContent>
 				</Card >
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>ORGANIZATIONS (HISTORICAL)</CardTitle>
 					</CardHeader>
@@ -71,7 +71,7 @@ export const AlphaNR = () => {
 					</CardContent>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>PEOPLE OF HISTORICAL INTEREST</CardTitle>
 					</CardHeader>
@@ -79,7 +79,7 @@ export const AlphaNR = () => {
 					</CardContent>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>PHOTOGRAPHS</CardTitle>
 					</CardHeader>
@@ -90,7 +90,7 @@ export const AlphaNR = () => {
 					</CardContent>
 				</Card >
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>PODCASTS</CardTitle>
 					</CardHeader>
@@ -99,7 +99,7 @@ export const AlphaNR = () => {
 					</CardContent>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>PUBLICATIONS</CardTitle>
 					</CardHeader>
@@ -109,7 +109,7 @@ export const AlphaNR = () => {
 					</CardContent>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>PRESERVATION</CardTitle>
 					</CardHeader>
@@ -120,7 +120,7 @@ export const AlphaNR = () => {
 					</CardContent>
 				</Card >
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>REGIONAL HISTORY &ndash; SACRAMENTO COUNTY</CardTitle>
 					</CardHeader>
@@ -132,7 +132,7 @@ export const AlphaNR = () => {
 					</CardContent>
 				</Card >
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>RELIGION</CardTitle>
 					</CardHeader>
@@ -140,7 +140,7 @@ export const AlphaNR = () => {
 					</CardContent>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>RESEARCH FACILITIES/ARCHIVES</CardTitle>
 					</CardHeader>
@@ -153,7 +153,7 @@ export const AlphaNR = () => {
 					</CardContent>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>RESOURCES</CardTitle>
 					</CardHeader>

@@ -8,11 +8,11 @@ import { AlphaSZ } from "@/components/alphaS-Z";
 
 export const ResourcesSection = () => {
 	return (
-		<section className="w-[80vw] m-auto py-4 mt-4 mb-16 bg-card">
+		<section className="lg:w-[80vw] m-auto bg-card">
 			<div>
 				<h2 className="w-full block text-2xl font-bold text-center">Resources &ndash; Alphabetical</h2>
 			</div>
-			<Tabs id="resouces" defaultValue="sectionAD" className="p-4">
+			<Tabs id="resouces" defaultValue="sectionAD" className="lg:p-4 rounded-none">
 				<TabsList className="flex justify-around items-center w-full m-auto text-lg text-primary-foreground dark:text-foreground bg-skyblue" >
 					<TabsTrigger className="text-xl m-10 px-10 data-[state=active]:bg-card"
 						value="sectionAD">A-D
@@ -30,7 +30,7 @@ export const ResourcesSection = () => {
 						value="sectionSZ">S-Z
 					</TabsTrigger>
 				</TabsList>
-				<TabsContent className="min-h-44" value="sectionAD">
+				<TabsContent className="min-h-44 rounded-none" value="sectionAD">
 					<AlphaAD />
 				</TabsContent>
 				<TabsContent className="min-h-44" value="sectionEH">

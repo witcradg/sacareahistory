@@ -7,7 +7,7 @@ export const AlphaAD = () => {
 	return (
 		<article id="post-10" className="post-21 post type-post status-publish format-standard hentry category-uncategorized">
 			<div className="flex flex-col justify-center items-center">
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>AGRICULTURE</CardTitle>
 					</CardHeader>
@@ -17,7 +17,7 @@ export const AlphaAD = () => {
 							href="http://www.californiaagmuseum.org/">www.californiaagmuseum.org/</a>
 					</CardContent>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>ARCHITECTURE</CardTitle>
 					</CardHeader>
@@ -32,7 +32,7 @@ export const AlphaAD = () => {
 							href="http://www.sacramentoheritage.org/">www.sacramentoheritage.org</a>
 					</CardContent>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>ARCHIVES</CardTitle>
 					</CardHeader>
@@ -90,19 +90,19 @@ export const AlphaAD = () => {
 					</CardContent >
 				</Card >
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>ARCHIVISTS</CardTitle>
 					</CardHeader>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>ASSOCIATIONS</CardTitle>
 					</CardHeader>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>AVIATION</CardTitle>
 					</CardHeader>
@@ -114,19 +114,19 @@ export const AlphaAD = () => {
 					</CardContent>
 				</Card >
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>BENEVOLENT SOCIETIES</CardTitle>
 					</CardHeader>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>BLOGS</CardTitle>
 					</CardHeader>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>CALENDAR EVENTS (Historical)</CardTitle>
 						<CardDescription>Sources for future calendar events</CardDescription>
@@ -143,13 +143,13 @@ export const AlphaAD = () => {
 					</CardContent >
 				</Card >
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>COMMERCE &ndash; BUSINESS &ndash; TRADE</CardTitle>
 					</CardHeader>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>COMMUNICATION</CardTitle>
 					</CardHeader>
@@ -157,7 +157,7 @@ export const AlphaAD = () => {
 						<h3>Radio, TV, Newspapers</h3>
 					</CardContent>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>COMPILATION (HISTORY)</CardTitle>
 					</CardHeader>
@@ -167,13 +167,13 @@ export const AlphaAD = () => {
 							href="http://www.valcomnews.com/?cat=6">www.valcomnews.com/?cat=6</a>
 					</CardContent>
 				</Card >
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>CONFERENCES, SYMPOSIA</CardTitle>
 					</CardHeader>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>CEMETERIES</CardTitle>
 					</CardHeader>
@@ -204,7 +204,7 @@ export const AlphaAD = () => {
 							href="http://www.gravestonestudies.org">www.gravestonestudies.org</a>
 					</CardContent>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>CHINESE HISTORY</CardTitle>
 					</CardHeader>
@@ -218,7 +218,7 @@ export const AlphaAD = () => {
 							href="http://www.yeefowmuseum.org/learn.html">www.yeefowmuseum.org/learn.html</a>
 					</CardContent >
 				</Card >
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>COMMUNICATION-CONNECTIONS</CardTitle>
 					</CardHeader>
@@ -228,7 +228,7 @@ export const AlphaAD = () => {
 					</CardContent>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>CITIES/LOCALITIES</CardTitle>
 					</CardHeader>
@@ -237,7 +237,7 @@ export const AlphaAD = () => {
 					</CardContent>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>DEMOGRAPHICS</CardTitle>
 					</CardHeader>

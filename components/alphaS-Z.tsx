@@ -8,7 +8,7 @@ export const AlphaSZ = () => {
 	return (
 		<article id="post-21" className="post-21 post type-post status-publish format-standard hentry category-uncategorized">
 			<div className="flex flex-col justify-center items-center">
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>SCHOOLS &ndash; EDUCATION</CardTitle>
 					</CardHeader>
@@ -21,14 +21,14 @@ export const AlphaSZ = () => {
 					</CardContent>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>SCIENCE</CardTitle>
 					</CardHeader>
 					<CardContent>
 					</CardContent>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>
 							SPEAKERS
@@ -37,7 +37,7 @@ export const AlphaSZ = () => {
 					<CardContent>
 					</CardContent>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>
 							SPORTS
@@ -46,7 +46,7 @@ export const AlphaSZ = () => {
 					<CardContent>
 					</CardContent>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>
 							STATEWIDE
@@ -55,7 +55,7 @@ export const AlphaSZ = () => {
 					<CardContent>
 					</CardContent>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>
 							TOURS
@@ -81,7 +81,7 @@ export const AlphaSZ = () => {
 					</CardContent >
 				</Card >
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>
 							TRANSPORTATION
@@ -98,7 +98,7 @@ export const AlphaSZ = () => {
 					</CardContent>
 				</Card >
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>VIDEOS</CardTitle>
 					</CardHeader>
@@ -113,7 +113,7 @@ export const AlphaSZ = () => {
 					</CardContent >
 				</Card >
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>WATER</CardTitle>
 					</CardHeader>
@@ -128,7 +128,7 @@ export const AlphaSZ = () => {
 				<p>
 					&nbsp;
 				</p>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>
 							WEATHER (HISTORY)

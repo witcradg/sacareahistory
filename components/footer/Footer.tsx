@@ -12,8 +12,8 @@ export const Footer = () => {
     <footer id="footer" className="w-full bg-card dark:border-b-slate-700 dark:bg-background">
       {/* <hr className="w-11/12 mx-auto" /> */}
 
-      <Card className="container border-0 pt-10 grid grid-cols-3 md:grid-cols-3 xl:grid-cols-3 gap-x-12 gap-y-8">
-        <div id="column-1-logo" className="col-span-full xl:col-span-1">
+      <Card className="container border-0 pt-10 grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-x-12 gap-y-8">
+        <div id="column1" className="col-span-full xl:col-span-1 m-auto">
           <Link
             rel="noreferrer noopener"
             href="/"
@@ -22,7 +22,7 @@ export const Footer = () => {
             <Image className='border-2'
               src="/us-cascr64.gif" width={300} height={69} alt="Logo" />
           </Link>
-          <div className="pt-6">
+          <div className="pt-6 m-auto">
             <FooterSocial />
           </div>
         </div>
@@ -41,7 +41,7 @@ export const Footer = () => {
             </div>))}
         </div> */}
 
-        <div id="column3" className="flex flex-col gap-2">
+        <div id="column3" className="flex flex-col gap-2 m-auto">
           <h3 className="font-bold text-lg">{footerContent.column3header}</h3>
           {footerContent.column3.elements.map(({ label, link }) => (
             <div key={label}>
@@ -56,7 +56,7 @@ export const Footer = () => {
           ))}
         </div>
 
-        <div id="column-4" className="flex flex-col gap-2">
+        <div id="column-4" className="flex flex-col gap-2 m-auto mb-2">
           <h3 className="font-bold text-lg">{footerContent.column4header}</h3>
           {footerContent.column4.elements.map(({ label }, index) => (
             <div key={label}>
@@ -70,8 +70,7 @@ export const Footer = () => {
           ))}
         </div>
       </Card>
-
-      <section className="container pb-14 text-center">
+      <section className="container pb-14 mt-4 text-center">
         <h3>
           &copy; 2024 All rights reserved.
         </h3>

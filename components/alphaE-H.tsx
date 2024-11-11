@@ -8,12 +8,12 @@ export const AlphaEH = () => {
 	return (
 		<article id="post-21" className="post-21 post type-post status-publish format-standard hentry category-uncategorized">
 			<div className="flex flex-col justify-center items-center">
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>ENTERTAINMENT</CardTitle>
 					</CardHeader>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>ETHNIC/CULTURAL HISTORY</CardTitle>
 					</CardHeader>
@@ -40,7 +40,7 @@ export const AlphaEH = () => {
 
 					</CardContent>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>EVENTS (Historical)</CardTitle>
 						<CardDescription>Sources for future calendar events</CardDescription>
@@ -57,22 +57,22 @@ export const AlphaEH = () => {
 					</CardContent>
 				</Card>
 
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>ENVIRONMENTAL/LAND USE</CardTitle>
 					</CardHeader>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>FAIRS &amp; FESTIVALS</CardTitle>
 					</CardHeader>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>FAMOUS PEOPLE</CardTitle>
 					</CardHeader>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>FAMILY HISTORY (GENEALOGY)</CardTitle>
 					</CardHeader>
@@ -113,12 +113,12 @@ export const AlphaEH = () => {
 						<CardTitle>FINANCE/BANKING</CardTitle>
 					</CardHeader>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>FIREHOUSE HISTORY</CardTitle>
 					</CardHeader>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>FOOD</CardTitle>
 					</CardHeader>
@@ -132,12 +132,12 @@ export const AlphaEH = () => {
 							href="http://local-food-tours.com/culinary-cultural-experience/">http://local-food-tours.com/culinary-cultural-experience/</a>
 					</CardContent>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>GOLD RUSH</CardTitle>
 					</CardHeader>
 				</Card>
-				<Card className="w-1/2 m-2">
+				<Card className="card">
 					<CardHeader>
 						<CardTitle>HISTORICAL SOCIETIES</CardTitle>
 					</CardHeader>
