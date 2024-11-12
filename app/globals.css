@@ -29,6 +29,10 @@ a {
   @apply text-base font-semibold text-foreground py-0 my-0;
 }
 
+/* .tab-trigger {
+  @apply text-xl m-10 px-10 rounded-none md:rounded-lg;
+} */
+
 /* original WIP for this project */
 /* @layer base {
   :root {

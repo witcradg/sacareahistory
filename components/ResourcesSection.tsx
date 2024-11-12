@@ -13,20 +13,20 @@ export const ResourcesSection = () => {
 				<h2 className="w-full block text-2xl font-bold text-center">Resources &ndash; Alphabetical</h2>
 			</div>
 			<Tabs id="resouces" defaultValue="sectionAD" className="lg:p-4 rounded-none">
-				<TabsList className="flex justify-around items-center w-full m-auto text-lg text-primary-foreground dark:text-foreground bg-skyblue" >
-					<TabsTrigger className="text-xl m-10 px-10 data-[state=active]:bg-card"
+				<TabsList className="flex justify-around items-center w-full m-auto text-lg text-primary-foreground dark:text-foreground bg-skyblue rounded-none lg:rounded-lg" >
+					<TabsTrigger className="tab-trigger data-[state=active]:bg-card"
 						value="sectionAD">A-D
 					</TabsTrigger>
-					<TabsTrigger className="text-xl m-10 px-10 data-[state=active]:bg-card"
+					<TabsTrigger className="tab-trigger data-[state=active]:bg-card"
 						value="sectionEH">E-H
 					</TabsTrigger>
-					<TabsTrigger className="text-xl m-10 px-10 data-[state=active]:bg-card"
+					<TabsTrigger className="tab-trigger data-[state=active]:bg-card"
 						value="sectionIM">I-M
 					</TabsTrigger>
-					<TabsTrigger className="text-xl m-10 px-10 data-[state=active]:bg-card"
+					<TabsTrigger className="tab-trigger data-[state=active]:bg-card"
 						value="sectionNR">N-R
 					</TabsTrigger>
-					<TabsTrigger className="text-xl m-10 px-10 data-[state=active]:bg-card"
+					<TabsTrigger className="tab-trigger data-[state=active]:bg-card"
 						value="sectionSZ">S-Z
 					</TabsTrigger>
 				</TabsList>
