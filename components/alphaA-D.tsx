@@ -27,9 +27,6 @@ export const AlphaAD = () => {
 						<h3>Associations &ndash; AIA</h3>
 						<h3>Blogs (under each category) including facebook/social media</h3>
 						<h3>Tours</h3>
-						<h4>Promoting &amp; Preserving Sacramento’s Architectural Heritage</h4>
-						<a target="_blank" rel="noopener noreferrer"
-							href="http://www.sacramentoheritage.org/">www.sacramentoheritage.org</a>
 					</CardContent>
 				</Card>
 				<Card className="card">
@@ -37,10 +34,9 @@ export const AlphaAD = () => {
 						<CardTitle>ARCHIVES</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h4>Sacramento History Timeline</h4>
+						<h4>Sacramento History Online</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://www.sacramentohistory.org/resources_timeline.html">Sacramento History Timeline</a>
-
+							href="http://www.sacramentohistory.org">Sacramento History Online</a>
 						<h4>Internet Archive</h4>
 						<p className="ml-8">a non-profit library of millions of free books, movies, software, music, and more.</p>
 						<a target="_blank" rel="noopener noreferrer"
@@ -51,24 +47,18 @@ export const AlphaAD = () => {
 						<a target="_blank" rel="noopener noreferrer"
 							href="http://www.glbthistory.org/archives/">www.glbthistory.org/archives/</a>
 
-						<h4>California State Archives</h4>
-						<a target="_blank" rel="noopener noreferrer"
-							href="http://www.sos.ca.gov/archives/archives_about.htm">www.sos.ca.gov/archives/archives_about.htm</a>
 						<h4>Library of Congress online archives</h4>
 						<a target="_blank" rel="noopener noreferrer"
 							href="http://catalog.loc.gov/">http://catalog.loc.gov</a>
 						<h4>Center for Sacramento History</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://www.cityofsacramento.org/ccl/history/default.asp">www.cityofsacramento.org/ccl/history</a>
+							href="http://https://www.cityofsacramento.gov/ccs/center-for-sacramento-history">www.cityofsacramento.gov/ccs/center-for-sacramento-history</a>
 
 						<h3>County</h3>
 
 						<h4>Yolo County Archives</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://www.yolocounty.org/org/library/archives.htm">www.yolocounty.org/org/library/archives.htm</a>
-						<h4>Sacramento City &amp; County Archives, extensive collections,</h4>
-						<a target="_blank" rel="noopener noreferrer"
-							href="http://www.centerforsacramentohistory.org">Center for Sacramento History </a>
+							href="http://www.yolocountylibrary.org/locations/yca-ychc/">www.yolocountylibrary.org/locations/yca-ychc/</a>
 
 						<h3>State</h3>
 
@@ -162,9 +152,9 @@ export const AlphaAD = () => {
 						<CardTitle>COMPILATION (HISTORY)</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h4>36 pages of Sacramento History by Lance Armstrong as published in Valley Community Newspapers</h4>
+						{/* <h4>36 pages of Sacramento History by Lance Armstrong as published in Valley Community Newspapers</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://www.valcomnews.com/?cat=6">www.valcomnews.com/?cat=6</a>
+							href="http://www.valcomnews.com/?cat=6">www.valcomnews.com/?cat=6</a> */}
 					</CardContent>
 				</Card >
 				<Card className="card">
@@ -184,11 +174,11 @@ export const AlphaAD = () => {
 
 						<h4>List of Sacramento County Cemeteries</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://coroner.saccounty.net/cemeteries.asp">http://coroner.saccounty.net/cemeteries.asp</a>
+							href="https://coroner.saccounty.gov/sccac/Pages/CompleteSacramentoCountyCemeteryList.aspx">https://coroner.saccounty.gov/sccac/Pages/CompleteSacramentoCountyCemeteryList.aspx</a>
 
 						<h4>Sacramento County Cemetery Advisory Commission</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://coroner.saccounty.net/sccac.htm">http://coroner.saccounty.net/sccac.htm</a>
+							href="https://coroner.saccounty.gov/sccac/Pages/default.aspx">https://coroner.saccounty.gov/sccac/Pages/default.aspx</a>
 
 						<h4>Website for PDF of District Cemetery Brochure</h4>
 						<a target="_blank" rel="noopener noreferrer"
@@ -196,7 +186,7 @@ export const AlphaAD = () => {
 
 						<h4>Sacramento Historic City Cemetery</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://www.oldcitycemetery.com">www.oldcitycemetery.com</a>
+							href="https://historicoldcitycemetery.org">https://historicoldcitycemetery.org</a>
 
 						<h3>Cemeteries (General Information)</h3>
 						<h4>Association for Gravestone Studies</h4>
@@ -243,9 +233,6 @@ export const AlphaAD = () => {
 					</CardHeader>
 					<CardContent>
 						<h3>Population</h3>
-						<h4>Sacramento Demographics &mdash Population by Race and Ethnicity</h4>
-						<a target="_blank" rel="noopener noreferrer"
-							href="http://www.clrsearch.com/Sacramento-Demographics/CA/Population-by-Race-and-Ethnicity">www.clrsearch.com/Sacramento-Demographics/CA/Population-by-Race-and-Ethnicity</a>
 					</CardContent>
 				</Card >
 			</div >
