@@ -6,10 +6,10 @@ h1 {
   @apply text-3xl font-bold text-center text-red-500 underline;
 }
 h3 {
-  @apply text-xl font-bold;
+  @apply text-xl font-bold mt-4;
 }
 h4 {
-  @apply pl-4;
+  @apply pl-4 mt-4;
 }
 /* a {
   @apply text-blue-500 underline pl-8;
@@ -19,6 +19,7 @@ a {
   color: rgb(59 130 246 / 1) /* #3b82f6 */;
   text-decoration: underline;
   overflow-wrap: anywhere;
+  padding-left: 2rem;
 }
 
 .card {
