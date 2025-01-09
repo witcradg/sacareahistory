@@ -95,7 +95,7 @@ export const AlphaEH = () => {
 
 						<h4>California Pioneer Project</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="https://www.cagenweb.org/capioneer/">www.cagenweb.org/capioneer</a>
+							href="https://californiapioneer.com/">https://californiapioneer.com/</a>
 
 						<h4>ROOTSWEB – Hosted Sites and Links</h4>
 						<a target="_blank" rel="noopener noreferrer"
@@ -127,9 +127,9 @@ export const AlphaEH = () => {
 							Restaurants
 						</h3>
 						<h3>Food Tours</h3>
-						<h4>culinary-cultural-experience</h4>
+						{/* <h4>culinary-cultural-experience</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://local-food-tours.com/culinary-cultural-experience/">http://local-food-tours.com/culinary-cultural-experience/</a>
+							href="http://local-food-tours.com/culinary-cultural-experience/">http://local-food-tours.com/culinary-cultural-experience/</a> */}
 					</CardContent>
 				</Card>
 				<Card className="card">
@@ -147,71 +147,6 @@ export const AlphaEH = () => {
 							href="https://www.orangevalehistory.org/">www.orangevalehistory.org</a>
 					</CardContent>
 				</Card>
-				{/* <div id="jp-post-flair" className="sharedaddy sd-like-enabled sd-sharing-enabled">
-						<div className="sharedaddy sd-sharing-enabled">
-							<div className="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing">
-								<h3 className="sd-title">Share this:</h3>
-								<div className="sd-content">
-									<ul data-sharing-events-added="true">
-										<li className="share-twitter">
-											<a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-12" className="share-twitter sd-button share-icon" href="https://sacramentohistory.info/2016/03/04/e-h/?share=twitter&amp;nb=1" target="_blank" title="Click to share on Twitter">
-												<span>Twitter</span>
-											</a>
-										</li>
-										<li className="share-facebook">
-											<a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-12" className="share-facebook sd-button share-icon" href="https://sacramentohistory.info/2016/03/04/e-h/?share=facebook&amp;nb=1" target="_blank" title="Click to share on Facebook">
-												<span>Facebook</span>
-											</a>
-										</li>
-										<li className="share-end">
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div className="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-107895353-12-66d4c8fedfbee" data-src="//widgets.wp.com/likes/index.html?ver=20240901#blog_id=107895353&amp;post_id=12&amp;origin=sacramentohistorydotinfo.wordpress.com&amp;obj_id=107895353-12-66d4c8fedfbee&amp;domain=sacramentohistory.info" data-name="like-post-frame-107895353-12-66d4c8fedfbee" data-title="Like or Reblog">
-							<div className="likes-widget-placeholder post-likes-widget-placeholder h-14">
-								<span className="button">
-									<span>Like</span>
-								</span> <span className="loading">Loading...</span>
-							</div>
-							<span className="sd-text-color">
-							</span>
-							<a className="sd-link-color">
-							</a>
-						</div>
-						<div id="jp-relatedposts" className="jp-relatedposts block">
-							<h3 className="jp-relatedposts-headline">
-								<em>Related</em>
-							</h3>
-							<div className="jp-relatedposts-items jp-relatedposts-items-minimal jp-relatedposts-grid ">
-								<p className="jp-relatedposts-post jp-relatedposts-post0" data-post-id="10" data-post-format="false">
-									<span className="jp-relatedposts-post-title">
-										<a className="jp-relatedposts-post-a" href="https://sacramentohistory.info/2016/03/04/a-d/" title="A-D" data-origin="12" data-position="0">A-D</a>
-									</span>
-									<time className="jp-relatedposts-post-date" datetime="March 4, 2016" style="display: block;">March 4, 2016</time>
-									<span className="jp-relatedposts-post-context">
-									</span>
-								</p>
-								<p className="jp-relatedposts-post jp-relatedposts-post1" data-post-id="15" data-post-format="false">
-									<span className="jp-relatedposts-post-title">
-										<a className="jp-relatedposts-post-a" href="https://sacramentohistory.info/2016/03/04/i-m/" title="I-M" data-origin="12" data-position="1">I-M</a>
-									</span>
-									<time className="jp-relatedposts-post-date" datetime="March 4, 2016" style="display: block;">March 4, 2016</time>
-									<span className="jp-relatedposts-post-context">
-									</span>
-								</p>
-								<p className="jp-relatedposts-post jp-relatedposts-post2" data-post-id="21" data-post-format="false">
-									<span className="jp-relatedposts-post-title">
-										<a className="jp-relatedposts-post-a" href="https://sacramentohistory.info/2016/03/04/s-z/" title="S-Z" data-origin="12" data-position="2">S-Z</a>
-									</span>
-									<time className="jp-relatedposts-post-date" datetime="March 4, 2016" style="display: block;">March 4, 2016</time>
-									<span className="jp-relatedposts-post-context">
-									</span>
-								</p>
-							</div>
-						</div>
-					</div> */}
 			</div>
 		</article >
 	)

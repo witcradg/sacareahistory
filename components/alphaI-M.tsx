@@ -35,7 +35,7 @@ export const AlphaIM = () => {
 							href="http://www.library.ca.gov/">www.library.ca.gov/</a>
 						<h4>California State Library &ndash; California Section</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://www.library.ca.gov/calhist/">www.library.ca.gov/calhist/</a>
+							href="https://www.library.ca.gov/california-history/">www.library.ca.gov/california-history</a>
 						<h4>Library of Congress online archives</h4>
 						<a target="_blank" rel="noopener noreferrer"
 							href="http://catalog.loc.gov/">http://catalog.loc.gov/</a>
@@ -44,7 +44,7 @@ export const AlphaIM = () => {
 							href="http://www.rootcellar.org/">www.rootcellar.org/</a>
 						<h4>Sacramento Public Library—Sacramento Room</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://www.saclibrary.org/sac_room/index.htm">www.saclibrary.org/sac_room/index.htm</a>
+							href="https://www.saclibrary.org/Education/History/The-Sacramento-Room">www.saclibrary.org/Education/History/The-Sacramento-Room</a>
 						<h4>Sacramento State University Library—Special Collections &amp; University Archives</h4>
 						<a target="_blank" rel="noopener noreferrer"
 							href="http://library.csus.edu/content2.asp?pageID=137">http://library.csus.edu/content2.asp?pageID=137</a>
@@ -58,9 +58,9 @@ export const AlphaIM = () => {
 						<CardTitle>LITERARY</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h4>Sacramento Book Collectors Club</h4>
+						<h4>The Book Club of California</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://www.sacramentobookcollectors.org/">www.sacramentobookcollectors.org/</a>
+							href="https://www.bccbooks.org">www.bccbooks.org</a>
 					</CardContent></Card>
 				<Card className="card">
 					<CardHeader>
@@ -76,9 +76,6 @@ export const AlphaIM = () => {
 						<CardTitle>MEDICAL</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h4>California Medical History Blogspot</h4>
-						<a target="_blank" rel="noopener noreferrer"
-							href="http://californiasmedicalhistory.blogspot.com/">http://californiasmedicalhistory.blogspot.com</a>
 						<h4>SSVMS Museum of Medical History</h4>
 						<a target="_blank" rel="noopener noreferrer"
 							href="http://www.ssvms.org/museum.aspx">www.ssvms.org/museum.aspx</a>
@@ -94,9 +91,9 @@ export const AlphaIM = () => {
 						<CardTitle>MEXICAN-AMERICAN HISTORY</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h4>Mexican American Digital History</h4>
+						<h4>American Digital History</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://MexicanAmericanDigitalHistory.org">http://MexicanAmericanDigitalHistory.org</a>
+							href="http://www.digitalhistory.uh.edu/index.cfm">www.digitalhistory.uh.edu/index.cfm</a>
 					</CardContent></Card>
 				<Card className="card">
 
@@ -126,7 +123,7 @@ export const AlphaIM = () => {
 
 						<h4>El Dorado County Historical Museum</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://museum.edcgov.us">http://museum.edcgov.us</a>
+							href="https://www.eldoradocounty.ca.gov/Health-Well-Being/Libraries-Education/El-Dorado-County-Historical-Museum">www.eldoradocounty.ca.gov/Health-Well-Being/Libraries-Education/El-Dorado-County-Historical-Museum</a>
 
 						<h4>Fountain &amp; Tallman Museum</h4>
 						<a target="_blank" rel="noopener noreferrer"
