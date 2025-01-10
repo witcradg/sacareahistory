@@ -127,9 +127,6 @@ export const AlphaEH = () => {
 							Restaurants
 						</h3>
 						<h3>Food Tours</h3>
-						{/* <h4>culinary-cultural-experience</h4>
-						<a target="_blank" rel="noopener noreferrer"
-							href="http://local-food-tours.com/culinary-cultural-experience/">http://local-food-tours.com/culinary-cultural-experience/</a> */}
 					</CardContent>
 				</Card>
 				<Card className="card">
