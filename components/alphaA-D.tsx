@@ -40,7 +40,7 @@ export const AlphaAD = () => {
 						<h4>Internet Archive</h4>
 						<p className="ml-8">a non-profit library of millions of free books, movies, software, music, and more.</p>
 						<a target="_blank" rel="noopener noreferrer"
-							href="https://archive.org">https://archive.org</a>
+							href="https://archive.org">archive.org</a>
 
 						<h4>GLBT Historical Society</h4>
 						<p className="ml-8">The archives of the GLBT Historical Society contain approximately 800 collections of personal papers, photographs, audiovisual recordings, and organizational records.</p>
@@ -52,7 +52,7 @@ export const AlphaAD = () => {
 							href="http://catalog.loc.gov/">http://catalog.loc.gov</a>
 						<h4>Center for Sacramento History</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://https://www.cityofsacramento.gov/ccs/center-for-sacramento-history">www.cityofsacramento.gov/ccs/center-for-sacramento-history</a>
+							href="https://www.centerforsacramentohistory.org">www.centerforsacramentohistory.org</a>
 
 						<h3>County</h3>
 
@@ -174,11 +174,11 @@ export const AlphaAD = () => {
 
 						<h4>List of Sacramento County Cemeteries</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="https://coroner.saccounty.gov/sccac/Pages/CompleteSacramentoCountyCemeteryList.aspx">https://coroner.saccounty.gov/sccac/Pages/CompleteSacramentoCountyCemeteryList.aspx</a>
+							href="https://coroner.saccounty.gov/sccac/Pages/CompleteSacramentoCountyCemeteryList.aspx">coroner.saccounty.gov/sccac/Pages/CompleteSacramentoCountyCemeteryList.aspx</a>
 
 						<h4>Sacramento County Cemetery Advisory Commission</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="https://coroner.saccounty.gov/sccac/Pages/default.aspx">https://coroner.saccounty.gov/sccac/Pages/default.aspx</a>
+							href="https://coroner.saccounty.gov/sccac/Pages/default.aspx">coroner.saccounty.gov/sccac/Pages/default.aspx</a>
 
 						<h4>Website for PDF of District Cemetery Brochure</h4>
 						<a target="_blank" rel="noopener noreferrer"
@@ -186,7 +186,7 @@ export const AlphaAD = () => {
 
 						<h4>Sacramento Historic City Cemetery</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="https://historicoldcitycemetery.org">https://historicoldcitycemetery.org</a>
+							href="https://historicoldcitycemetery.org">historicoldcitycemetery.org</a>
 
 						<h3>Cemeteries (General Information)</h3>
 						<h4>Association for Gravestone Studies</h4>

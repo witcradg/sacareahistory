@@ -95,7 +95,7 @@ export const AlphaEH = () => {
 
 						<h4>California Pioneer Project</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="https://californiapioneer.com/">https://californiapioneer.com/</a>
+							href="https://californiapioneer.com/">californiapioneer.com/</a>
 
 						<h4>ROOTSWEB – Hosted Sites and Links</h4>
 						<a target="_blank" rel="noopener noreferrer"

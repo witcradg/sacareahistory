@@ -84,9 +84,9 @@ export const AlphaNR = () => {
 						<CardTitle>PHOTOGRAPHS</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h4>Features amateur photos showing our city in an earlier time.</h4>
+						{/* <h4>Features amateur photos showing our city in an earlier time.</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://vintagesacramento.com">vintagesacramento.com</a>
+							href="http://vintagesacramento.com">vintagesacramento.com</a> */}
 					</CardContent>
 				</Card >
 
@@ -116,7 +116,7 @@ export const AlphaNR = () => {
 					<CardContent>
 						<h4>Sacramento Heritage</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://www.sacramentoheritage.org">www.sacramentoheritage.org</a>
+							href="https://www.sacramento365.com/organization/sacramento-heritage-inc/">www.sacramento365.com/organization/sacramento-heritage-inc/</a>
 					</CardContent>
 				</Card >
 
@@ -127,7 +127,7 @@ export const AlphaNR = () => {
 					<CardContent>
 						<h4>Elk Grove</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href=" http://www.echoesofyesterday.net/">www.echoesofyesterday.net/</a>
+							href="https://elkgrovehistoricalsociety.com">elkgrovehistoricalsociety.com</a>
 
 					</CardContent>
 				</Card >
@@ -162,9 +162,6 @@ export const AlphaNR = () => {
 						<p className="bg-red-400">&nbsp;[The original link is broken, but the website is still up - ed.]</p>
 						<a target="_blank" rel="noopener noreferrer"
 							href="http://www.sachistoricalsociety.org/">www.sachistoricalsociety.org</a>
-						<h4>Sacramento Heritage</h4>
-						<a target="_blank" rel="noopener noreferrer"
-							href="http://www.sacramentoheritage.org">www.sacramentoheritage.org</a>
 					</CardContent >
 				</Card >
 				{/* <div id="jp-post-flair" className="sharedaddy sd-like-enabled sd-sharing-enabled">
