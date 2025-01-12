@@ -84,9 +84,13 @@ export const AlphaNR = () => {
 						<CardTitle>PHOTOGRAPHS</CardTitle>
 					</CardHeader>
 					<CardContent>
-						{/* <h4>Features amateur photos showing our city in an earlier time.</h4>
+						<h4>Features amateur photos showing our city in an earlier time.</h4>
 						<a target="_blank" rel="noopener noreferrer"
-							href="http://vintagesacramento.com">vintagesacramento.com</a> */}
+							href="https://www.facebook.com/VintageSacramento/">www.facebook.com/VintageSacramento/</a>
+						<h4>Images form the Glass Lantern Slide Collection of Dr. Junius Harris</h4>
+						<a target="_blank" rel="noopener noreferrer"
+							href="https://museumofmedicalhistory.org/glass-lantern-slides">museumofmedicalhistory.org/glass-lantern-slides</a>
+
 					</CardContent>
 				</Card >
 
