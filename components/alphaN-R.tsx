@@ -118,9 +118,6 @@ export const AlphaNR = () => {
 						<CardTitle>PRESERVATION</CardTitle>
 					</CardHeader>
 					<CardContent>
-						<h4>Sacramento Heritage</h4>
-						<a target="_blank" rel="noopener noreferrer"
-							href="https://www.sacramento365.com/organization/sacramento-heritage-inc/">www.sacramento365.com/organization/sacramento-heritage-inc/</a>
 					</CardContent>
 				</Card >
 
