@@ -64,6 +64,11 @@ export const AlphaSZ = () => {
 					<CardContent>
 						<h3>Architectural</h3>
 						<h3>Walking</h3>
+						<h4>Architectural Tours by Preservation Sacramento (app)</h4>
+						<a target="_blank" rel="noopener noreferrer"
+							href="https://apps.apple.com/us/app/preservation-sacramento/id906020366">Apple</a>
+						<a target="_blank" rel="noopener noreferrer"
+							href="https://play.google.com/store/apps/details?id=com.tb.tb304">Android</a>
 						<h3>Driving</h3>
 						<h3>Commercial</h3>
 						<h3>Unusual</h3>
