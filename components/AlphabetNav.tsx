@@ -9,7 +9,7 @@ export const AlphabetNav = ({ activeLetters, onLetterClick }: AlphabetNavProps) 
 	const alphabet = Array.from('ABCDEFGHIJKLMNOPQRSTUVWXYZ');
 
 	return (
-		<div className="sticky top-20 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 flex flex-wrap justify-center gap-1 p-4 border-b">
+		<div className="flex flex-wrap gap-x-4 gap-y-1 max-h-[360px] content-start w-[96px]">
 			{alphabet.map((letter) => (
 				<button
 					key={letter}
