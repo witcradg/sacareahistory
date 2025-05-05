@@ -1,899 +1,869 @@
 {
-	"sections": [
+	"resources": [
 		{
-			"id": "sectionAD",
-			"title": "A-D",
-			"resources": [
-				{
-					"title": "AGRICULTURE",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "California Agricultural Museum",
-								"url": "http://www.californiaagmuseum.org/",
-								"urlLabel": "www.californiaagmuseum.org/"
-							}
-						]
+			"title": "AGRICULTURE",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "California Agricultural Museum",
+						"url": "http://www.californiaagmuseum.org/",
+						"urlLabel": "www.californiaagmuseum.org/"
 					}
-				},
-				{
-					"title": "ARCHIVES",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "Sacramento History Online",
-								"url": "http://www.sacramentohistory.org",
-								"urlLabel": "Sacramento History Online"
-							},
-							{
-								"title": "Internet Archive",
-								"description": "a non-profit library of millions of free books, movies, software, music, and more.",
-								"url": "https://archive.org",
-								"urlLabel": "archive.org"
-							},
-							{
-								"title": "GLBT Historical Society",
-								"description": "The archives of the GLBT Historical Society contain approximately 800 collections of personal papers, photographs, audiovisual recordings, and organizational records.",
-								"url": "http://www.glbthistory.org/archives/"
-							},
-							{
-								"title": "Library of Congress online archives",
-								"url": "http://catalog.loc.gov/"
-							},
-							{
-								"title": "Center for Sacramento History",
-								"url": "https://www.centerforsacramentohistory.org"
-							}
-						],
-						"subcategories": [
-							{
-								"title": "County",
-								"resources": [
-									{
-										"title": "Yolo County Archives",
-										"url": "http://www.yolocountylibrary.org/locations/yca-ychc/",
-										"urlLabel": "www.yolocountylibrary.org/locations/yca-ychc/"
-									}
-								]
-							},
-							{
-								"title": "State",
-								"resources": [
-									{
-										"title": "California State Archives",
-										"description": "a public research facility and they encourage you to come in person to do your research.",
-										"url": "http://www.sos.ca.gov/archives/",
-										"urlLabel": "www.sos.ca.gov/archives/"
-									},
-									{
-										"title": "California State Library",
-										"description": "Details services to local libraries, state and local government and the public. Links to California Research Bureau papers online, LDS publications, the state library",
-										"url": "http://www.library.ca.gov/"
-									}
-								]
-							}
-						]
-					}
-				},
-				{
-					"title": "AVIATION",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "California Aerospace Museum",
-								"description": "Aerospace history is a remarkable story, and it all unfolds here at the Museum. Explore the exhibits, sit in the cockpit of an airplane, learn the stories of these",
-								"url": "http://www.aerospaceca.org/"
-							}
-						]
-					}
-				},
-				{
-					"title": "CEMETERIES",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "Website for PDF of New Helvetia Brochure",
-								"url": "http://coroner.saccounty.net/documents/NewHelvetiaBrochure.pdf"
-							},
-							{
-								"title": "Sacramento County Cemetery Advisory Commission",
-								"url": "https://coroner.saccounty.gov/sccac/Pages/default.aspx"
-							},
-							{
-								"title": "Sacramento Historic City Cemetery",
-								"url": "https://historicoldcitycemetery.org"
-							},
-							{
-								"title": "Association for Gravestone Studies",
-								"url": "http://www.gravestonestudies.org"
-							}
-						]
-					}
-				},
-				{
-					"title": "CHINESE HISTORY",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "Locke Foundation",
-								"url": "http://www.locke-foundation.org/?np=true"
-							},
-							{
-								"title": "Yee Fow Museum",
-								"url": "http://www.yeefowmuseum.org/learn.html"
-							}
-						]
-					}
-				},
-				{
-					"title": "ARCHITECTURE",
-					"type": "category",
-					"content": {
-						"subcategories": [
-							{
-								"title": "Commercial"
-							},
-							{
-								"title": "Home"
-							},
-							{
-								"title": "Associations – AIA"
-							},
-							{
-								"title": "Blogs (under each category) including facebook/social media"
-							},
-							{
-								"title": "Tours"
-							}
-						]
-					}
-				},
-				{
-					"title": "ARCHIVISTS",
-					"type": "category"
-				},
-				{
-					"title": "ASSOCIATIONS",
-					"type": "category"
-				},
-				{
-					"title": "BENEVOLENT SOCIETIES",
-					"type": "category"
-				},
-				{
-					"title": "BLOGS",
-					"type": "category"
-				},
-				{
-					"title": "CALENDAR EVENTS (Historical)",
-					"type": "category",
-					"description": "Sources for future calendar events",
-					"content": {
-						"resources": [
-							{
-								"title": "Sacramento 365",
-								"description": "Find art and culture events in the Sacramento area. Get times and locations for performing arts, theatre. music. dance. visual arts & museums. film & videos.",
-								"url": "http://www.sacramento365.com/",
-								"urlLabel": "www.sacramento365.com"
-							},
-							{
-								"title": "Sacramento Archives Crawl (one day every October)",
-								"url": "https://www.sos.ca.gov/archives/public-events/archives-month/archives-crawl"
-							}
-						]
-					}
-				},
-				{
-					"title": "COMMERCE – BUSINESS – TRADE",
-					"type": "category"
-				},
-				{
-					"title": "COMMUNICATION",
-					"type": "category",
-					"content": {
-						"subcategories": [
-							{
-								"title": "Radio, TV, Newspapers"
-							}
-						]
-					}
-				},
-				{
-					"title": "COMPILATION (HISTORY)",
-					"type": "category"
-				},
-				{
-					"title": "CONFERENCES, SYMPOSIA",
-					"type": "category"
-				},
-				{
-					"title": "COMMUNICATION-CONNECTIONS",
-					"type": "category",
-					"content": {
-						"subcategories": [
-							{
-								"title": "Pony Express"
-							},
-							{
-								"title": "Wells Fargo"
-							}
-						]
-					}
-				},
-				{
-					"title": "CITIES/LOCALITIES",
-					"type": "category",
-					"content": {
-						"subcategories": [
-							{
-								"title": "Locke"
-							}
-						]
-					}
-				},
-				{
-					"title": "DEMOGRAPHICS",
-					"type": "category",
-					"content": {
-						"subcategories": [
-							{
-								"title": "Population"
-							}
-						]
-					}
-				}
-			]
+				]
+			}
 		},
 		{
-			"id": "sectionEH",
-			"title": "E-H",
-			"resources": [
-				{
-					"title": "ETHNIC/CULTURAL HISTORY",
-					"type": "category",
-					"content": {
-						"subcategories": [
-							{
-								"title": "First/Second Most Ethnically Diverse City"
-							},
-							{
-								"title": "African American"
-							},
-							{
-								"title": "Basque"
-							},
-							{
-								"title": "British/English, Irish, Scottish, Welsch"
-							},
-							{
-								"title": "Chinese"
-							},
-							{
-								"title": "Croatian"
-							},
-							{
-								"title": "Filipino"
-							},
-							{
-								"title": "French"
-							},
-							{
-								"title": "German"
-							},
-							{
-								"title": "Hmong"
-							},
-							{
-								"title": "India/Pakistan"
-							},
-							{
-								"title": "Italian"
-							},
-							{
-								"title": "Japanese"
-							},
-							{
-								"title": "Mexican"
-							},
-							{
-								"title": "Native American"
-							},
-							{
-								"title": "Portuguese"
-							},
-							{
-								"title": "Spanish"
-							},
-							{
-								"title": "Thai"
-							},
-							{
-								"title": "Other"
-							}
-						]
+			"title": "ARCHIVES",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Sacramento History Online",
+						"url": "http://www.sacramentohistory.org",
+						"urlLabel": "Sacramento History Online"
+					},
+					{
+						"title": "Internet Archive",
+						"description": "a non-profit library of millions of free books, movies, software, music, and more.",
+						"url": "https://archive.org",
+						"urlLabel": "archive.org"
+					},
+					{
+						"title": "GLBT Historical Society",
+						"description": "The archives of the GLBT Historical Society contain approximately 800 collections of personal papers, photographs, audiovisual recordings, and organizational records.",
+						"url": "http://www.glbthistory.org/archives/"
+					},
+					{
+						"title": "Library of Congress online archives",
+						"url": "http://catalog.loc.gov/"
+					},
+					{
+						"title": "Center for Sacramento History",
+						"url": "https://www.centerforsacramentohistory.org"
 					}
-				},
-				{
-					"title": "EVENTS (Historical)",
-					"type": "category",
-					"description": "Sources for future calendar events",
-					"content": {
+				],
+				"subcategories": [
+					{
+						"title": "County",
 						"resources": [
 							{
-								"title": "Sacramento 365",
-								"description": "Find art and culture events in the Sacramento area. Get times and locations for performing arts, theatre. music. dance. visual arts & museums. film & videos.",
-								"url": "http://www.sacramento365.com/"
-							},
-							{
-								"title": "Sacramento Archives Crawl (one day every October)",
-								"url": "https://www.sos.ca.gov/archives/public-events/archives-month/archives-crawl"
+								"title": "Yolo County Archives",
+								"url": "http://www.yolocountylibrary.org/locations/yca-ychc/",
+								"urlLabel": "www.yolocountylibrary.org/locations/yca-ychc/"
 							}
 						]
-					}
-				},
-				{
-					"title": "FAMILY HISTORY (GENEALOGY)",
-					"type": "category",
-					"content": {
+					},
+					{
+						"title": "State",
 						"resources": [
 							{
-								"title": "Jewish Genealogical Society of Sacramento",
-								"url": "http://www.jewishgen.org/jgs-sacramento",
-								"urlLabel": "www.jewishgen.org/jgs-sacramento"
-							},
-							{
-								"title": "Root Cellar Sacramento Genealogical Society",
-								"url": "http://www.rootcellar.org/",
-								"urlLabel": "www.rootcellar.org"
-							},
-							{
-								"title": "SACRAMENTO REGIONAL GENEALOGICAL COUNCIL",
-								"url": "https://srgcouncil.org/cpage.php?pt=56"
-							},
-							{
-								"title": "California Pioneer Project",
-								"url": "https://californiapioneer.com/"
-							},
-							{
-								"title": "RootsWeb Sacramento",
-								"url": "https://sites.rootsweb.com/~cabf1905/Sacramento/SactoCoIndx.htm"
-							}
-						]
-					}
-				},
-				{
-					"title": "FOOD",
-					"type": "category",
-					"content": {
-						"subcategories": [
-							{
-								"title": "Restaurants"
-							},
-							{
-								"title": "Food Tours"
-							}
-						]
-					}
-				},
-				{
-					"title": "ENTERTAINMENT",
-					"type": "category"
-				},
-				{
-					"title": "ENVIRONMENTAL/LAND USE",
-					"type": "category"
-				},
-				{
-					"title": "FAIRS & FESTIVALS",
-					"type": "category"
-				},
-				{
-					"title": "FAMOUS PEOPLE",
-					"type": "category"
-				},
-				{
-					"title": "FINANCE/BANKING",
-					"type": "category"
-				},
-				{
-					"title": "FIREHOUSE HISTORY",
-					"type": "category"
-				},
-				{
-					"title": "GOLD RUSH",
-					"type": "category"
-				},
-				{
-					"title": "HISTORICAL SOCIETIES",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "Orangevale History Project",
-								"url": "https://www.orangevalehistory.org/",
-								"urlLabel": "www.orangevalehistory.org"
-							}
-						]
-					}
-				}
-			]
-		},
-		{
-			"id": "sectionIM",
-			"title": "I-M",
-			"resources": [
-				{
-					"title": "LIBRARIES",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "UCSF Library & Archives",
-								"url": "https://www.library.ucsf.edu/collections/archives"
+								"title": "California State Archives",
+								"description": "a public research facility and they encourage you to come in person to do your research.",
+								"url": "http://www.sos.ca.gov/archives/",
+								"urlLabel": "www.sos.ca.gov/archives/"
 							},
 							{
 								"title": "California State Library",
+								"description": "Details services to local libraries, state and local government and the public. Links to California Research Bureau papers online, LDS publications, the state library",
 								"url": "http://www.library.ca.gov/"
-							},
-							{
-								"title": "California State Library – California Section",
-								"url": "https://www.library.ca.gov/california-history/"
-							},
-							{
-								"title": "Library of Congress online archives",
-								"url": "http://catalog.loc.gov/"
-							},
-							{
-								"title": "Root Cellar",
-								"url": "http://www.rootcellar.org/"
-							},
-							{
-								"title": "Sacramento Public Library—Sacramento Room",
-								"url": "https://www.saclibrary.org/Education/History/The-Sacramento-Room"
 							}
 						]
 					}
-				},
-				{
-					"title": "MAPS",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "Sacramento County Online Map",
-								"url": "http://generalmap.gis.saccounty.net/JSViewer/county_portal.html"
-							}
-						]
-					}
-				},
-				{
-					"title": "MEDICAL",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "SSVMS Museum of Medical History",
-								"url": "http://www.ssvms.org/museum.aspx"
-							}
-						]
-					}
-				},
-				{
-					"title": "MEXICAN-AMERICAN HISTORY",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "American Digital History",
-								"url": "http://www.digitalhistory.uh.edu/index.cfm"
-							}
-						]
-					}
-				},
-				{
-					"title": "MILITARY",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "California State Military History and Museums Program",
-								"url": "http://www.militarymuseum.org"
-							}
-						]
-					}
-				},
-				{
-					"title": "MUSEUMS",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "SAM (Sacramento Association of Museums)",
-								"url": "http://www.sacmuseums.org"
-							},
-							{
-								"title": "Amador County Museum",
-								"url": "http://amadorcountyhistoricalsociety.org"
-							},
-							{
-								"title": "El Dorado County Historical Museum",
-								"url": "https://www.eldoradocounty.ca.gov/Health-Well-Being/Libraries-Education/El-Dorado-County-Historical-Museum"
-							},
-							{
-								"title": "Groveland Yosemite Gateway Museum",
-								"url": "http://grovelandmuseum.org"
-							}
-						]
-					}
-				},
-				{
-					"title": "INDUSTRY",
-					"type": "category",
-					"content": {
-						"subcategories": [
-							{
-								"title": "Brewing"
-							},
-							{
-								"title": "Steel"
-							},
-							{
-								"title": "Railroad"
-							}
-						]
-					}
-				},
-				{
-					"title": "JAPANESE HISTORY",
-					"type": "category"
-				},
-				{
-					"title": "JOURNALISM",
-					"type": "category",
-					"content": {
-						"subcategories": [
-							{
-								"title": "Newspaper"
-							},
-							{
-								"title": "Television"
-							},
-							{
-								"title": "Radio"
-							}
-						]
-					}
-				},
-				{
-					"title": "LAW AND ORDER",
-					"type": "category",
-					"content": {
-						"subcategories": [
-							{
-								"title": "Lawyers"
-							},
-							{
-								"title": "Judges"
-							},
-							{
-								"title": "Police"
-							},
-							{
-								"title": "Sheriffs"
-							}
-						]
-					}
-				},
-				{
-					"title": "MINING",
-					"type": "category"
-				},
-				{
-					"title": "MINORITIES",
-					"type": "category"
-				}
-			]
+				]
+			}
 		},
 		{
-			"id": "sectionNR",
-			"title": "N-R",
-			"resources": [
-				{
-					"title": "NATURAL HISTORY",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "Effie Yeaw Nature Center, Carmichael CA",
-								"url": "https://www.effieyeawnature.org/"
-							}
-						]
+			"title": "AVIATION",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "California Aerospace Museum",
+						"description": "Aerospace history is a remarkable story, and it all unfolds here at the Museum. Explore the exhibits, sit in the cockpit of an airplane, learn the stories of these",
+						"url": "http://www.aerospaceca.org/"
 					}
-				},
-				{
-					"title": "NEWSPAPERS (Historic)",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "California Digital Newspaper Collection",
-								"url": "http://cdnc.ucr.edu/cgi-bin/cdnc"
-							},
-							{
-								"title": "Sacramento Union 1980's",
-								"url": "http://www.stevemartarano.com/Martaranos_archives/Welcome.html"
-							}
-						]
-					}
-				},
-				{
-					"title": "PRESERVATION",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "Preservation Sacramento",
-								"url": "https://www.preservationsacramento.org"
-							}
-						]
-					}
-				},
-				{
-					"title": "REGIONAL HISTORY – SACRAMENTO COUNTY",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "Elk Grove",
-								"url": "https://elkgrovehistoricalsociety.com"
-							}
-						]
-					}
-				},
-				{
-					"title": "NATIONAL",
-					"type": "category"
-				},
-				{
-					"title": "OLD SACRAMENTO",
-					"type": "category"
-				},
-				{
-					"title": "ORAL HISTORIES",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "H-Net's network for oral history studies",
-								"url": "https://networks.h-net.org/h-oralhist"
-							}
-						]
-					}
-				},
-				{
-					"title": "ORGANIZATIONS (HISTORICAL)",
-					"type": "category"
-				},
-				{
-					"title": "PEOPLE OF HISTORICAL INTEREST",
-					"type": "category"
-				},
-				{
-					"title": "PHOTOGRAPHS",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "Features amateur photos showing our city in an earlier time.",
-								"url": "https://www.facebook.com/VintageSacramento/"
-							},
-							{
-								"title": "Images form the Glass Lantern Slide Collection of Dr. Junius Harris",
-								"url": "https://museumofmedicalhistory.org/glass-lantern-slides"
-							}
-						]
-					}
-				},
-				{
-					"title": "PODCASTS",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "Link Elaine Corn's (and others?) Capital Radio podcasts"
-							}
-						]
-					}
-				},
-				{
-					"title": "PUBLICATIONS",
-					"type": "category",
-					"content": {
-						"subcategories": [
-							{
-								"title": "Pioneers"
-							},
-							{
-								"title": "SCHS"
-							}
-						]
-					}
-				},
-				{
-					"title": "RELIGION",
-					"type": "category"
-				},
-				{
-					"title": "RESEARCH FACILITIES/ARCHIVES",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "Website for City County Archive (Center for Sacramento History)"
-							},
-							{
-								"title": "California Statewide Resource Center"
-							},
-							{
-								"title": "California State Library"
-							},
-							{
-								"title": "California State Archives"
-							},
-							{
-								"title": "Sacramento Room – Sacramento Public Library"
-							}
-						]
-					}
-				},
-				{
-					"title": "RESOURCES",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "Multiple links on Sacramento County Historical Society Website",
-								"description": "[The original link is broken, but the website is still up - ed.]",
-								"url": "http://www.sachistoricalsociety.org/"
-							}
-						]
-					}
-				}
-			]
+				]
+			}
 		},
 		{
-			"id": "sectionSZ",
-			"title": "S-Z",
-			"resources": [
-				{
-					"title": "SCHOOLS – EDUCATION",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "Sacramento County History Day",
-								"url": "https://www.nhdca.org/county-contests/sacramento/"
-							}
-						]
+			"title": "CEMETERIES",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Website for PDF of New Helvetia Brochure",
+						"url": "http://coroner.saccounty.net/documents/NewHelvetiaBrochure.pdf"
+					},
+					{
+						"title": "Sacramento County Cemetery Advisory Commission",
+						"url": "https://coroner.saccounty.gov/sccac/Pages/default.aspx"
+					},
+					{
+						"title": "Sacramento Historic City Cemetery",
+						"url": "https://historicoldcitycemetery.org"
+					},
+					{
+						"title": "Association for Gravestone Studies",
+						"url": "http://www.gravestonestudies.org"
 					}
-				},
-				{
-					"title": "TOURS",
-					"type": "category",
-					"content": {
-						"subcategories": [
-							{
-								"title": "Architectural"
-							},
-							{
-								"title": "Walking"
-							}
-						],
-						"resources": [
-							{
-								"title": "Architectural Tours by Preservation Sacramento (app)",
-								"url": "https://apps.apple.com/us/app/preservation-sacramento/id906020366",
-								"urlLabel": "Apple"
-							},
-							{
-								"title": "Sacramento Underground Tour",
-								"url": "http://sachistorymuseum.org/tours/underground-tours/"
-							},
-							{
-								"title": "Sacramento Historic City Cemetery",
-								"url": "https://historicoldcitycemetery.org/"
-							}
-						]
+				]
+			}
+		},
+		{
+			"title": "CHINESE HISTORY",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Locke Foundation",
+						"url": "http://www.locke-foundation.org/?np=true"
+					},
+					{
+						"title": "Yee Fow Museum",
+						"url": "http://www.yeefowmuseum.org/learn.html"
 					}
-				},
-				{
-					"title": "VIDEOS",
-					"type": "category",
-					"content": {
-						"resources": [
-							{
-								"title": "Sacramento History on YouTube",
-								"url": "http://www.youtube.com/user/SacramentoHistory"
-							},
-							{
-								"title": "Jim Henley's : YouTube bits of Sacramento History",
-								"url": "https://www.youtube.com/@CenterforSacramentoHistory/search?query=henley"
-							}
-						]
+				]
+			}
+		},
+		{
+			"title": "ARCHITECTURE",
+			"type": "category",
+			"content": {
+				"subcategories": [
+					{
+						"title": "Commercial"
+					},
+					{
+						"title": "Home"
+					},
+					{
+						"title": "Associations – AIA"
+					},
+					{
+						"title": "Blogs (under each category) including facebook/social media"
+					},
+					{
+						"title": "Tours"
 					}
-				},
-				{
-					"title": "WATER",
-					"type": "category",
-					"content": {
-						"subcategories": [
-							{
-								"title": "Rivers"
-							},
-							{
-								"title": "Water Use"
-							},
-							{
-								"title": "Reclamation"
-							},
-							{
-								"title": "Reservoirs"
-							}
-						]
+				]
+			}
+		},
+		{
+			"title": "ARCHIVISTS",
+			"type": "category"
+		},
+		{
+			"title": "ASSOCIATIONS",
+			"type": "category"
+		},
+		{
+			"title": "BENEVOLENT SOCIETIES",
+			"type": "category"
+		},
+		{
+			"title": "BLOGS",
+			"type": "category"
+		},
+		{
+			"title": "CALENDAR EVENTS (Historical)",
+			"type": "category",
+			"description": "Sources for future calendar events",
+			"content": {
+				"resources": [
+					{
+						"title": "Sacramento 365",
+						"description": "Find art and culture events in the Sacramento area. Get times and locations for performing arts, theatre. music. dance. visual arts & museums. film & videos.",
+						"url": "http://www.sacramento365.com/",
+						"urlLabel": "www.sacramento365.com"
+					},
+					{
+						"title": "Sacramento Archives Crawl (one day every October)",
+						"url": "https://www.sos.ca.gov/archives/public-events/archives-month/archives-crawl"
 					}
-				},
-				{
-					"title": "SLAVERY",
-					"type": "category"
-				},
-				{
-					"title": "SPORTS",
-					"type": "category"
-				},
-				{
-					"title": "STREET NAMES",
-					"type": "category"
-				},
-				{
-					"title": "TRANSPORTATION",
-					"type": "category",
-					"content": {
-						"subcategories": [
-							{
-								"title": "Railroads"
-							},
-							{
-								"title": "Electric"
-							},
-							{
-								"title": "Horse-drawn"
-							},
-							{
-								"title": "Automotive"
-							},
-							{
-								"title": "Bicycle"
-							},
-							{
-								"title": "River"
-							}
-						]
+				]
+			}
+		},
+		{
+			"title": "COMMERCE – BUSINESS – TRADE",
+			"type": "category"
+		},
+		{
+			"title": "COMMUNICATION",
+			"type": "category",
+			"content": {
+				"subcategories": [
+					{
+						"title": "Radio, TV, Newspapers"
 					}
-				},
-				{
-					"title": "WALKING TOURS",
-					"type": "category"
-				},
-				{
-					"title": "WOMEN'S HISTORY",
-					"type": "category"
-				}
-			]
+				]
+			}
+		},
+		{
+			"title": "COMPILATION (HISTORY)",
+			"type": "category"
+		},
+		{
+			"title": "CONFERENCES, SYMPOSIA",
+			"type": "category"
+		},
+		{
+			"title": "COMMUNICATION-CONNECTIONS",
+			"type": "category",
+			"content": {
+				"subcategories": [
+					{
+						"title": "Pony Express"
+					},
+					{
+						"title": "Wells Fargo"
+					}
+				]
+			}
+		},
+		{
+			"title": "CITIES/LOCALITIES",
+			"type": "category",
+			"content": {
+				"subcategories": [
+					{
+						"title": "Locke"
+					}
+				]
+			}
+		},
+		{
+			"title": "DEMOGRAPHICS",
+			"type": "category",
+			"content": {
+				"subcategories": [
+					{
+						"title": "Population"
+					}
+				]
+			}
+		},
+		{
+			"title": "ETHNIC/CULTURAL HISTORY",
+			"type": "category",
+			"content": {
+				"subcategories": [
+					{
+						"title": "First/Second Most Ethnically Diverse City"
+					},
+					{
+						"title": "African American"
+					},
+					{
+						"title": "Basque"
+					},
+					{
+						"title": "British/English, Irish, Scottish, Welsch"
+					},
+					{
+						"title": "Chinese"
+					},
+					{
+						"title": "Croatian"
+					},
+					{
+						"title": "Filipino"
+					},
+					{
+						"title": "French"
+					},
+					{
+						"title": "German"
+					},
+					{
+						"title": "Hmong"
+					},
+					{
+						"title": "India/Pakistan"
+					},
+					{
+						"title": "Italian"
+					},
+					{
+						"title": "Japanese"
+					},
+					{
+						"title": "Mexican"
+					},
+					{
+						"title": "Native American"
+					},
+					{
+						"title": "Portuguese"
+					},
+					{
+						"title": "Spanish"
+					},
+					{
+						"title": "Thai"
+					},
+					{
+						"title": "Other"
+					}
+				]
+			}
+		},
+		{
+			"title": "EVENTS (Historical)",
+			"type": "category",
+			"description": "Sources for future calendar events",
+			"content": {
+				"resources": [
+					{
+						"title": "Sacramento 365",
+						"description": "Find art and culture events in the Sacramento area. Get times and locations for performing arts, theatre. music. dance. visual arts & museums. film & videos.",
+						"url": "http://www.sacramento365.com/"
+					},
+					{
+						"title": "Sacramento Archives Crawl (one day every October)",
+						"url": "https://www.sos.ca.gov/archives/public-events/archives-month/archives-crawl"
+					}
+				]
+			}
+		},
+		{
+			"title": "FAMILY HISTORY (GENEALOGY)",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Jewish Genealogical Society of Sacramento",
+						"url": "http://www.jewishgen.org/jgs-sacramento",
+						"urlLabel": "www.jewishgen.org/jgs-sacramento"
+					},
+					{
+						"title": "Root Cellar Sacramento Genealogical Society",
+						"url": "http://www.rootcellar.org/",
+						"urlLabel": "www.rootcellar.org"
+					},
+					{
+						"title": "SACRAMENTO REGIONAL GENEALOGICAL COUNCIL",
+						"url": "https://srgcouncil.org/cpage.php?pt=56"
+					},
+					{
+						"title": "California Pioneer Project",
+						"url": "https://californiapioneer.com/"
+					},
+					{
+						"title": "RootsWeb Sacramento",
+						"url": "https://sites.rootsweb.com/~cabf1905/Sacramento/SactoCoIndx.htm"
+					}
+				]
+			}
+		},
+		{
+			"title": "FOOD",
+			"type": "category",
+			"content": {
+				"subcategories": [
+					{
+						"title": "Restaurants"
+					},
+					{
+						"title": "Food Tours"
+					}
+				]
+			}
+		},
+		{
+			"title": "ENTERTAINMENT",
+			"type": "category"
+		},
+		{
+			"title": "ENVIRONMENTAL/LAND USE",
+			"type": "category"
+		},
+		{
+			"title": "FAIRS & FESTIVALS",
+			"type": "category"
+		},
+		{
+			"title": "FAMOUS PEOPLE",
+			"type": "category"
+		},
+		{
+			"title": "FINANCE/BANKING",
+			"type": "category"
+		},
+		{
+			"title": "FIREHOUSE HISTORY",
+			"type": "category"
+		},
+		{
+			"title": "GOLD RUSH",
+			"type": "category"
+		},
+		{
+			"title": "HISTORICAL SOCIETIES",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Orangevale History Project",
+						"url": "https://www.orangevalehistory.org/",
+						"urlLabel": "www.orangevalehistory.org"
+					}
+				]
+			}
+		},
+		{
+			"title": "LIBRARIES",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "UCSF Library & Archives",
+						"url": "https://www.library.ucsf.edu/collections/archives"
+					},
+					{
+						"title": "California State Library",
+						"url": "http://www.library.ca.gov/"
+					},
+					{
+						"title": "California State Library – California Section",
+						"url": "https://www.library.ca.gov/california-history/"
+					},
+					{
+						"title": "Library of Congress online archives",
+						"url": "http://catalog.loc.gov/"
+					},
+					{
+						"title": "Root Cellar",
+						"url": "http://www.rootcellar.org/"
+					},
+					{
+						"title": "Sacramento Public Library—Sacramento Room",
+						"url": "https://www.saclibrary.org/Education/History/The-Sacramento-Room"
+					}
+				]
+			}
+		},
+		{
+			"title": "MAPS",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Sacramento County Online Map",
+						"url": "http://generalmap.gis.saccounty.net/JSViewer/county_portal.html"
+					}
+				]
+			}
+		},
+		{
+			"title": "MEDICAL",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "SSVMS Museum of Medical History",
+						"url": "http://www.ssvms.org/museum.aspx"
+					}
+				]
+			}
+		},
+		{
+			"title": "MEXICAN-AMERICAN HISTORY",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "American Digital History",
+						"url": "http://www.digitalhistory.uh.edu/index.cfm"
+					}
+				]
+			}
+		},
+		{
+			"title": "MILITARY",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "California State Military History and Museums Program",
+						"url": "http://www.militarymuseum.org"
+					}
+				]
+			}
+		},
+		{
+			"title": "MUSEUMS",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "SAM (Sacramento Association of Museums)",
+						"url": "http://www.sacmuseums.org"
+					},
+					{
+						"title": "Amador County Museum",
+						"url": "http://amadorcountyhistoricalsociety.org"
+					},
+					{
+						"title": "El Dorado County Historical Museum",
+						"url": "https://www.eldoradocounty.ca.gov/Health-Well-Being/Libraries-Education/El-Dorado-County-Historical-Museum"
+					},
+					{
+						"title": "Groveland Yosemite Gateway Museum",
+						"url": "http://grovelandmuseum.org"
+					}
+				]
+			}
+		},
+		{
+			"title": "INDUSTRY",
+			"type": "category",
+			"content": {
+				"subcategories": [
+					{
+						"title": "Brewing"
+					},
+					{
+						"title": "Steel"
+					},
+					{
+						"title": "Railroad"
+					}
+				]
+			}
+		},
+		{
+			"title": "JAPANESE HISTORY",
+			"type": "category"
+		},
+		{
+			"title": "JOURNALISM",
+			"type": "category",
+			"content": {
+				"subcategories": [
+					{
+						"title": "Newspaper"
+					},
+					{
+						"title": "Television"
+					},
+					{
+						"title": "Radio"
+					}
+				]
+			}
+		},
+		{
+			"title": "LAW AND ORDER",
+			"type": "category",
+			"content": {
+				"subcategories": [
+					{
+						"title": "Lawyers"
+					},
+					{
+						"title": "Judges"
+					},
+					{
+						"title": "Police"
+					},
+					{
+						"title": "Sheriffs"
+					}
+				]
+			}
+		},
+		{
+			"title": "MINING",
+			"type": "category"
+		},
+		{
+			"title": "MINORITIES",
+			"type": "category"
+		},
+		{
+			"title": "NATURAL HISTORY",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Effie Yeaw Nature Center, Carmichael CA",
+						"url": "https://www.effieyeawnature.org/"
+					}
+				]
+			}
+		},
+		{
+			"title": "NEWSPAPERS (Historic)",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "California Digital Newspaper Collection",
+						"url": "http://cdnc.ucr.edu/cgi-bin/cdnc"
+					},
+					{
+						"title": "Sacramento Union 1980's",
+						"url": "http://www.stevemartarano.com/Martaranos_archives/Welcome.html"
+					}
+				]
+			}
+		},
+		{
+			"title": "PRESERVATION",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Preservation Sacramento",
+						"url": "https://www.preservationsacramento.org"
+					}
+				]
+			}
+		},
+		{
+			"title": "REGIONAL HISTORY – SACRAMENTO COUNTY",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Elk Grove",
+						"url": "https://elkgrovehistoricalsociety.com"
+					}
+				]
+			}
+		},
+		{
+			"title": "NATIONAL",
+			"type": "category"
+		},
+		{
+			"title": "OLD SACRAMENTO",
+			"type": "category"
+		},
+		{
+			"title": "ORAL HISTORIES",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "H-Net's network for oral history studies",
+						"url": "https://networks.h-net.org/h-oralhist"
+					}
+				]
+			}
+		},
+		{
+			"title": "ORGANIZATIONS (HISTORICAL)",
+			"type": "category"
+		},
+		{
+			"title": "PEOPLE OF HISTORICAL INTEREST",
+			"type": "category"
+		},
+		{
+			"title": "PHOTOGRAPHS",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Features amateur photos showing our city in an earlier time.",
+						"url": "https://www.facebook.com/VintageSacramento/"
+					},
+					{
+						"title": "Images form the Glass Lantern Slide Collection of Dr. Junius Harris",
+						"url": "https://museumofmedicalhistory.org/glass-lantern-slides"
+					}
+				]
+			}
+		},
+		{
+			"title": "PODCASTS",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Link Elaine Corn's (and others?) Capital Radio podcasts"
+					}
+				]
+			}
+		},
+		{
+			"title": "PUBLICATIONS",
+			"type": "category",
+			"content": {
+				"subcategories": [
+					{
+						"title": "Pioneers"
+					},
+					{
+						"title": "SCHS"
+					}
+				]
+			}
+		},
+		{
+			"title": "RELIGION",
+			"type": "category"
+		},
+		{
+			"title": "RESEARCH FACILITIES/ARCHIVES",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Website for City County Archive (Center for Sacramento History)"
+					},
+					{
+						"title": "California Statewide Resource Center"
+					},
+					{
+						"title": "California State Library"
+					},
+					{
+						"title": "California State Archives"
+					},
+					{
+						"title": "Sacramento Room – Sacramento Public Library"
+					}
+				]
+			}
+		},
+		{
+			"title": "RESOURCES",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Multiple links on Sacramento County Historical Society Website",
+						"description": "[The original link is broken, but the website is still up - ed.]",
+						"url": "http://www.sachistoricalsociety.org/"
+					}
+				]
+			}
+		},
+		{
+			"title": "SCHOOLS – EDUCATION",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Sacramento County History Day",
+						"url": "https://www.nhdca.org/county-contests/sacramento/"
+					}
+				]
+			}
+		},
+		{
+			"title": "TOURS",
+			"type": "category",
+			"content": {
+				"subcategories": [
+					{
+						"title": "Architectural"
+					},
+					{
+						"title": "Walking"
+					}
+				],
+				"resources": [
+					{
+						"title": "Architectural Tours by Preservation Sacramento (app)",
+						"url": "https://apps.apple.com/us/app/preservation-sacramento/id906020366",
+						"urlLabel": "Apple"
+					},
+					{
+						"title": "Sacramento Underground Tour",
+						"url": "http://sachistorymuseum.org/tours/underground-tours/"
+					},
+					{
+						"title": "Sacramento Historic City Cemetery",
+						"url": "https://historicoldcitycemetery.org/"
+					}
+				]
+			}
+		},
+		{
+			"title": "VIDEOS",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Sacramento History on YouTube",
+						"url": "http://www.youtube.com/user/SacramentoHistory"
+					},
+					{
+						"title": "Jim Henley's : YouTube bits of Sacramento History",
+						"url": "https://www.youtube.com/@CenterforSacramentoHistory/search?query=henley"
+					}
+				]
+			}
+		},
+		{
+			"title": "WATER",
+			"type": "category",
+			"content": {
+				"subcategories": [
+					{
+						"title": "Rivers"
+					},
+					{
+						"title": "Water Use"
+					},
+					{
+						"title": "Reclamation"
+					},
+					{
+						"title": "Reservoirs"
+					}
+				]
+			}
+		},
+		{
+			"title": "SLAVERY",
+			"type": "category"
+		},
+		{
+			"title": "SPORTS",
+			"type": "category"
+		},
+		{
+			"title": "STREET NAMES",
+			"type": "category"
+		},
+		{
+			"title": "TRANSPORTATION",
+			"type": "category",
+			"content": {
+				"subcategories": [
+					{
+						"title": "Railroads"
+					},
+					{
+						"title": "Electric"
+					},
+					{
+						"title": "Horse-drawn"
+					},
+					{
+						"title": "Automotive"
+					},
+					{
+						"title": "Bicycle"
+					},
+					{
+						"title": "River"
+					}
+				]
+			}
+		},
+		{
+			"title": "WALKING TOURS",
+			"type": "category"
+		},
+		{
+			"title": "WOMEN'S HISTORY",
+			"type": "category"
 		}
 	]
 }

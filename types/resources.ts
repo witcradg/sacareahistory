@@ -22,12 +22,6 @@ export interface ResourceItem {
 	urlLabel?: string;     // Optional custom text for URL
 }
 
-export interface ResourceSection {
-	id: string;            // Section identifier (e.g. "sectionAD")
-	title: string;         // Section title (e.g. "A-D")
-	resources: Resource[]; // Resources in this section
-}
-
 export interface ResourceData {
-	sections: ResourceSection[];
+	resources: Resource[];  // Single array of all resources
 }
