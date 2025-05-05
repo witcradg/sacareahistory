@@ -1,0 +1,133 @@
+{
+	"sections": [
+		{
+			"id": "sectionSZ",
+			"title": "S-Z",
+			"resources": [
+				{
+					"title": "SCHOOLS – EDUCATION",
+					"type": "category",
+					"content": {
+						"resources": [
+							{
+								"title": "Sacramento County History Day",
+								"url": "https://www.nhdca.org/county-contests/sacramento/"
+							}
+						]
+					}
+				},
+				{
+					"title": "SLAVERY",
+					"type": "category"
+				},
+				{
+					"title": "SPORTS",
+					"type": "category"
+				},
+				{
+					"title": "STREET NAMES",
+					"type": "category"
+				},
+				{
+					"title": "TOURS",
+					"type": "category",
+					"content": {
+						"subcategories": [
+							{
+								"title": "Architectural"
+							},
+							{
+								"title": "Walking"
+							}
+						],
+						"resources": [
+							{
+								"title": "Architectural Tours by Preservation Sacramento (app)",
+								"url": "https://apps.apple.com/us/app/preservation-sacramento/id906020366",
+								"urlLabel": "Apple"
+							},
+							{
+								"title": "Sacramento Underground Tour",
+								"url": "http://sachistorymuseum.org/tours/underground-tours/"
+							},
+							{
+								"title": "Sacramento Historic City Cemetery",
+								"url": "https://historicoldcitycemetery.org/"
+							}
+						]
+					}
+				},
+				{
+					"title": "TRANSPORTATION",
+					"type": "category",
+					"content": {
+						"subcategories": [
+							{
+								"title": "Railroads"
+							},
+							{
+								"title": "Electric"
+							},
+							{
+								"title": "Horse-drawn"
+							},
+							{
+								"title": "Automotive"
+							},
+							{
+								"title": "Bicycle"
+							},
+							{
+								"title": "River"
+							}
+						]
+					}
+				},
+				{
+					"title": "VIDEOS",
+					"type": "category",
+					"content": {
+						"resources": [
+							{
+								"title": "Sacramento History on YouTube",
+								"url": "http://www.youtube.com/user/SacramentoHistory"
+							},
+							{
+								"title": "Jim Henley's : YouTube bits of Sacramento History",
+								"url": "https://www.youtube.com/@CenterforSacramentoHistory/search?query=henley"
+							}
+						]
+					}
+				},
+				{
+					"title": "WALKING TOURS",
+					"type": "category"
+				},
+				{
+					"title": "WATER",
+					"type": "category",
+					"content": {
+						"subcategories": [
+							{
+								"title": "Rivers"
+							},
+							{
+								"title": "Water Use"
+							},
+							{
+								"title": "Reclamation"
+							},
+							{
+								"title": "Reservoirs"
+							}
+						]
+					}
+				},
+				{
+					"title": "WOMEN'S HISTORY",
+					"type": "category"
+				}
+			]
+		}
+	]
+}
