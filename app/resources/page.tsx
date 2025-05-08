@@ -114,7 +114,7 @@ export default function ResourcesPage() {
 					</div>
 
 					{/* Search and alphabet navigation in separate columns */}
-					<div className="sticky top-[232px] self-start flex gap-4 h-fit">
+					<div className="sticky top-[232px] self-start flex gap-4 h-fit pr-16">
 						{/* Search column */}
 						<div className="w-48 shrink-0">
 							<Input
