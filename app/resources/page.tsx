@@ -2,10 +2,32 @@
 
 import { useEffect, useState } from 'react'
 import { AlphabetNav } from '@/components/AlphabetNav'
-import resourceData from '@/data/resources.json'
-import { ResourceCard } from '@/components/ResourceCard'
-import { Resource, ResourceData } from '@/types/resources'
+import masterData from '@/data/master.json'
+import { Resource, ResourceData, ResourceItem, CategoryItem } from '@/types/resources'
 import { Input } from '@/components/ui/input'
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
+
+// Helper functions to reduce nesting
+const matchesSearchQuery = (text: string | undefined, query: string): boolean => {
+	return text?.toLowerCase().includes(query) ?? false;
+}
+
+const filterResourcesByQuery = (resources: Resource[], query: string): Resource[] => {
+	return resources.filter(resource => {
+		const matchesTitle = matchesSearchQuery(resource.title, query);
+		const matchesDescription = matchesSearchQuery(resource.description, query);
+		const matchesSubcategories = resource.content?.subcategories?.some(
+			(cat: CategoryItem) => matchesSearchQuery(cat.title, query)
+		);
+		const matchesResources = resource.content?.resources?.some(
+			(res: ResourceItem) => {
+				return matchesSearchQuery(res.title, query) || matchesSearchQuery(res.description, query);
+			}
+		);
+
+		return matchesTitle || matchesDescription || matchesSubcategories || matchesResources;
+	});
+}
 
 export default function ResourcesPage() {
 	const [activeLetters, setActiveLetters] = useState<string[]>([])
@@ -15,7 +37,7 @@ export default function ResourcesPage() {
 
 	useEffect(() => {
 		// Group resources by first letter
-		const typedData = resourceData as ResourceData;
+		const typedData = masterData as ResourceData;
 		const grouped = typedData.resources.reduce<Record<string, Resource[]>>((acc, resource) => {
 			const firstLetter = resource.title.charAt(0).toUpperCase();
 			if (!acc[firstLetter]) {
@@ -43,18 +65,7 @@ export default function ResourcesPage() {
 
 		const query = searchQuery.toLowerCase();
 		const filtered = Object.entries(resourcesByLetter).reduce<Record<string, Resource[]>>((acc, [letter, resources]) => {
-			const filteredResources = resources.filter(resource => {
-				const matchesTitle = resource.title.toLowerCase().includes(query);
-				const matchesDescription = resource.description?.toLowerCase().includes(query);
-				const matchesSubcategories = resource.content?.subcategories?.some(
-					cat => cat.title.toLowerCase().includes(query)
-				);
-				const matchesResources = resource.content?.resources?.some(
-					res => res.title.toLowerCase().includes(query) || res.description?.toLowerCase().includes(query)
-				);
-
-				return matchesTitle || matchesDescription || matchesSubcategories || matchesResources;
-			});
+			const filteredResources = filterResourcesByQuery(resources, query);
 
 			if (filteredResources.length > 0) {
 				acc[letter] = filteredResources;
@@ -77,12 +88,58 @@ export default function ResourcesPage() {
 		const value = e.target.value;
 		setSearchQuery(value);
 
-		// If search is cleared, reset to initial state
 		if (!value) {
 			setFilteredResourcesByLetter(resourcesByLetter);
 			setActiveLetters(Object.keys(resourcesByLetter).sort((a, b) => a.localeCompare(b)));
 		}
 	}
+
+	const renderResources = (resources: ResourceItem[] | undefined, indent: boolean = false) => {
+		if (!resources?.length) return null;
+
+		return (
+			<div className={`mt-4 space-y-2 ${indent ? 'ml-4' : ''}`}>
+				<div className="space-y-2">
+					{resources.map((res: ResourceItem) => (
+						<div key={res.title} className="pl-4 border-l-2 border-primary/20">
+							<a
+								href={res.url}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="text-primary hover:underline font-medium"
+							>
+								{res.title}
+							</a>
+							{res.description && (
+								<p className="text-sm text-muted-foreground mt-1">{res.description}</p>
+							)}
+						</div>
+					))}
+				</div>
+			</div>
+		);
+	};
+
+	const renderSubcategories = (resource: Resource) => {
+		if (!resource.content?.subcategories?.length) return null;
+
+		return (
+			<div className="mt-6 space-y-6">
+				{resource.content.subcategories.map((subcat) => (
+					<div
+						key={`${resource.title}-${subcat.title}`}
+						className="bg-muted/20 rounded-lg p-4"
+					>
+						<h3 className="text-lg font-semibold mb-2">{subcat.title}</h3>
+						{subcat.description && (
+							<p className="text-muted-foreground mb-4">{subcat.description}</p>
+						)}
+						{subcat.resources && renderResources(subcat.resources, true)}
+					</div>
+				))}
+			</div>
+		);
+	};
 
 	return (
 		<div className="min-h-screen">
@@ -100,12 +157,32 @@ export default function ResourcesPage() {
 									className="scroll-mt-32"
 								>
 									<h2 className="text-2xl font-semibold mb-4">{letter}</h2>
-									<div className="grid gap-4">
-										{filteredResourcesByLetter[letter]?.map((resource, index) => (
-											<ResourceCard
-												key={`${letter}-${index}`}
-												resource={resource}
-											/>
+									<div className="grid gap-6">
+										{filteredResourcesByLetter[letter]?.map((resource) => (
+											<Card key={`${letter}-${resource.title}`} className="overflow-hidden">
+												<CardHeader className="bg-muted/50">
+													<CardTitle className="text-xl">{resource.title}</CardTitle>
+													{resource.description && (
+														<p className="text-muted-foreground">{resource.description}</p>
+													)}
+												</CardHeader>
+												<CardContent className="pt-6">
+													{/* Show top-level resources first */}
+													{resource.content?.resources && !resource.content?.subcategories?.length &&
+														renderResources(resource.content.resources)}
+
+													{/* Show subcategories with their resources */}
+													{renderSubcategories(resource)}
+
+													{/* Show top-level resources after subcategories if both exist */}
+													{resource.content?.resources && resource.content?.subcategories?.length &&
+														<div className="mt-6">
+															<h3 className="text-lg font-semibold mb-4">Additional Resources</h3>
+															{renderResources(resource.content.resources)}
+														</div>
+													}
+												</CardContent>
+											</Card>
 										))}
 									</div>
 								</div>
@@ -113,9 +190,8 @@ export default function ResourcesPage() {
 						</div>
 					</div>
 
-					{/* Search and alphabet navigation in separate columns */}
+					{/* Search and alphabet navigation */}
 					<div className="sticky top-[232px] self-start flex gap-4 h-fit pr-16">
-						{/* Search column */}
 						<div className="w-48 shrink-0">
 							<Input
 								type="search"
@@ -125,8 +201,6 @@ export default function ResourcesPage() {
 								onChange={handleSearchChange}
 							/>
 						</div>
-
-						{/* Alphabet navigation column */}
 						<div className="w-10 shrink-0">
 							<AlphabetNav
 								activeLetters={activeLetters}
