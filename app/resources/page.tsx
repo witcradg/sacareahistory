@@ -98,15 +98,16 @@ export default function ResourcesPage() {
 		if (!resources?.length) return null;
 
 		return (
-			<div className={`mt-4 space-y-2 ${indent ? 'ml-4' : ''}`}>
+			<div className={`mt-4 space-y-2 ${indent ? 'ml-4' : ''}`} role="list">
 				<div className="space-y-2">
 					{resources.map((res: ResourceItem) => (
-						<div key={res.title} className="pl-4 border-l-2 border-primary/20">
+						<div key={res.title} className="pl-4 border-l-2 border-primary/20" role="listitem">
 							<a
 								href={res.url}
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-primary hover:underline font-medium"
+								aria-label={`${res.title} (opens in new tab)`}
 							>
 								{res.title}
 							</a>
@@ -126,16 +127,22 @@ export default function ResourcesPage() {
 		return (
 			<div className="mt-6 space-y-6">
 				{resource.content.subcategories.map((subcat) => (
-					<div
+					<section
 						key={`${resource.title}-${subcat.title}`}
 						className="bg-muted/20 rounded-lg p-4"
+						aria-labelledby={`subcat-${resource.title}-${subcat.title}`}
 					>
-						<h3 className="text-lg font-semibold mb-2">{subcat.title}</h3>
+						<h3
+							id={`subcat-${resource.title}-${subcat.title}`}
+							className="text-lg font-semibold mb-2"
+						>
+							{subcat.title}
+						</h3>
 						{subcat.description && (
 							<p className="text-muted-foreground mb-4">{subcat.description}</p>
 						)}
 						{subcat.resources && renderResources(subcat.resources, true)}
-					</div>
+					</section>
 				))}
 			</div>
 		);
@@ -146,7 +153,7 @@ export default function ResourcesPage() {
 			<div className="container py-8">
 				<h1 className="text-4xl font-bold text-center mb-8">Resources</h1>
 
-				<div className="flex gap-8">
+				<div className="lg:flex gap-8">
 					{/* Main content */}
 					<div className="flex-1">
 						<div className="space-y-12">
@@ -154,54 +161,58 @@ export default function ResourcesPage() {
 								<div
 									key={letter}
 									id={`section-${letter}`}
-									className="scroll-mt-32"
+									className="scroll-mt-24"
 								>
-									<h2 className="text-2xl font-semibold mb-4">{letter}</h2>
-									<div className="grid gap-6">
-										{filteredResourcesByLetter[letter]?.map((resource) => (
-											<Card key={`${letter}-${resource.title}`} className="overflow-hidden">
-												<CardHeader className="bg-muted/50">
-													<CardTitle className="text-xl">{resource.title}</CardTitle>
-													{resource.description && (
-														<p className="text-muted-foreground">{resource.description}</p>
-													)}
-												</CardHeader>
-												<CardContent className="pt-6">
-													{/* Show top-level resources first */}
-													{resource.content?.resources && !resource.content?.subcategories?.length &&
-														renderResources(resource.content.resources)}
+									{/* Use section with aria-label for better semantics */}
+									<section aria-label={`Resources starting with ${letter}`}>
+										<h2 className="text-2xl font-semibold mb-4">{letter}</h2>
+										<div className="grid gap-6">
+											{filteredResourcesByLetter[letter]?.map((resource) => (
+												<Card key={`${letter}-${resource.title}`} className="overflow-hidden">
+													<CardHeader className="bg-muted/50">
+														<CardTitle className="text-xl">{resource.title}</CardTitle>
+														{resource.description && (
+															<p className="text-muted-foreground">{resource.description}</p>
+														)}
+													</CardHeader>
+													<CardContent className="pt-6">
+														{/* Show top-level resources first */}
+														{resource.content?.resources && !resource.content?.subcategories?.length &&
+															renderResources(resource.content.resources)}
 
-													{/* Show subcategories with their resources */}
-													{renderSubcategories(resource)}
+														{/* Show subcategories with their resources */}
+														{renderSubcategories(resource)}
 
-													{/* Show top-level resources after subcategories if both exist */}
-													{resource.content?.resources && resource.content?.subcategories?.length &&
-														<div className="mt-6">
-															<h3 className="text-lg font-semibold mb-4">Additional Resources</h3>
-															{renderResources(resource.content.resources)}
-														</div>
-													}
-												</CardContent>
-											</Card>
-										))}
-									</div>
+														{/* Show top-level resources after subcategories if both exist */}
+														{resource.content?.resources && resource.content?.subcategories?.length &&
+															<div className="mt-6">
+																<h3 className="text-lg font-semibold mb-4">Additional Resources</h3>
+																{renderResources(resource.content.resources)}
+															</div>
+														}
+													</CardContent>
+												</Card>
+											))}
+										</div>
+									</section>
 								</div>
 							))}
 						</div>
 					</div>
 
 					{/* Search and alphabet navigation */}
-					<div className="sticky top-[232px] self-start flex gap-4 h-fit pr-16">
-						<div className="w-48 shrink-0">
+					<div className="sticky lg:top-24 self-start flex gap-4 h-fit lg:pr-16 mt-8 lg:mt-0">
+						<div className="w-full lg:w-48 shrink-0">
 							<Input
 								type="search"
 								placeholder="Search resources..."
 								className="w-full"
 								value={searchQuery}
 								onChange={handleSearchChange}
+								aria-label="Search resources"
 							/>
 						</div>
-						<div className="w-10 shrink-0">
+						<div className="w-10 shrink-0 hidden lg:block">
 							<AlphabetNav
 								activeLetters={activeLetters}
 								onLetterClick={scrollToLetter}

@@ -1,27 +1,25 @@
-export interface Resource {
-	title: string;           // The main resource title (e.g. "AGRICULTURE")
-	description?: string;    // Optional description that appears below the title
-	type: 'category' | 'resource';  // Whether this is a category or specific resource
-	url?: string;           // URL if this is a direct link
-	content?: {
-		subcategories?: CategoryItem[];  // For grouping related items (e.g. "County", "State")
-		resources?: ResourceItem[];      // Individual resource entries
-	};
+export interface ResourceItem {
+	title: string
+	url: string
+	description?: string
+	urlLabel?: string
 }
 
 export interface CategoryItem {
-	title: string;          // Category name (e.g. "County", "State")
-	description?: string;   // Optional category description
-	resources?: ResourceItem[];  // Resources in this category
+	title: string
+	description?: string
+	resources: ResourceItem[]
 }
 
-export interface ResourceItem {
-	title: string;          // Resource name (e.g. "California Agricultural Museum")
-	description?: string;   // Optional description text
-	url?: string;          // Resource URL
-	urlLabel?: string;     // Optional custom text for URL
+export interface Resource {
+	title: string
+	description?: string
+	content?: {
+		resources?: ResourceItem[]
+		subcategories?: CategoryItem[]
+	}
 }
 
 export interface ResourceData {
-	resources: Resource[];  // Single array of all resources
+	resources: Resource[]
 }

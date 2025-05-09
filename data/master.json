@@ -519,6 +519,10 @@
 					{
 						"title": "Groveland Yosemite Gateway Museum",
 						"url": "http://grovelandmuseum.org"
+					},
+					{
+						"title": "Orangevale History Museum",
+						"url": "https://orangevalehistorymuseum.org"
 					}
 				]
 			}
@@ -784,6 +788,19 @@
 					{
 						"title": "Jim Henley's : YouTube bits of Sacramento History",
 						"url": "https://www.youtube.com/@CenterforSacramentoHistory/search?query=henley"
+					},
+					{
+						"title": "Orangevale History Project",
+						"description": "Collection",
+						"url": "https://www.youtube.com/@orangevalehistoryproject255"
+					},
+					{
+						"title": "Sacramento History Museum",
+						"url": "https://www.youtube.com/@SacramentoHistoryMuseum"
+					},
+					{
+						"title": "The History of Roseville",
+						"url": "https://youtu.be/nrkkx7aUF4M"
 					}
 				]
 			}

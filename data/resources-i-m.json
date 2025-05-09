@@ -1,0 +1,116 @@
+{
+	"resources": [
+		{
+			"title": "LANDMARKS & HISTORICAL MARKERS",
+			"type": "category"
+		},
+		{
+			"title": "LAW ENFORCEMENT",
+			"type": "category"
+		},
+		{
+			"title": "LIBRARIES",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "UCSF Library & Archives",
+						"url": "https://www.library.ucsf.edu/collections/archives"
+					},
+					{
+						"title": "California State Library",
+						"url": "http://www.library.ca.gov/"
+					},
+					{
+						"title": "California State Library – California Section",
+						"url": "https://www.library.ca.gov/california-history/"
+					},
+					{
+						"title": "Library of Congress online archives",
+						"url": "http://catalog.loc.gov/"
+					},
+					{
+						"title": "Root Cellar",
+						"url": "http://www.rootcellar.org/"
+					},
+					{
+						"title": "Sacramento Public Library—Sacramento Room",
+						"url": "https://www.saclibrary.org/Education/History/The-Sacramento-Room"
+					}
+				]
+			}
+		},
+		{
+			"title": "MAPS",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Sacramento County Online Map",
+						"url": "http://generalmap.gis.saccounty.net/JSViewer/county_portal.html"
+					}
+				]
+			}
+		},
+		{
+			"title": "MEDICAL",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "SSVMS Museum of Medical History",
+						"url": "http://www.ssvms.org/museum.aspx"
+					}
+				]
+			}
+		},
+		{
+			"title": "MEXICAN-AMERICAN HISTORY",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "American Digital History",
+						"url": "http://www.digitalhistory.uh.edu/index.cfm"
+					}
+				]
+			}
+		},
+		{
+			"title": "MILITARY",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "California State Military History and Museums Program",
+						"url": "http://www.militarymuseum.org"
+					}
+				]
+			}
+		},
+		{
+			"title": "MUSEUMS",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "SAM (Sacramento Association of Museums)",
+						"url": "http://www.sacmuseums.org"
+					},
+					{
+						"title": "Amador County Museum",
+						"url": "http://amadorcountyhistoricalsociety.org"
+					},
+					{
+						"title": "El Dorado County Historical Museum",
+						"url": "https://www.eldoradocounty.ca.gov/Health-Well-Being/Libraries-Education/El-Dorado-County-Historical-Museum"
+					},
+					{
+						"title": "Groveland Yosemite Gateway Museum",
+						"url": "http://grovelandmuseum.org"
+					}
+				]
+			}
+		}
+	]
+}
