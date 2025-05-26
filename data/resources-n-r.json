@@ -1,0 +1,165 @@
+{
+	"resources": [
+		{
+			"title": "NATIONAL",
+			"type": "category"
+		},
+		{
+			"title": "NATURAL HISTORY",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Effie Yeaw Nature Center, Carmichael CA",
+						"url": "https://www.effieyeawnature.org/"
+					}
+				]
+			}
+		},
+		{
+			"title": "NEWSPAPERS (Historic)",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "California Digital Newspaper Collection",
+						"url": "http://cdnc.ucr.edu/cgi-bin/cdnc"
+					},
+					{
+						"title": "Sacramento Union 1980's",
+						"url": "http://www.stevemartarano.com/Martaranos_archives/Welcome.html"
+					}
+				]
+			}
+		},
+		{
+			"title": "OLD SACRAMENTO",
+			"type": "category"
+		},
+		{
+			"title": "ORAL HISTORIES",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "H-Net's network for oral history studies",
+						"url": "https://networks.h-net.org/h-oralhist"
+					}
+				]
+			}
+		},
+		{
+			"title": "ORGANIZATIONS (HISTORICAL)",
+			"type": "category"
+		},
+		{
+			"title": "PEOPLE OF HISTORICAL INTEREST",
+			"type": "category"
+		},
+		{
+			"title": "PHOTOGRAPHS",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Features amateur photos showing our city in an earlier time.",
+						"url": "https://www.facebook.com/VintageSacramento/"
+					},
+					{
+						"title": "Images form the Glass Lantern Slide Collection of Dr. Junius Harris",
+						"url": "https://museumofmedicalhistory.org/glass-lantern-slides"
+					}
+				]
+			}
+		},
+		{
+			"title": "PODCASTS",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Link Elaine Corn's (and others?) Capital Radio podcasts"
+					}
+				]
+			}
+		},
+		{
+			"title": "PRESERVATION",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Preservation Sacramento",
+						"url": "https://www.preservationsacramento.org"
+					}
+				]
+			}
+		},
+		{
+			"title": "PUBLICATIONS",
+			"type": "category",
+			"content": {
+				"subcategories": [
+					{
+						"title": "Pioneers"
+					},
+					{
+						"title": "SCHS"
+					}
+				]
+			}
+		},
+		{
+			"title": "REGIONAL HISTORY – SACRAMENTO COUNTY",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Elk Grove",
+						"url": "https://elkgrovehistoricalsociety.com"
+					}
+				]
+			}
+		},
+		{
+			"title": "RELIGION",
+			"type": "category"
+		},
+		{
+			"title": "RESEARCH FACILITIES/ARCHIVES",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Website for City County Archive (Center for Sacramento History)"
+					},
+					{
+						"title": "California Statewide Resource Center"
+					},
+					{
+						"title": "California State Library"
+					},
+					{
+						"title": "California State Archives"
+					},
+					{
+						"title": "Sacramento Room – Sacramento Public Library"
+					}
+				]
+			}
+		},
+		{
+			"title": "RESOURCES",
+			"type": "category",
+			"content": {
+				"resources": [
+					{
+						"title": "Multiple links on Sacramento County Historical Society Website",
+						"description": "[The original link is broken, but the website is still up - ed.]",
+						"url": "http://www.sachistoricalsociety.org/"
+					}
+				]
+			}
+		}
+	]
+}

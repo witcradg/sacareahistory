@@ -7,11 +7,11 @@ import { ResourcesSection } from "@/components/ResourcesSection"
 
 export default function Home() {
   return (
-    <div role="main">
+    <main>
       {/* <ColorPalette /> */}
       <Hero />
       <ResourcesSection />
-    </div>
+    </main>
   );
 }
 
