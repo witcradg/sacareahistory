@@ -1,10 +1,11 @@
 "use client"
-
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { MedalIcon, MapIcon, PlaneIcon, GiftIcon } from "../components/Icons";
 
+import type { ReactElement } from "react";
+
 interface FeatureProps {
-  icon: JSX.Element;
+  icon: ReactElement;
   title: string;
   description: string;
 }
