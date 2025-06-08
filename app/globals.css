@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -40,10 +40,10 @@
   @keyframes accordion-down {
     from {
       height: 0;
-}
+    }
     to {
       height: var(--radix-accordion-content-height);
-}
+    }
   }
   @keyframes accordion-up {
     from {
@@ -101,23 +101,15 @@ a {
   @apply text-xl m-10 px-10 rounded-none md:rounded-lg;
 } */
 
-
-
-
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
 @layer base {
   *,
   ::after,
   ::before,
   ::backdrop,
   ::file-selector-button {
-    border-color: var(--color-gray-200, currentcolor);
+    border-color: hsl(var(--border));
   }
 }
-
 
 /* *=========== Sepia Theme ===========
 --card: 30 25% 85%; */

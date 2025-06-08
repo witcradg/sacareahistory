@@ -14,7 +14,7 @@ Focus on the warm, earthy tones that evoke a vintage aesthetic.
 
 To complement sepia tones effectively, consider using the following colors:
 
-- **Burnt Sienna**: HSL(30°, 80%, 50%) 
+- **Burnt Sienna**: HSL(30°, 80%, 50%)
 - **Ochre**: HSL(45°, 80%, 50%)
 - **Terracotta**: HSL(15°, 70%, 50%)
 - **Neutrals**: Shades of beige and ivory can soften the palette, such as HSL(60°, 20%, 90%) for a light beige.
