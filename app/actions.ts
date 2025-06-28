@@ -4,10 +4,16 @@ import { encodedRedirect } from "@/utils/utils";
 import { createClient } from "@/utils/supabase/server";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
+import { Phone } from "lucide-react";
 
 export const signUpAction = async (formData: FormData) => {
   const email = formData.get("email")?.toString();
   const password = formData.get("password")?.toString();
+  const first_name = formData.get("first_name")?.toString();
+  const last_name = formData.get("last_name")?.toString();
+  const organization = formData.get("organization")?.toString() && undefined;
+  const phone = formData.get("phone")?.toString() && undefined;
+
   const supabase = await createClient();
   const origin = (await headers()).get("origin");
 
@@ -23,6 +29,13 @@ export const signUpAction = async (formData: FormData) => {
     email,
     password,
     options: {
+      data: {
+        first_name,
+        last_name,
+        organization,
+        email,
+        phone,
+      },
       emailRedirectTo: `${origin}/auth/callback`,
     },
   });

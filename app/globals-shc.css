@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+  @media (width >= --theme(--breakpoint-sm)) {
+    max-width: none;
+  }
+  @media (width >= 1400px) {
+    max-width: 1400px;
+  }
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+
+h3 {
+  @apply text-xl font-bold mt-4;
+}
+h4 {
+  @apply pl-4 mt-4;
+}
+/* a {
+  @apply text-blue-500 underline pl-8;
+} */
+
+a {
+  color: rgb(59 130 246 / 1) /* #3b82f6 */;
+  text-decoration: underline;
+  overflow-wrap: anywhere;
+  padding-left: 2rem;
+}
+
+.card {
+  @apply w-full md:w-2/3 md:m-2 rounded-none md:rounded-lg;
+}
+
+.menubutton {
+  @apply text-base font-semibold text-foreground py-0 my-0;
+}
+
+/* .tab-trigger {
+  @apply text-xl m-10 px-10 rounded-none md:rounded-lg;
+} */
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--border);
+  }
+}
+
+/* *=========== Sepia Theme ===========
+--card: 30 25% 85%; */
+
+@layer base {
+  :root {
+    --background: #f2f0eb;
+    --foreground: #1c1913;
+    --card: #f7f6f3;
+    --card-foreground: #1c1913;
+    --popover: #f7f6f3;
+    --popover-foreground: #1c1913;
+    --primary: #efbf04;
+    --primary-foreground: #f7f6f3;
+    --secondary: #e6dfcf;
+    --secondary-foreground: #3d362a;
+    --muted: #ddd3bf;
+    --muted-foreground: #6b5d47;
+    --accent: #d1c3a8;
+    --accent-foreground: #3d362a;
+    --destructive: #ef4444;
+    --destructive-foreground: #f7f6f3;
+    --border: #c2b49a;
+    --input: #c2b49a;
+    --ring: #efbf04;
+    --radius: 0.5rem;
+    --chart-1: #e76e50;
+    --chart-2: #4a9b8e;
+    --chart-3: #2a5a5a;
+    --chart-4: #f4d35e;
+    --chart-5: #ee6c4d;
+  }
+
+  .dark {
+    --background: #191713;
+    --foreground: #e8e3d3;
+    --card: #211e18;
+    --card-foreground: #e8e3d3;
+    --popover: #211e18;
+    --popover-foreground: #e8e3d3;
+    --primary: #efbf04;
+    --primary-foreground: #211e18;
+    --secondary: #3d362a;
+    --secondary-foreground: #e8e3d3;
+    --muted: #473d2e;
+    --muted-foreground: #b8a882;
+    --accent: #5c503a;
+    --accent-foreground: #e8e3d3;
+    --destructive: #b91c1c;
+    --destructive-foreground: #211e18;
+    --border: #473d2e;
+    --input: #473d2e;
+    --ring: #efbf04;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+}
