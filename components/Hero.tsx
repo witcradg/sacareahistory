@@ -1,10 +1,5 @@
 "use client"
-import { Button } from "./ui/button";
-import { buttonVariants } from "./ui/button";
-import { HeroCards } from "./HeroCards";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
-import bg from "../public/hero.jpg"
 
 export const Hero = () => {
   return (
