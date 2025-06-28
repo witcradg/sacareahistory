@@ -100,10 +100,45 @@ export default function Home() {
         <p>
           New addition. We added Ray Oliver as an example. Our goal is to memorialize past contributing members.
         </p>
+
+        {/* Mobile-friendly PDF viewer */}
+        <div className="mt-4 w-full">
+          {/* Mobile: Show link to open PDF */}
+          <div className="block md:hidden">
+            <a
+              href="Ray Oliver Memorial PPDF.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              View Ray Oliver Memorial PDF
+            </a>
+          </div>
+
+          {/* Desktop: Embedded iframe */}
+          <div className="hidden md:block">
+            <iframe
+              src="Ray Oliver Memorial PPDF.pdf"
+              className="w-full h-[800px] border border-gray-300 rounded-lg"
+              title="Ray Oliver Memorial PDF"
+            />
+            <p className="text-sm text-gray-600 mt-2">
+              Having trouble viewing the PDF?{' '}
+              <a
+                href="Ray Oliver Memorial PPDF.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline"
+              >
+                Open in new tab
+              </a>
+            </p>
+          </div>
+        </div>
       </section>
-      <div className="flex justify-center items-center">
-        <embed src="Ray Oliver Memorial PPDF.pdf" type="application/pdf" width="80%" height="1200px" />
-      </div>
     </main>
   );
 };
