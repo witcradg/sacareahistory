@@ -11,7 +11,7 @@ export const Hero = () => {
         width={1920}
         height={1080}
       />
-      <div className="flex justify-between mb-42">
+      <div className="flex justify-between mb-4">
         <div className="text-xs">Sutter&apos;s Fort, 1840s illustration</div>
         <a href="https://en.wikipedia.org/wiki/Sutter%27s_Fort"
           style={{ color: 'black', textDecoration: 'none' }}
