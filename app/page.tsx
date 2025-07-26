@@ -59,16 +59,16 @@ export default function Home() {
       {/* Navigation Links Overview */}
       <section>
         <h2 className="text-2xl font-semibold mb-2">Overview</h2>
-        <ul className="list-disc list-inside">
-          <li><a href="#board" className="text-blue-600 underline">SacArea Board</a></li>
-          <li><a href="#members" className="text-blue-600 underline">Member Organizations</a></li>
+        <ul className="list-none">
+          <li><Link href="#board" style={{ paddingLeft: 0 }} className="text-blue-600">SacArea Board</Link></li>
+          <li><Link href="#members" style={{ paddingLeft: 0 }} className="text-blue-600">Member Organizations</Link></li>
         </ul>
       </section>
 
       {/* Resources */}
       <section>
         <h2 className="text-2xl font-semibold mb-2">Resources</h2>
-        <p>Alphabetical list of regional resources. Please submit additional sites to us.</p>
+        <p>Alphabetical list of regional resources. Please submit additional sites to us at sacarea@winfirst.com.</p>
       </section>
 
       {/* Calendar */}

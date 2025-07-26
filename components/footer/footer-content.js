@@ -22,6 +22,7 @@ const footerContent = {
 	column3header: "RELATED LINKS",
 	column3: {
 		elements: [
+			{ label: "Sacramento Historical Society", link: "https://www.sachistoricalsociety.org/" },
 			{ label: "SacramentoHistory.org", link: "https://www.sacramentohistory.org/index.php" },
 			{ label: "Sacramento History Info", link: "https://sacramentohistory.info/" }
 		],

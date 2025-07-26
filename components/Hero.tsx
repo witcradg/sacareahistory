@@ -3,8 +3,6 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    // <section className="w-[80vw] mx-auto my-4 aspect-square relative">
-
     <div className="relative w-[80vh] h-auto m-auto">
       <Image
         className="object-cover w-full h-full"
@@ -13,8 +11,14 @@ export const Hero = () => {
         width={1920}
         height={1080}
       />
+      <div className="flex justify-between mb-4">
+        <div className="text-xs">Sutter's Fort, 1840s illustration</div>
+        <a href="https://en.wikipedia.org/wiki/Sutter%27s_Fort"
+          style={{ color: 'black', textDecoration: 'none' }}
+          className="text-xs hover:decoration-2 ">
+          source: wikipedia
+        </a>
+      </div>
     </div>
-  );
-}
-
-// </section>
+  )
+} 
