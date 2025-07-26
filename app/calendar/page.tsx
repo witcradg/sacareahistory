@@ -36,6 +36,11 @@ const CalendarFrame = memo(function CalendarFrame() {
 export default function CalendarPage() {
   return (
     <div className="bg-primary-400 text-primary-100">
+      <h1 className="text-2xl font-bold mb-4 text-center mt-4">Calendar</h1>
+      <p className="mx-auto mb-6 w-full lg:w-1/2">
+        <span className='block'>This calendar shows events related to the Sacramento Area History Consortium.</span>
+        <span className='block'>Contact us at sacarea@winfirst.com for more information about having your events included.</span>
+      </p>
       <CalendarFrame />
     </div>
   )
