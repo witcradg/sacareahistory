@@ -56,24 +56,44 @@ export default function Home() {
         </ul>
       </section>
 
-      {/* Navigation Links Overview */}
+      <h2 className="text-3xl font-semibold mb-2 text-center">Directory</h2>
+      {/* Navigation Links */}
       <section>
-        <h2 className="text-2xl font-semibold mb-2">Overview</h2>
-        <ul className="list-none">
-          <li><Link href="#board" style={{ paddingLeft: 0 }} className="text-blue-600">SacArea Board</Link></li>
-          <li><Link href="#members" style={{ paddingLeft: 0 }} className="text-blue-600">Member Organizations</Link></li>
-        </ul>
+        <h2>
+          <Link href="/board" className="pl-0! text-2xl font-semibold mb-2 text-foreground!">
+            SacArea Board
+          </Link>
+        </h2>
+        <p>Current Board Members</p>
+      </section>
+
+      {/* Members */}
+      <section>
+        <h2>
+          <Link href="/members" className="pl-0! text-2xl font-semibold mb-2 text-foreground!">
+            Member Organizations
+          </Link>
+        </h2>
+        <p>Alphabetical list of member organizations.</p>
       </section>
 
       {/* Resources */}
       <section>
-        <h2 className="text-2xl font-semibold mb-2">Resources</h2>
+        <h2>
+          <Link href="/resources" className="pl-0! text-2xl font-semibold mb-2 text-foreground!">
+            Resources
+          </Link>
+        </h2>
         <p>Alphabetical list of regional resources. Please submit additional sites to us at sacarea@winfirst.com.</p>
       </section>
 
       {/* Calendar */}
       <section>
-        <h2 className="text-2xl font-semibold mb-2">Calendar</h2>
+        <h2>
+          <Link href="/calendar" className="pl-0! text-2xl font-semibold mb-2 text-foreground!">
+            Calendar
+          </Link>
+        </h2>
         <p>
           Calendar of events — a representative from each organization can be given access to add events. We can plan a
           Zoom training session for those interested in adding events for their organization.
@@ -82,7 +102,11 @@ export default function Home() {
 
       {/* Timeline */}
       <section>
-        <h2 className="text-2xl font-semibold mb-2">Timeline</h2>
+        <h2>
+          <Link href="/timeline" className="pl-0! text-2xl font-semibold mb-2 text-foreground!">
+            Timeline
+          </Link>
+        </h2>
         <p>
           The base for this is a timeline that Mickey Knapp and I put together a decade or two ago. We hope to further
           expand it and are always looking for additions.
@@ -91,17 +115,22 @@ export default function Home() {
 
       {/* Notes */}
       <section>
-        <h2 className="text-2xl font-semibold mb-2">Notes</h2>
+        <h2>
+          <Link href="/notes" className="pl-0! text-2xl font-semibold mb-2 text-foreground!">
+            Notes
+          </Link>
+        </h2>
         <p>Includes past meeting minutes, announcements, and other postings.</p>
       </section>
 
-      {/* In Memoriam */}
-      {/* <section> */}
-      <Link href="/memoriam" style={{ paddingLeft: '0' }} className="text-2xl font-semibold mb-2">In Memoriam</Link>
-      <p>
-        Memorialize past contributing members.
-      </p>
-      {/* </section> */}
+      <section>
+        <h2>
+          <Link href="/memoriam" className="pl-0! text-2xl font-semibold mb-2 text-foreground!">
+            In Memoriam
+          </Link>
+        </h2>
+        <p>Memorialize past contributing members.</p>
+      </section>
     </main>
   );
 };
