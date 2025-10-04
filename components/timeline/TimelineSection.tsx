@@ -5,8 +5,12 @@ import data from './timeline.json'
 export const TimelineSection = () => {
 
 	return (
-		<div id='timeline-section' className="w-1/2 my-12 mx-auto">
+		<div
+			id='timeline-section'
+			className="my-12 mx-auto w-full max-w-4xl"
+		>
 			<h2 className="text-2xl font-bold text-center">Timeline</h2>
+			<h3 className="text-lg font-semibold text-gray-900 text-center">(Under Construction)</h3>
 			{/* https://flowbite.com/docs/components/timeline/ */}
 			<ol className="relative border-s border-black dark:border-white">
 				{data.timeline.map((tl, index) => (
