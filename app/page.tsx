@@ -9,6 +9,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="px-6 py-8 max-w-4xl mx-auto space-y-8">
+      <p className="text-center">**Welcome to our new site. If you have issues or concerns please contact us at sacarea@winfirst.com**</p>
       <Hero />
       <section className="text-center">
         <h1 className="text-4xl font-bold">SacArea History Network</h1>
