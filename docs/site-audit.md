@@ -1,0 +1,42 @@
+# Site Audit – SacArea History Consortium
+
+## Stack & Structure
+- Next.js 15 (App Router) with React 19 and TypeScript; Tailwind CSS v4 for styling; shadcn/radix UI components; next-themes for dark mode.
+- Global layout lives in `app/layout.tsx` (header/footer/theme provider + Inter font).
+- Main pages: home (`app/page.tsx`), resources (`app/resources/page.tsx`), calendar (`app/calendar/page.tsx`), timeline (`app/timeline/page.tsx`), California 175 doc viewer (`app/california-175-project/page.tsx`), in memoriam PDF (`app/memoriam/page.tsx`), placeholder pages for board/members/notes.
+- Content and assets: resource data in `data/master.json`; timeline data in `components/timeline/timeline.json`; PDFs/DOCX/images in `public/`.
+
+## Page Behaviors
+- **Home** (`app/page.tsx`): static overview of consortium, membership info, and directory links. Hero image from `public/hero.jpg`. Imports `ResourcesSection` but does not render it.
+- **Resources** (`app/resources/page.tsx`): client component that groups `master.json` entries alphabetically, provides search, and renders via cards/subcategories. Uses `AlphabetNav` for quick jumps.
+- **Calendar** (`app/calendar/page.tsx`): embeds a Google Calendar iframe with a timestamp query param to bust cache.
+- **Timeline** (`app/timeline/page.tsx`): renders `timeline.json`; currently marked “Under Construction” with simple vertical list styling.
+- **California 175 Project** (`app/california-175-project/page.tsx`): loads a hosted DOCX through Google Docs viewer. Requires `NEXT_PUBLIC_BASE_URL` to resolve the document URL; otherwise shows an inline error.
+- **In Memoriam** (`app/memoriam/page.tsx`): embeds `public/Ray Oliver Memorial.pdf` with mobile link + desktop iframe. Metadata title is misspelled (“Memorium”).
+- **Board/Members/Notes**: placeholder pages with minimal content.
+
+## Styling & Theming
+- Sepia-inspired palette defined in `app/globals.css` with dark-mode variants; global `<a>` styles add underline and 2rem left padding to all links.
+- Tailwind utility helpers duplicated in `lib/utils.ts` and `app/lib/utils.ts`.
+- Header uses shadcn `Menubar` + custom `Navbar`; footer pulls social/contact links from `components/footer/footer-content.js`.
+
+## Findings / Risks
+- `NEXT_PUBLIC_BASE_URL` requirement is undocumented in code (now noted in README); page fails closed when unset (`app/california-175-project/page.tsx`).
+- Timeline entries use `desc` arrays but render directly as `{tl.desc}` resulting in comma-separated array strings instead of list output (`components/timeline/TimelineSection.tsx:20-24`).
+- Home page styling uses invalid Tailwind class names (`pl-0!`, `text-foreground!`) so the overrides are ignored (`app/page.tsx:64-130`). The welcome line shows literal asterisks (`**...**`) because it’s not Markdown.
+- `CallButton` renders a label only—no tel/mailto handler or link (`components/CallButton.tsx:6-28`).
+- Placeholder routes (board/members/notes) do not match the nav descriptions and have no data.
+- Footer social links point to generic social accounts rather than consortium-specific URLs (`components/footer/footer-content.js`).
+- Global anchor padding in `app/globals.css` forces a 2rem indent on all links, including inline links and cards; likely unintended for nav/text links.
+- Utility helper duplicated in two locations; consider consolidating to one import path.
+- Supabase dependencies are installed but unused in the current codebase.
+
+## Recommendations
+1) Fix timeline rendering to display `desc` arrays as bullet lists; clean up timeline copy as needed.
+2) Correct Tailwind classes on home page (`!pl-0 !text-foreground`), remove stray Markdown markers, and render/use `ResourcesSection` if intended.
+3) Wire `CallButton` to a tel: link or contact mailto; ensure CTA is actionable.
+4) Replace footer social/contact links with consortium-owned URLs; confirm copy in contact column.
+5) Fill in board/members/notes pages with real data or hide links until ready.
+6) Decide on a single `cn` helper location; delete the duplicate file.
+7) Soften or scope the global anchor padding; keep underline/overflow-wrap without shifting layout.
+8) Add `.env.example` and document `NEXT_PUBLIC_BASE_URL`; optionally fall back to `window.location.origin` in dev.
