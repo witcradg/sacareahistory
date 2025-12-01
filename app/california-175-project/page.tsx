@@ -1,9 +1,11 @@
 "use client"
 
 export default function California175ProjectPage() {
-	const domain = process.env.NEXT_PUBLIC_BASE_URL;
+	const domain =
+		process.env.NEXT_PUBLIC_BASE_URL ||
+		(typeof window !== "undefined" ? window.location.origin : "");
 	if (!domain) {
-		return <div>Error: NEXT_PUBLIC_BASE_URL is not defined.</div>;
+		return <div>Error: Unable to resolve base URL for document viewer.</div>;
 	}
 
 	const document = `${domain}/FriendsCaArchives175HistoricDates.docx`;

@@ -24,7 +24,7 @@ A Next.js (App Router) site that aggregates Sacramento-area history resources: m
 
 ### Configuration
 
-- `NEXT_PUBLIC_BASE_URL` – required for `app/california-175-project` to render the hosted Word doc (e.g., `https://your-domain.com`); page shows an error if unset.
+- Copy `.env.example` to `.env.local` and set `NEXT_PUBLIC_BASE_URL` (e.g., `https://your-domain.com`). In dev the page falls back to `window.location.origin`, but deployments should set the env var so the California 175 document loads reliably.
 
 ### Data & Content
 
