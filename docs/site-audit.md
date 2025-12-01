@@ -17,7 +17,7 @@
 
 ## Styling & Theming
 - Sepia-inspired palette defined in `app/globals.css` with dark-mode variants; global `<a>` styles add underline and 2rem left padding to all links.
-- Tailwind utility helpers duplicated in `lib/utils.ts` and `app/lib/utils.ts`.
+- Tailwind utility helper (`cn`) lives in `lib/utils.ts`.
 - Header uses shadcn `Menubar` + custom `Navbar`; footer pulls social/contact links from `components/footer/footer-content.js`.
 
 ## Findings / Risks
@@ -27,13 +27,9 @@
 - Placeholder routes (board/members/notes) do not match the nav descriptions and have no data.
 - Footer social links point to generic social accounts rather than consortium-specific URLs (`components/footer/footer-content.js`).
 - Global anchor padding in `app/globals.css` forces a 2rem indent on all links, including inline links and cards; likely unintended for nav/text links.
-- Utility helper duplicated in two locations; consider consolidating to one import path.
-
 ## Recommendations
 1) Correct Tailwind classes on home page (`!pl-0 !text-foreground`), remove stray Markdown markers, and render/use `ResourcesSection` if intended.
 2) Wire `CallButton` to a tel: link or contact mailto; ensure CTA is actionable.
 3) Replace footer social/contact links with consortium-owned URLs; confirm copy in contact column.
 4) Fill in board/members/notes pages with real data or hide links until ready.
-5) Decide on a single `cn` helper location; delete the duplicate file.
-6) Soften or scope the global anchor padding; keep underline/overflow-wrap without shifting layout.
-7) (Done) Added `.env.example`, documented `NEXT_PUBLIC_BASE_URL`, and added dev fallback to `window.location.origin` for the California 175 doc viewer.
+5) Soften or scope the global anchor padding; keep underline/overflow-wrap without shifting layout.
