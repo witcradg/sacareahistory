@@ -1,7 +1,6 @@
 "use client"
 
 import { Hero } from "@/components/Hero"
-import { ResourcesSection } from "@/components/ResourcesSection"
 import Link from "next/link";
 // import ColorPalette from "@/components/ColorPalette";
 
