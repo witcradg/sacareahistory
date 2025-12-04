@@ -9,7 +9,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="px-6 py-8 max-w-4xl mx-auto space-y-8">
-      <p className="text-center">**Welcome to our new site. If you have issues or concerns please contact us at sacarea@winfirst.com**</p>
+      <p className="text-center font-semibold">
+        Welcome to our new site. If you have issues or concerns please contact us at sacarea@winfirst.com
+      </p>
       <Hero />
       <section className="text-center">
         <h1 className="text-4xl font-bold">SacArea History Network</h1>
@@ -61,7 +63,7 @@ export default function Home() {
       {/* Navigation Links */}
       <section>
         <h2>
-          <Link href="/board" className="pl-0! text-2xl font-semibold mb-2 text-foreground!">
+          <Link href="/board" className="text-2xl font-semibold mb-2 text-foreground">
             SacArea Board
           </Link>
         </h2>
@@ -71,7 +73,7 @@ export default function Home() {
       {/* Members */}
       <section>
         <h2>
-          <Link href="/members" className="pl-0! text-2xl font-semibold mb-2 text-foreground!">
+          <Link href="/members" className="text-2xl font-semibold mb-2 text-foreground">
             Member Organizations
           </Link>
         </h2>
@@ -81,7 +83,7 @@ export default function Home() {
       {/* Resources */}
       <section>
         <h2>
-          <Link href="/resources" className="pl-0! text-2xl font-semibold mb-2 text-foreground!">
+          <Link href="/resources" className="text-2xl font-semibold mb-2 text-foreground">
             Resources
           </Link>
         </h2>
@@ -91,7 +93,7 @@ export default function Home() {
       {/* Calendar */}
       <section>
         <h2>
-          <Link href="/calendar" className="pl-0! text-2xl font-semibold mb-2 text-foreground!">
+          <Link href="/calendar" className="text-2xl font-semibold mb-2 text-foreground">
             Calendar
           </Link>
         </h2>
@@ -104,7 +106,7 @@ export default function Home() {
       {/* Timeline */}
       <section>
         <h2>
-          <Link href="/timeline" className="pl-0! text-2xl font-semibold mb-2 text-foreground!">
+          <Link href="/timeline" className="text-2xl font-semibold mb-2 text-foreground">
             Timeline
           </Link>
         </h2>
@@ -117,7 +119,7 @@ export default function Home() {
       {/* Notes */}
       <section>
         <h2>
-          <Link href="/notes" className="pl-0! text-2xl font-semibold mb-2 text-foreground!">
+          <Link href="/notes" className="text-2xl font-semibold mb-2 text-foreground">
             Notes
           </Link>
         </h2>
@@ -126,7 +128,7 @@ export default function Home() {
 
       <section>
         <h2>
-          <Link href="/memoriam" className="pl-0! text-2xl font-semibold mb-2 text-foreground!">
+          <Link href="/memoriam" className="text-2xl font-semibold mb-2 text-foreground">
             In Memoriam
           </Link>
         </h2>
