@@ -86,7 +86,6 @@ a {
   color: rgb(59 130 246 / 1) /* #3b82f6 */;
   text-decoration: underline;
   overflow-wrap: anywhere;
-  padding-left: 2rem;
 }
 
 .card {

@@ -7,7 +7,7 @@
 - Content and assets: resource data in `data/master.json`; timeline data in `components/timeline/timeline.json`; PDFs/DOCX/images in `public/`.
 
 ## Page Behaviors
-- **Home** (`app/page.tsx`): static overview of consortium, membership info, and directory links. Hero image from `public/hero.jpg`. Imports `ResourcesSection` but does not render it.
+- **Home** (`app/page.tsx`): static overview of consortium, membership info, and directory links. Hero image from `public/hero.jpg`. Resource teaser component removed.
 - **Resources** (`app/resources/page.tsx`): client component that groups `master.json` entries alphabetically, provides search, and renders via cards/subcategories. Uses `AlphabetNav` for quick jumps.
 - **Calendar** (`app/calendar/page.tsx`): embeds a Google Calendar iframe with a timestamp query param to bust cache.
 - **Timeline** (`app/timeline/page.tsx`): renders `timeline.json`; currently marked “Under Construction” with simple vertical list styling and bullet-list descriptions.
@@ -16,20 +16,16 @@
 - **Board/Members/Notes**: placeholder pages with minimal content.
 
 ## Styling & Theming
-- Sepia-inspired palette defined in `app/globals.css` with dark-mode variants; global `<a>` styles add underline and 2rem left padding to all links.
+- Sepia-inspired palette defined in `app/globals.css` with dark-mode variants; global `<a>` styles keep underline and overflow-wrap (padding-left removed).
 - Tailwind utility helper (`cn`) lives in `lib/utils.ts`.
 - Header uses shadcn `Menubar` + custom `Navbar`; footer pulls social/contact links from `components/footer/footer-content.js`.
 
 ## Findings / Risks
 - `NEXT_PUBLIC_BASE_URL` now documented with `.env.example`; page falls back to `window.location.origin` in dev (`app/california-175-project/page.tsx`).
-- Home page styling uses invalid Tailwind class names (`pl-0!`, `text-foreground!`) so the overrides are ignored (`app/page.tsx:64-130`). The welcome line shows literal asterisks (`**...**`) because it’s not Markdown.
-- `CallButton` renders a label only—no tel/mailto handler or link (`components/CallButton.tsx:6-28`).
+- Home page hero intro and directory links now use valid Tailwind classes and render clean text (`app/page.tsx`); resource teaser component removed, so resources live only on the resources page.
+- `CallButton` now directs mobile users to `tel:+19167949078` and desktop users to `mailto:sacarea@winfirst.com` (`components/CallButton.tsx`).
 - Placeholder routes (board/members/notes) do not match the nav descriptions and have no data.
 - Footer social links point to generic social accounts rather than consortium-specific URLs (`components/footer/footer-content.js`).
-- Global anchor padding in `app/globals.css` forces a 2rem indent on all links, including inline links and cards; likely unintended for nav/text links.
 ## Recommendations
-1) Correct Tailwind classes on home page (`!pl-0 !text-foreground`), remove stray Markdown markers, and render/use `ResourcesSection` if intended.
-2) Wire `CallButton` to a tel: link or contact mailto; ensure CTA is actionable.
-3) Replace footer social/contact links with consortium-owned URLs; confirm copy in contact column.
-4) Fill in board/members/notes pages with real data or hide links until ready.
-5) Soften or scope the global anchor padding; keep underline/overflow-wrap without shifting layout.
+1) Replace footer social/contact links with consortium-owned URLs; confirm copy in contact column.
+2) Fill in board/members/notes pages with real data or hide links until ready.

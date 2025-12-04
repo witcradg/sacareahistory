@@ -1,32 +1,36 @@
 "use client"
 
-import { Button } from '@/components/ui/button';
-import { useCallback } from 'react';
+import { Button } from "@/components/ui/button"
+
+const CONTACT_NUMBER = "+19167949078"
+const CONTACT_EMAIL = "sacarea@winfirst.com"
 
 const CallButton = () => {
-	// const handleCall = useCallback(() => {
-	// 	window.location.href = 'tel:916-794-9078';
-	// }, []);
+  const handleContact = () => {
+    const isMobile =
+      typeof window !== "undefined" &&
+      /Mobi|Android|iP(hone|ad)|IEMobile|BlackBerry|Opera Mini/i.test(
+        window.navigator.userAgent
+      )
 
-	return (
-		<Button className='text-white'> CONTACT US
-			{/* <span className="whitespace-nowrap">
-				<svg
-					stroke="currentColor"
-					fill="currentColor"
-					strokeWidth="0"
-					viewBox="0 0 512 512"
-					className="inline m-2 ml-0"
-					height="20px"
-					width="20px"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"></path>
-				</svg>
-				916-794-9078
-			</span> */}
-		</Button>
-	);
-};
+    if (isMobile) {
+      window.location.href = `tel:${CONTACT_NUMBER}`
+      return
+    }
 
-export default CallButton;
+    window.location.href = `mailto:${CONTACT_EMAIL}`
+  }
+
+  return (
+    <Button
+      type="button"
+      className="text-white"
+      aria-label="Call or email SacArea History Consortium"
+      onClick={handleContact}
+    >
+      Contact Us
+    </Button>
+  )
+}
+
+export default CallButton
