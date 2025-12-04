@@ -16,20 +16,17 @@
 - **Board/Members/Notes**: placeholder pages with minimal content.
 
 ## Styling & Theming
-- Sepia-inspired palette defined in `app/globals.css` with dark-mode variants; global `<a>` styles add underline and 2rem left padding to all links.
+- Sepia-inspired palette defined in `app/globals.css` with dark-mode variants; global `<a>` styles keep underline and overflow-wrap (padding removed).
 - Tailwind utility helper (`cn`) lives in `lib/utils.ts`.
 - Header uses shadcn `Menubar` + custom `Navbar`; footer pulls social/contact links from `components/footer/footer-content.js`.
 
 ## Findings / Risks
 - `NEXT_PUBLIC_BASE_URL` now documented with `.env.example`; page falls back to `window.location.origin` in dev (`app/california-175-project/page.tsx`).
-- Home page styling uses invalid Tailwind class names (`pl-0!`, `text-foreground!`) so the overrides are ignored (`app/page.tsx:64-130`). The welcome line shows literal asterisks (`**...**`) because it’s not Markdown.
-- `CallButton` renders a label only—no tel/mailto handler or link (`components/CallButton.tsx:6-28`).
+- Home page hero intro and directory links now use valid Tailwind classes and render clean text (`app/page.tsx`), but `ResourcesSection` is still unused.
+- `CallButton` now directs mobile users to `tel:+19167949078` and desktop users to `mailto:sacarea@winfirst.com` (`components/CallButton.tsx`).
 - Placeholder routes (board/members/notes) do not match the nav descriptions and have no data.
 - Footer social links point to generic social accounts rather than consortium-specific URLs (`components/footer/footer-content.js`).
-- Global anchor padding in `app/globals.css` forces a 2rem indent on all links, including inline links and cards; likely unintended for nav/text links.
 ## Recommendations
-1) Correct Tailwind classes on home page (`!pl-0 !text-foreground`), remove stray Markdown markers, and render/use `ResourcesSection` if intended.
-2) Wire `CallButton` to a tel: link or contact mailto; ensure CTA is actionable.
-3) Replace footer social/contact links with consortium-owned URLs; confirm copy in contact column.
-4) Fill in board/members/notes pages with real data or hide links until ready.
-5) Soften or scope the global anchor padding; keep underline/overflow-wrap without shifting layout.
+1) Render `ResourcesSection` on the home page or remove the import if not needed.
+2) Replace footer social/contact links with consortium-owned URLs; confirm copy in contact column.
+3) Fill in board/members/notes pages with real data or hide links until ready.
