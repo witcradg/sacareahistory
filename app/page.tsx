@@ -4,6 +4,45 @@ import { Hero } from "@/components/Hero"
 import Link from "next/link";
 // import ColorPalette from "@/components/ColorPalette";
 
+const directoryLinks = [
+  {
+    href: "/board",
+    title: "SacArea Board",
+    description: "Current Board Members",
+  },
+  {
+    href: "/members",
+    title: "Member Organizations",
+    description: "Alphabetical list of member organizations.",
+  },
+  {
+    href: "/resources",
+    title: "Resources",
+    description: "Alphabetical list of regional resources. Please submit additional sites to us at sacarea@winfirst.com.",
+  },
+  {
+    href: "/calendar",
+    title: "Calendar",
+    description:
+      "Calendar of events — a representative from each organization can be given access to add events. We can plan a Zoom training session for those interested in adding events for their organization.",
+  },
+  {
+    href: "/timeline",
+    title: "Timeline",
+    description:
+      "The base for this is a timeline that Mickey Knapp and I put together a decade or two ago. We hope to further expand it and are always looking for additions.",
+  },
+  {
+    href: "/notes",
+    title: "Notes",
+    description: "Includes past meeting minutes, announcements, and other postings.",
+  },
+  {
+    href: "/memoriam",
+    title: "In Memoriam",
+    description: "Memorialize past contributing members.",
+  },
+]
 
 export default function Home() {
   return (
@@ -17,7 +56,28 @@ export default function Home() {
         <p className="text-lg italic mt-2">Together, let’s preserve and promote our region’s history</p>
       </section>
 
-      {/* Background */}
+      <section className="text-center max-w-3xl mx-auto">
+        <p className="text-lg leading-8">
+          This website serves as a shared hub for the Sacramento Area History Consortium, helping visitors discover
+          local history organizations, explore regional resources, follow events, and connect with the network of
+          groups working to preserve and promote Sacramento-area history.
+        </p>
+      </section>
+
+      <section className="space-y-6">
+        <h2 className="text-3xl font-semibold text-center">Directory</h2>
+        {directoryLinks.map((item) => (
+          <section key={item.href}>
+            <h3>
+              <Link href={item.href} className="text-2xl font-semibold text-foreground">
+                {item.title}
+              </Link>
+            </h3>
+            <p>{item.description}</p>
+          </section>
+        ))}
+      </section>
+
       <section>
         <h2 className="text-2xl font-semibold mb-2">Background</h2>
         <p>
@@ -56,82 +116,6 @@ export default function Home() {
           <li><strong>Shared Resources:</strong> Access to other local societies’ newsletters and events</li>
           <li><strong>Mutual Support:</strong> Promote and support each other’s efforts, driving interest in your organization, museums, presentations, and newsletters</li>
         </ul>
-      </section>
-
-      <h2 className="text-3xl font-semibold mb-2 text-center">Directory</h2>
-      {/* Navigation Links */}
-      <section>
-        <h2>
-          <Link href="/board" className="text-2xl font-semibold mb-2 text-foreground">
-            SacArea Board
-          </Link>
-        </h2>
-        <p>Current Board Members</p>
-      </section>
-
-      {/* Members */}
-      <section>
-        <h2>
-          <Link href="/members" className="text-2xl font-semibold mb-2 text-foreground">
-            Member Organizations
-          </Link>
-        </h2>
-        <p>Alphabetical list of member organizations.</p>
-      </section>
-
-      {/* Resources */}
-      <section>
-        <h2>
-          <Link href="/resources" className="text-2xl font-semibold mb-2 text-foreground">
-            Resources
-          </Link>
-        </h2>
-        <p>Alphabetical list of regional resources. Please submit additional sites to us at sacarea@winfirst.com.</p>
-      </section>
-
-      {/* Calendar */}
-      <section>
-        <h2>
-          <Link href="/calendar" className="text-2xl font-semibold mb-2 text-foreground">
-            Calendar
-          </Link>
-        </h2>
-        <p>
-          Calendar of events — a representative from each organization can be given access to add events. We can plan a
-          Zoom training session for those interested in adding events for their organization.
-        </p>
-      </section>
-
-      {/* Timeline */}
-      <section>
-        <h2>
-          <Link href="/timeline" className="text-2xl font-semibold mb-2 text-foreground">
-            Timeline
-          </Link>
-        </h2>
-        <p>
-          The base for this is a timeline that Mickey Knapp and I put together a decade or two ago. We hope to further
-          expand it and are always looking for additions.
-        </p>
-      </section>
-
-      {/* Notes */}
-      <section>
-        <h2>
-          <Link href="/notes" className="text-2xl font-semibold mb-2 text-foreground">
-            Notes
-          </Link>
-        </h2>
-        <p>Includes past meeting minutes, announcements, and other postings.</p>
-      </section>
-
-      <section>
-        <h2>
-          <Link href="/memoriam" className="text-2xl font-semibold mb-2 text-foreground">
-            In Memoriam
-          </Link>
-        </h2>
-        <p>Memorialize past contributing members.</p>
       </section>
     </main>
   );
