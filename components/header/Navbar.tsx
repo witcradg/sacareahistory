@@ -21,12 +21,12 @@ export function Navbar() {
   return (
     <Menubar id='mb1' className="border-0 my-1">
       <MenubarMenu>
-        <Button className="menubutton" asChild variant="ghost">
+        <Button className="menubutton text-stone-200 hover:text-amber-200 focus-visible:text-amber-200" asChild variant="ghost">
           <Link href="/" passHref>
             HOME
           </Link>
         </Button>
-        <Button className="menubutton" asChild variant="ghost">
+        <Button className="menubutton text-stone-200 hover:text-amber-200 focus-visible:text-amber-200" asChild variant="ghost">
           <Link href="/resources" passHref>
             RESOURCES
           </Link>
@@ -46,12 +46,12 @@ export function Navbar() {
             </MenubarItem>
           ))}
         </MenubarContent> */}
-        <Button className="menubutton" asChild variant="ghost">
+        <Button className="menubutton text-stone-200 hover:text-amber-200 focus-visible:text-amber-200" asChild variant="ghost">
           <Link href="/calendar" passHref>
             CALENDAR
           </Link>
         </Button>
-        <Button className="menubutton" asChild variant="ghost">
+        <Button className="menubutton text-stone-200 hover:text-amber-200 focus-visible:text-amber-200" asChild variant="ghost">
           <Link href="/timeline" passHref>
             TIMELINE
           </Link>
