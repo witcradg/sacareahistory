@@ -47,10 +47,11 @@ const directoryLinks = [
 export default function Home() {
   return (
     <main className="px-6 py-8 max-w-4xl mx-auto space-y-8">
-      <section className="relative">
+      <section className="relative isolate">
         <Hero />
+        <div className="absolute inset-0 bg-black/35" />
         <div className="absolute inset-x-0 top-0 flex h-[calc(100%-2rem)] items-center justify-center px-6 text-center">
-          <div className="max-w-2xl px-6 py-5 text-[hsl(35_25%_10%)]">
+          <div className="relative z-10 max-w-2xl px-6 py-5 text-amber-50">
             <h1 className="text-4xl font-bold">SacArea History Network</h1>
             <p className="mt-2 text-lg italic">Together, let’s preserve and promote our region’s history</p>
           </div>
