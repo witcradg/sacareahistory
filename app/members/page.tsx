@@ -146,25 +146,17 @@ export default function MembersPage() {
 					<p className="text-sm font-semibold uppercase tracking-[0.2em] text-stone-500">Membership Directory</p>
 					<h1 className="text-4xl font-bold tracking-tight text-stone-900">SacArea member organizations and contacts</h1>
 					<p className="text-base leading-7 text-stone-700">
-						This page is based on the membership list in <span className="font-medium">SACAREApdMembers1_2026.docx</span>.
 						Paid memberships in the source document are marked as expiring on December 30, 2026.
 					</p>
-					<div className="flex flex-col gap-3 pt-2 sm:flex-row sm:flex-wrap">
-						<Button
-							asChild
-							className="w-fit no-underline bg-amber-400 text-stone-900 hover:bg-amber-300"
-						>
-							<Link href="mailto:sacarea@winfirst.com?subject=SAHC%20Membership%20Directory%20Update">
-								Request a correction
-							</Link>
-						</Button>
-						<Button
-							asChild
-							variant="outline"
-							className="w-fit border-[hsl(35_18%_74%)] bg-transparent text-[hsl(34_55%_28%)] no-underline hover:bg-[hsl(40_32%_90%)] hover:text-[hsl(34_55%_24%)]"
-						>
-							<Link href="mailto:sacarea@winfirst.com">sacarea@winfirst.com</Link>
-						</Button>
+					<div className="mt-6 border-t border-black/10 pt-4">
+						<div className="flex max-w-3xl flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-4">
+							<p className="text-sm text-neutral-700">Need to update your organization&apos;s information?</p>
+							<Button asChild className="w-fit no-underline">
+								<Link href="mailto:sacarea@winfirst.com?subject=SAHC%20Membership%20Directory%20Update">
+									Contact Us
+								</Link>
+							</Button>
+						</div>
 					</div>
 				</div>
 			</section>
