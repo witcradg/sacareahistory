@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+
+import { Button } from "@/components/ui/button";
 
 type Member = {
 	name: string;
@@ -67,30 +70,35 @@ export const metadata: Metadata = {
 
 function MemberCard({ member }: { member: Member }) {
 	return (
-		<li className="rounded-2xl border border-stone-300/80 bg-card/80 p-5 shadow-sm">
+		<li className="rounded-2xl border border-[hsl(35_18%_80%)] bg-[hsl(35_28%_96%)] p-5 shadow-sm">
 			<div className="flex h-full flex-col gap-3">
 				<div className="space-y-1">
-					<h3 className="text-lg font-semibold text-foreground">{member.name}</h3>
-					{member.note ? <p className="text-sm text-muted-foreground">{member.note}</p> : null}
+					<h3 className="text-lg font-semibold text-stone-900">{member.name}</h3>
+					{member.note ? <p className="text-sm text-stone-600">{member.note}</p> : null}
 				</div>
 				<div className="mt-auto flex flex-wrap gap-3 text-sm">
 					{member.href ? (
-						<a
-							href={member.href}
-							target="_blank"
-							rel="noreferrer"
-							className="inline-flex items-center rounded-full border border-amber-700/25 bg-amber-100 px-3 py-1 no-underline transition hover:bg-amber-200"
+						<Button
+							asChild
+							size="sm"
+							className="rounded-full bg-amber-400 px-4 text-stone-900 no-underline hover:bg-amber-300"
 						>
-							Visit website
-						</a>
+							<a href={member.href} target="_blank" rel="noreferrer" className="no-underline">
+								Visit website
+							</a>
+						</Button>
 					) : null}
 					{member.email ? (
-						<a
-							href={`mailto:${member.email}`}
-							className="inline-flex items-center rounded-full border border-stone-400/40 bg-secondary px-3 py-1 no-underline transition hover:bg-stone-200"
+						<Button
+							asChild
+							size="sm"
+							variant="outline"
+							className="rounded-full border-[hsl(35_18%_74%)] bg-transparent px-4 text-[hsl(34_55%_28%)] no-underline hover:bg-[hsl(40_32%_90%)] hover:text-[hsl(34_55%_24%)]"
 						>
-							{member.email}
-						</a>
+							<a href={`mailto:${member.email}`} className="no-underline">
+								{member.email}
+							</a>
+						</Button>
 					) : null}
 				</div>
 			</div>
@@ -110,12 +118,12 @@ function MemberSection({
 	return (
 		<section className="space-y-5">
 			<div className="space-y-2">
-				<div className="flex items-center justify-between gap-4 border-b border-stone-300 pb-3">
+				<div className="flex items-center justify-between gap-4 border-b border-[hsl(35_18%_80%)] pb-3">
 					<div>
-						<h2 className="text-2xl font-semibold">{title}</h2>
-						<p className="text-sm text-muted-foreground">{description}</p>
+						<h2 className="text-2xl font-semibold text-stone-900">{title}</h2>
+						<p className="text-sm text-stone-600">{description}</p>
 					</div>
-					<div className="rounded-full bg-stone-800 px-3 py-1 text-sm font-semibold text-stone-100">
+					<div className="rounded-full bg-[hsl(34_40%_28%)] px-3 py-1 text-sm font-semibold text-[hsl(40_45%_92%)]">
 						{members.length} listed
 					</div>
 				</div>
@@ -132,17 +140,32 @@ function MemberSection({
 export default function MembersPage() {
 	return (
 		<main className="container max-w-6xl px-6 py-10">
-			<section className="rounded-3xl border border-stone-300 bg-gradient-to-br from-amber-50 via-background to-stone-100 px-6 py-8 shadow-sm">
-				<div className="max-w-3xl space-y-4">
-					<p className="text-sm font-semibold uppercase tracking-[0.2em] text-stone-600">Membership Directory</p>
-					<h1 className="text-4xl font-bold tracking-tight text-foreground">SacArea member organizations and contacts</h1>
+			<section className="relative overflow-hidden rounded-3xl border border-[hsl(35_18%_78%)] bg-[hsl(35_28%_96%)] px-6 py-8 shadow-sm">
+				<div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-[radial-gradient(circle_at_top_right,rgba(239,191,4,0.22),transparent_62%)]" />
+				<div className="relative max-w-3xl space-y-4">
+					<p className="text-sm font-semibold uppercase tracking-[0.2em] text-stone-500">Membership Directory</p>
+					<h1 className="text-4xl font-bold tracking-tight text-stone-900">SacArea member organizations and contacts</h1>
 					<p className="text-base leading-7 text-stone-700">
 						This page is based on the membership list in <span className="font-medium">SACAREApdMembers1_2026.docx</span>.
 						Paid memberships in the source document are marked as expiring on December 30, 2026.
 					</p>
-					<p className="text-sm leading-6 text-muted-foreground">
-						If your organization needs a correction or a direct website link added, contact SacArea so the directory can be updated.
-					</p>
+					<div className="flex flex-col gap-3 pt-2 sm:flex-row sm:flex-wrap">
+						<Button
+							asChild
+							className="w-fit no-underline bg-amber-400 text-stone-900 hover:bg-amber-300"
+						>
+							<Link href="mailto:sacarea@winfirst.com?subject=SAHC%20Membership%20Directory%20Update">
+								Request a correction
+							</Link>
+						</Button>
+						<Button
+							asChild
+							variant="outline"
+							className="w-fit border-[hsl(35_18%_74%)] bg-transparent text-[hsl(34_55%_28%)] no-underline hover:bg-[hsl(40_32%_90%)] hover:text-[hsl(34_55%_24%)]"
+						>
+							<Link href="mailto:sacarea@winfirst.com">sacarea@winfirst.com</Link>
+						</Button>
+					</div>
 				</div>
 			</section>
 
