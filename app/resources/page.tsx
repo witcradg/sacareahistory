@@ -37,7 +37,7 @@ export default function ResourcesPage() {
 
 	useEffect(() => {
 		// Group resources by first letter
-		const typedData = masterData as ResourceData;
+		const typedData: ResourceData = masterData;
 		const grouped = typedData.resources.reduce<Record<string, Resource[]>>((acc, resource) => {
 			const firstLetter = resource.title.charAt(0).toUpperCase();
 			if (!acc[firstLetter]) {
@@ -102,15 +102,19 @@ export default function ResourcesPage() {
 				<div className="space-y-2">
 					{resources.map((res: ResourceItem) => (
 						<div key={res.title} className="pl-4 border-l-2 border-primary/20" role="listitem">
-							<a
-								href={res.url}
-								target="_blank"
-								rel="noopener noreferrer"
-								className="text-primary hover:underline font-medium"
-								aria-label={`${res.title} (opens in new tab)`}
-							>
-								{res.title}
-							</a>
+							{res.url ? (
+								<a
+									href={res.url}
+									target="_blank"
+									rel="noopener noreferrer"
+									className="text-primary hover:underline font-medium"
+									aria-label={`${res.title} (opens in new tab)`}
+								>
+									{res.title}
+								</a>
+							) : (
+								<p className="font-medium text-foreground">{res.title}</p>
+							)}
 							{res.description && (
 								<p className="text-sm text-muted-foreground mt-1">{res.description}</p>
 							)}
