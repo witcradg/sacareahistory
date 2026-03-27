@@ -8,6 +8,25 @@
 
 Based on `b50c959` `docs: add repository triage notes`, the best next focus is the resource directory. It is the clearest functional part of the site, and the triage notes already identify concrete UX and code-quality issues there.
 
+## Status Update
+
+Completed since the original triage:
+
+1. Basic analytics
+2. Resource schema cleanup, first pass
+3. Resource rendering cleanup, phase 1
+
+Current review implementation:
+
+- `/test-resource` now exists as a stakeholder review version of the resources page
+- `/resources` remains unchanged as the current production version
+
+Still open:
+
+1. Resource nav cleanup
+2. Submission flow
+3. Decision on whether the test resource page should replace the current resources page
+
 ## Suggested Development Priorities
 
 1. Improve the resource directory UX.
@@ -16,11 +35,11 @@ The triage notes suggest the stakeholder concern is probably not literally "empt
 
 2. Remove rendering drift in the resource subsystem.
 
-The triage notes flagged likely duplication between `app/resources/page.tsx` and `components/ResourceCard.tsx`. The standalone `ResourceCard` component has since been removed as dead code, so the remaining follow-up is to keep `app/resources/page.tsx` as the canonical rendering path and only extract a shared component later if reuse is needed.
+The triage notes flagged likely duplication between `app/resources/page.tsx` and `components/ResourceCard.tsx`. The standalone `ResourceCard` component has since been removed as dead code, and a new review implementation now exists at `/test-resource` using a new extracted `ResourceDirectoryCard` component. The remaining decision is whether that review version should replace the current `/resources` page.
 
 3. Fix the resource schema mismatch.
 
-The notes mention data entries with a `type` field that is not represented in `types/resources.ts`. This is a good small technical cleanup task: either formalize the field in the type definitions or remove or ignore it consistently. It is low-risk and improves confidence in future data changes.
+This first-pass cleanup has been completed. The resource types now better match the actual JSON data and placeholder resource entries without URLs are handled safely in the rendering path used for the review page.
 
 4. Define a lightweight content-submission path before considering a database.
 
@@ -28,16 +47,14 @@ The stakeholder-context doc argues against jumping to a database now because mai
 
 5. Add analytics before larger architecture bets.
 
-The triage backlog explicitly mentions analytics. That matters because the stakeholder context says future decisions should depend on demonstrated traffic and contribution patterns. Measuring usage now is more defensible than building a database now.
+This has been completed with basic Vercel Analytics so future decisions can rely more on actual usage.
 
 ## Practical Sequence
 
-1. Resource nav cleanup (branch created)
-2. Resource rendering cleanup follow-up
-3. Schema cleanup
-4. Submission flow
-5. Analytics
+1. Resource nav cleanup
+2. Review decision for `/test-resource`
+3. Submission flow
 
 ## Suggested Immediate Start
 
-Begin with resource directory cleanup, especially the alphabetical navigation behavior and the active rendering path for resource cards.
+The next highest-value implementation work is resource nav cleanup, followed by a lightweight submission flow.

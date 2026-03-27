@@ -6,6 +6,10 @@ There is currently no analytics implementation in the application.
 
 The most practical next step is to add basic pageview analytics with the least possible operational overhead so future decisions can be based on actual usage rather than assumptions.
 
+## Completion Note
+
+Basic Vercel Analytics has now been implemented.
+
 ## Findings
 
 - no analytics package is currently installed

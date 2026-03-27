@@ -2,7 +2,7 @@
 
 ## Summary
 
-The rendering cleanup issue was real. `components/ResourceCard.tsx` was dead code and has now been removed. `app/resources/page.tsx` is the actual rendering surface for the resource directory.
+The rendering cleanup issue was real. `components/ResourceCard.tsx` was dead code and has now been removed. A new review implementation now exists at `/test-resource` using an extracted `ResourceDirectoryCard` component, while `/resources` remains unchanged pending stakeholder review.
 
 ## Findings
 
@@ -12,9 +12,11 @@ The rendering cleanup issue was real. `components/ResourceCard.tsx` was dead cod
 
 ## Current Canonical Rendering Path
 
-The canonical rendering path is `app/resources/page.tsx`.
+The current production rendering path is `app/resources/page.tsx`.
 
-That file currently owns:
+The current review rendering path is `/test-resource`, which uses `components/resources/ResourceDirectoryCard.tsx`.
+
+The production page currently owns:
 
 - section structure
 - search integration
@@ -63,6 +65,8 @@ This was the fastest way to eliminate ambiguity and has now been completed.
 
 After cleanup, extract the current inline rendering logic from `app/resources/page.tsx` into a new shared component that reflects the page's actual current behavior.
 
+This has now been done in review form through `components/resources/ResourceDirectoryCard.tsx`, which is used by `/test-resource`.
+
 Important constraint:
 
 Do **not** refactor the page to use the removed `components/ResourceCard.tsx` implementation as the basis for reuse. If a shared component is created, it should be extracted from the page's existing rendering behavior, not from the older standalone component.
@@ -72,8 +76,9 @@ Do **not** refactor the page to use the removed `components/ResourceCard.tsx` im
 1. Confirm `components/ResourceCard.tsx` is obsolete.
 2. Remove it.
 3. Leave `app/resources/page.tsx` behavior unchanged.
-4. If further cleanup is needed, extract a new canonical component from the current page implementation.
+4. Extract a new component from the current page implementation for review.
+5. Decide whether the review implementation should replace `/resources`.
 
 ## Practical Decision
 
-If the goal is low-risk cleanup now, the dead component has already been removed. The next rendering cleanup should be a deliberate extraction from `app/resources/page.tsx` only if reuse becomes necessary.
+If the goal is low-risk cleanup now, the dead component has already been removed and a review implementation has been created. The remaining decision is whether the review version should replace the current resources page after stakeholder comparison.

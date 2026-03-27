@@ -6,6 +6,14 @@ The schema cleanup issue is more serious than the triage note originally suggest
 
 The mismatch is not just `type`.
 
+## Completion Note
+
+The first-pass schema cleanup has now been completed:
+
+- resource types were aligned more closely with the actual JSON data
+- placeholder resource entries without URLs are now handled safely in rendering
+- the misleading schema mismatch has been reduced without forcing a data migration
+
 ## Findings
 
 - `types/resources.ts` does not include `type`, but the JSON data uses `"type": "category"` extensively in `data/master.json` and the segmented data files.
