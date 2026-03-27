@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
-import { Analytics } from '@vercel/analytics/react'
+import { Analytics } from '@vercel/analytics/next'
 import "./globals.css";
 
 import { cn } from "@/lib/utils"
