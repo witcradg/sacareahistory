@@ -16,7 +16,7 @@ The triage notes suggest the stakeholder concern is probably not literally "empt
 
 2. Remove rendering drift in the resource subsystem.
 
-The triage notes flag likely duplication between `app/resources/page.tsx` and `components/ResourceCard.tsx`. Verify which path is canonical, then either delete the unused component or refactor the page to use it. That reduces confusion before more feature work lands.
+The triage notes flagged likely duplication between `app/resources/page.tsx` and `components/ResourceCard.tsx`. The standalone `ResourceCard` component has since been removed as dead code, so the remaining follow-up is to keep `app/resources/page.tsx` as the canonical rendering path and only extract a shared component later if reuse is needed.
 
 3. Fix the resource schema mismatch.
 
@@ -33,7 +33,7 @@ The triage backlog explicitly mentions analytics. That matters because the stake
 ## Practical Sequence
 
 1. Resource nav cleanup (branch created)
-2. Resource rendering cleanup
+2. Resource rendering cleanup follow-up
 3. Schema cleanup
 4. Submission flow
 5. Analytics

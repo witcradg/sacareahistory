@@ -2,13 +2,13 @@
 
 ## Summary
 
-The rendering cleanup issue is real. `components/ResourceCard.tsx` is currently dead code, and `app/resources/page.tsx` has become the actual rendering surface for the resource directory.
+The rendering cleanup issue was real. `components/ResourceCard.tsx` was dead code and has now been removed. `app/resources/page.tsx` is the actual rendering surface for the resource directory.
 
 ## Findings
 
-- `components/ResourceCard.tsx` is not imported anywhere else in the repository.
+- `components/ResourceCard.tsx` was not imported anywhere else in the repository.
 - `app/resources/page.tsx` renders resource cards inline and contains its own nested rendering helpers for resource items and subcategories.
-- The two implementations are not equivalent.
+- The two implementations were not equivalent.
 
 ## Current Canonical Rendering Path
 
@@ -24,9 +24,9 @@ That file currently owns:
 - ordering of top-level resources relative to subcategories
 - current styling and accessibility labels
 
-## Why `components/ResourceCard.tsx` Should Not Be Adopted As-Is
+## Why `components/ResourceCard.tsx` Was Not Adopted
 
-The standalone `ResourceCard` implementation is simpler than the rendering logic now used in the page and would likely introduce regression if swapped in directly.
+The standalone `ResourceCard` implementation was simpler than the rendering logic now used in the page and would likely have introduced regression if swapped in directly.
 
 Notable differences:
 
@@ -39,7 +39,7 @@ Notable differences:
 
 The problem is not uncertainty about which implementation is live.
 
-The problem is that rendering responsibilities are conceptually split between:
+The problem was that rendering responsibilities were conceptually split between:
 
 - an unused standalone component
 - a page-level inline implementation
@@ -55,9 +55,9 @@ This creates:
 ### Short-Term Low-Risk Cleanup
 
 1. Treat `app/resources/page.tsx` as the canonical implementation.
-2. Remove `components/ResourceCard.tsx` if it is confirmed obsolete.
+2. Remove `components/ResourceCard.tsx` once confirmed obsolete.
 
-This is the fastest way to eliminate ambiguity.
+This was the fastest way to eliminate ambiguity and has now been completed.
 
 ### Better Structural Follow-Up
 
@@ -65,7 +65,7 @@ After cleanup, extract the current inline rendering logic from `app/resources/pa
 
 Important constraint:
 
-Do **not** refactor the page to use the existing `components/ResourceCard.tsx` implementation as the basis for reuse. If a shared component is created, it should be extracted from the page's existing rendering behavior, not from the older standalone component.
+Do **not** refactor the page to use the removed `components/ResourceCard.tsx` implementation as the basis for reuse. If a shared component is created, it should be extracted from the page's existing rendering behavior, not from the older standalone component.
 
 ## Recommended Sequence
 
@@ -76,4 +76,4 @@ Do **not** refactor the page to use the existing `components/ResourceCard.tsx` i
 
 ## Practical Decision
 
-If the goal is low-risk cleanup now, remove the unused component and avoid deeper rendering refactor in the same pass.
+If the goal is low-risk cleanup now, the dead component has already been removed. The next rendering cleanup should be a deliberate extraction from `app/resources/page.tsx` only if reuse becomes necessary.
