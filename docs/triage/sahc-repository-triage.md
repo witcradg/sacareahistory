@@ -17,9 +17,9 @@ components/AlphabetNav.tsx
 components/ResourceCard.tsx  
 types/resources.ts
 
-Additionally, at least one resource data file should be inspected:
+Additionally, the active resource data file should be inspected:
 
-data/resources-a-d.json
+data/master.json
 
 ### Purpose of Inspection
 
@@ -51,7 +51,7 @@ It:
 
 #### Findings
 
-1. The active implementation appears to use `data/master.json` as the primary data source rather than the segmented `resources-a-d.json` style files.
+1. The active implementation uses `data/master.json` as the primary data source.
 2. Alphabetical grouping is computed dynamically at runtime from resource titles.
 3. Only letters that actually contain resources are rendered.
 4. Search is client-side and checks top-level resource titles/descriptions as well as nested subcategory and resource text.
@@ -185,12 +185,12 @@ with static JSON data.
 It aligns with operational simplicity and does not assume the presence
 of a database or administrative editing interface.
 
-### Inspection: `data/resources-a-d.json`
+### Inspection: Resource data sample
 
 #### Purpose
 
-This file contains resource directory data for categories beginning
-approximately with A–D.
+This inspection reviewed a representative portion of the resource
+directory data from `data/master.json`.
 
 The dataset includes top-level resource categories, optional nested
 subcategories, and individual resource links.
@@ -260,16 +260,8 @@ data/master.json
 This dataset contains an array of top-level `Resource` objects
 describing directory categories.
 
-Additional segmented files such as:
-
-- resources-a-d.json
-- resources-e-h.json
-- resources-i-m.json
-- resources-n-r.json
-- resources-s-z.json
-
-exist in the repository but may not currently be used by the page
-implementation.
+No segmented resource JSON files remain in the repository. The app
+uses `data/master.json` as the sole resource dataset.
 
 ### Data Model
 

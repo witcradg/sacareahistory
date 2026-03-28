@@ -28,7 +28,7 @@ A Next.js (App Router) site that aggregates Sacramento-area history resources: m
 
 ### Data & Content
 
-- Resource data lives in `data/master.json` (primary) and `data/resources.json` (smaller subset used by `ResourcesSection`).
+- Resource data lives in `data/master.json`.
 - Timeline entries live in `components/timeline/timeline.json`.
 - Public assets (PDFs, DOCX, images) are in `public/`.
 
