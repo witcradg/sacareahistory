@@ -9,8 +9,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Facebook, Instagram, Linkedin } from "lucide-react";
 import Image from "next/image";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 interface TeamProps {
   imageUrl: string;
@@ -88,13 +88,13 @@ export const Team = () => {
   const socialIcon = (iconName: string) => {
     switch (iconName) {
       case "Linkedin":
-        return <Linkedin size="20" />;
+        return <FaLinkedin size={20} />;
 
       case "Facebook":
-        return <Facebook size="20" />;
+        return <FaFacebook size={20} />;
 
       case "Instagram":
-        return <Instagram size="20" />;
+        return <FaInstagram size={20} />;
     }
   };
 

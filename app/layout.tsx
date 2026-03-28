@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter as FontSans } from "next/font/google"
+import localFont from "next/font/local"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Analytics } from '@vercel/analytics/next'
 import "./globals.css";
@@ -8,8 +8,19 @@ import { cn } from "@/lib/utils"
 import { Header } from "@/components/header/Header";
 import { Footer } from "@/components/footer/Footer";
 
-const fontSans = FontSans({
-  subsets: ["latin"],
+const fontSans = localFont({
+  src: [
+    {
+      path: "./fonts/Inter-VariableFont_opsz,wght.ttf",
+      style: "normal",
+      weight: "100 900",
+    },
+    {
+      path: "./fonts/Inter-Italic-VariableFont_opsz,wght.ttf",
+      style: "italic",
+      weight: "100 900",
+    },
+  ],
   variable: "--font-sans",
 })
 export const metadata: Metadata = {
